@@ -16,7 +16,7 @@
   <p></p>
   <input type="text" id="beer-input" autocomplete="off" placeholder="" />
   <button id="add-button">Add</button>
-  <button id="show-all-button">Show All Styles</button>
+  <button id="toggle-all-button">Show All Styles</button>
 
   <h2>Your Correct Answers</h2>
   <ul id="found-list"></ul>
@@ -40,7 +40,7 @@
       document.querySelector('p').textContent = `Type the name of a ${display}:`;
       const inputEl = document.getElementById('beer-input');
       const addBtn = document.getElementById('add-button');
-      const showAllBtn = document.getElementById('show-all-button');
+      const toggleAllBtn = document.getElementById('toggle-all-button');
       const foundList = document.getElementById('found-list');
       const allList = document.getElementById('all-list');
 
@@ -55,6 +55,7 @@
         });
       });
       const found = new Set();
+      let allPopulated = false;
 
       function addBeer() {
         const name = inputEl.value.trim().toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
@@ -69,21 +70,31 @@
         }
       }
 
-      function showAll() {
-        beers.forEach(orig => {
-          const li = document.createElement('li');
-          li.textContent = orig;
-          allList.appendChild(li);
-        });
-        allList.style.display = 'block';
-        inputEl.disabled = true;
-        addBtn.disabled = true;
-        showAllBtn.disabled = true;
+      function toggleAll() {
+        if (allList.style.display === 'none') {
+          if (!allPopulated) {
+            beers.forEach(orig => {
+              const li = document.createElement('li');
+              li.textContent = orig;
+              allList.appendChild(li);
+            });
+            allPopulated = true;
+          }
+          allList.style.display = 'block';
+          inputEl.disabled = true;
+          addBtn.disabled = true;
+          toggleAllBtn.textContent = 'Hide All Styles';
+        } else {
+          allList.style.display = 'none';
+          inputEl.disabled = false;
+          addBtn.disabled = false;
+          toggleAllBtn.textContent = 'Show All Styles';
+        }
       }
 
       addBtn.addEventListener('click', addBeer);
       inputEl.addEventListener('keypress', e => { if (e.key === 'Enter') addBeer(); });
-      showAllBtn.addEventListener('click', showAll);
+      toggleAllBtn.addEventListener('click', toggleAll);
     }
     window.addEventListener('DOMContentLoaded', init);
   </script>
