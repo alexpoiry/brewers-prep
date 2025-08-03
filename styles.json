@@ -1,0 +1,227 @@
+{
+    "british-origin-ales": {
+      "display": "British Origin Ales",
+      "beers": [
+        "Ordinary Bitter",
+        "Special Bitter or Best Bitter",
+        "Extra Special Bitter",
+        "Scottish-Style Light Ale",
+        "Scottish-Style Heavy Ale",
+        "Scottish-Style Export Ale",
+        "English-Style Summer Ale",
+        "Classic English-Style Pale Ale",
+        "British-Style India Pale Ale",
+        "Strong Ale",
+        "Old Ale",
+        "English-Style Pale Mild Ale",
+        "English-Style Dark Mild Ale",
+        "English-Style Brown Ale",
+        "Brown Porter",
+        "Robust Porter",
+        "Sweet Stout or Cream Stout",
+        "Oatmeal Stout",
+        "Scotch Ale or Wee Heavy",
+        "British-Style Imperial Stout",
+        "British-Style Barley Wine Ale"
+      ]
+    },
+    "irish-origin-ales": {
+      "display": "Irish Origin Ales",
+      "beers": [
+        "Irish-Style Red Ale",
+        "Classic Irish-Style Dry Stout",
+        "Export-Style Stout"
+      ]
+    },
+    "north-american-origin-ales": {
+      "display": "North American Origin Ales",
+      "beers": [
+        "Golden or Blonde Ale",
+        "Session India Pale Ale",
+        "American-Style Amber/Red Ale",
+        "American-Style Pale Ale",
+        "Juicy or Hazy Pale Ale",
+        "American-Style Strong Pale Ale",
+        "Juicy or Hazy Strong Pale Ale",
+        "American-Style India Pale Ale",
+        "Juicy or Hazy India Pale Ale",
+        "American-Belgo-Style Ale",
+        "American-Style Brown Ale",
+        "American-Style Black Ale",
+        "American-Style Stout",
+        "American-Style Imperial Porter",
+        "American-Style Imperial Stout",
+        "Double Hoppy Red Ale",
+        "Imperial Red Ale",
+        "American-Style Imperial or Double India Pale Ale",
+        "Juicy or Hazy Imperial or Double India Pale Ale",
+        "American-Style Barley Wine Ale",
+        "American-Style Wheat Wine Ale",
+        "Smoke Porter",
+        "American-Style Sour Ale",
+        "American-Style Fruited Sour Ale",
+        "American-Style Fruit Beer",
+        "West Coast-Style India Pale Ale"
+      ]
+    },
+    "german-origin-ales": {
+      "display": "German Origin Ales",
+      "beers": [
+        "German-Style Koelsch",
+        "German-Style Altbier",
+        "Berliner-Style Weisse",
+        "Leipzig-Style Gose",
+        "Contemporary-Style Gose",
+        "South German-Style Hefeweizen",
+        "South German-Style Kristal Weizen",
+        "German-Style Leichtes Weizen",
+        "South German-Style Bernsteinfarbenes Weizen",
+        "South German-Style Dunkel Weizen",
+        "South German-Style Weizenbock",
+        "German-Style Rye Ale",
+        "Bamberg-Style Weiss Rauchbier"
+      ]
+    },
+    "belgian-and-french-origin-ales": {
+      "display": "Belgian and French Origin Ales",
+      "beers": [
+        "Belgian-Style Table Beer",
+        "Belgian-Style Session Ale",
+        "Belgian-Style Speciale Belge",
+        "Belgian-Style Blonde Ale",
+        "Belgian-Style Strong Blonde Ale",
+        "Belgian-Style Strong Dark Ale",
+        "Belgian-Style Dubbel",
+        "Belgian-Style Tripel",
+        "Belgian-Style Quadrupel",
+        "Belgian-Style Witbier",
+        "Classic French & Belgian-Style Saison",
+        "Specialty Saison",
+        "French-Style Bière de Garde",
+        "Belgian-Style Flanders Oud Bruin or Oud Red Ale",
+        "Belgian-Style Lambic",
+        "Traditional Belgian-Style Gueuze",
+        "Contemporary Belgian-Style Spontaneous Fermented Ale",
+        "Other Belgian-Style Ale"
+      ]
+    },
+    "other-origin-ales": {
+      "display": "Other Origin Ales",
+      "beers": [
+        "Grodziskie",
+        "Adambier",
+        "Dutch-Style Kuit, Kuyt or Koyt",
+        "International-Style Pale Ale",
+        "Classic Australian-Style Pale Ale",
+        "Australian-Style Pale Ale",
+        "New Zealand-Style Pale Ale",
+        "New Zealand-Style India Pale Ale",
+        "Finnish-Style Sahti",
+        "Swedish-Style Gotlandsdricke",
+        "Breslau-Style Schoeps",
+        "Lager Styles"
+      ]
+    },
+    "european-origin-lager-styles": {
+      "display": "European Origin Lagers",
+      "beers": [
+        "Czech-Style Pale Lager",
+        "Vienna-Style Lager",
+        "European-Style Dark Lager",
+        "Czech-Style Amber Lager",
+        "Czech-Style Dark Lager",
+        "Italian-Style Pilsener"
+      ]
+    },
+    "north-american-origin-lager-styles": {
+      "display": "North American Origin Lagers",
+      "beers": [
+        "American-Style Lager",
+        "Contemporary American-Style Lager",
+        "American-Style Light Lager",
+        "Contemporary American-Style Light Lager",
+        "American-Style Pilsener",
+        "Contemporary American-Style Pilsener",
+        "American-Style India Pale Lager",
+        "American-Style Malt Liquor",
+        "American-Style Amber Lager",
+        "American-Style Maerzen/Oktoberfest",
+        "American-Style Dark Lager",
+        "Mexican-Style Light Lager",
+        "Mexican-Style Pale Lager",
+        "Mexican-Style Amber Lager",
+        "Mexican-Style Dark Lager",
+        "West Coast-Style Pilsener"
+      ]
+    },
+    "other-origin-lager-styles": {
+      "display": "Other Origin Lagers",
+      "beers": [
+        "International Light Lager",
+        "International-Style Pilsener",
+        "Baltic-Style Porter"
+      ]
+    },
+    "german-origin-lager-styles": {
+      "display": "German Origin Lagers",
+      "beers": [
+        "German-Style Leichtbier",
+        "German-Style Pilsener",
+        "Munich-Style Helles",
+        "Dortmunder/European-Style Export",
+        "Franconian-Style Rotbier",
+        "German-Style Maerzen",
+        "German-Style Oktoberfest/Festbier",
+        "Munich-Style Dunkel",
+        "German-Style Schwarzbier",
+        "Bamberg-Style Helles Rauchbier",
+        "Bamberg-Style Maerzen Rauchbier",
+        "Bamberg-Style Bock Rauchbier",
+        "German-Style Heller Bock/Maibock",
+        "Traditional German-Style Bock",
+        "German-Style Doppelbock",
+        "German-Style Eisbock",
+        "Hybrid/Mixed Lagers or Ale"
+      ]
+    },
+    "hybrid-mixed-lagers-or-ales": {
+      "display": "Hybrid/Mixed Lagers or Ales",
+      "beers": [
+        "Belgian-Style Fruit Lambic",
+        "Session Beer",
+        "American-Style Cream Ale",
+        "California Common Beer",
+        "Kentucky Common Beer",
+        "American-Style Wheat Beer",
+        "Kellerbier or Zwickelbier",
+        "Fruit Wheat Beer",
+        "Belgian-Style Fruit Beer",
+        "Field Beer",
+        "Pumpkin Spice Beer",
+        "Pumpkin/Squash Beer",
+        "Chocolate or Cocoa Beer",
+        "Coffee Beer",
+        "Chili Pepper Beer",
+        "Herb and Spice Beer",
+        "Specialty Beer",
+        "Specialty Honey Beer",
+        "Rye Beer",
+        "Brett Beer",
+        "Mixed-Culture Brett Beer",
+        "Ginjo Beer or Sake-Yeast Beer",
+        "Fresh Hop Beer",
+        "Wood & Barrel Aged Beer",
+        "Wood- and Barrel-Aged Sour Beer",
+        "Aged Beer",
+        "Experimental Beer",
+        "Experimental India Pale Ale",
+        "Historical Beer",
+        "Wild Beer",
+        "Smoke Beer",
+        "Other Strong Ale or Lager",
+        "Gluten-Free Beer",
+        "Non-Alcohol Malt Beverage",
+        "Dessert Stout or Pastry Stout"
+      ]
+    }
+  }

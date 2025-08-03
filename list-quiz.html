@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Loading…</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    input, button { padding: 0.5rem; font-size: 1rem; }
+    #found-list { margin-top: 1rem; }
+    #found-list li { margin: 0.25rem 0; }
+  </style>
+</head>
+<body>
+  <h1></h1>
+  <p></p>
+  <input type="text" id="beer-input" autocomplete="off" placeholder="" />
+  <button id="add-button">Add</button>
+
+  <h2>Your Correct Answers</h2>
+  <ul id="found-list"></ul>
+
+  <script>
+    async function init() {
+      const params = new URLSearchParams(location.search);
+      const key = params.get('style');
+      if (!key) return document.body.innerHTML = '<p style="color:red">No style specified.</p>';
+
+      const resp = await fetch('styles.json');
+      const data = await resp.json();
+      const { display, beers } = data[key] || {};
+      if (!display) return document.body.innerHTML = `<p style="color:red">Style “${key}” not found.</p>`;
+
+      document.title = `${display} Quiz`;
+      document.querySelector('h1').textContent = `${display} Quiz`;
+      document.querySelector('p').textContent = `Type the name of a ${display}:`;
+      const inputEl = document.getElementById('beer-input');
+      inputEl.placeholder = `${display}…`;
+
+      const lowerBeers = beers.map(b => b.toLowerCase());
+      const found = new Set();
+
+      function addBeer() {
+        const name = inputEl.value.trim().toLowerCase();
+        if (!name) return;
+        const idx = lowerBeers.indexOf(name);
+        if (idx !== -1 && !found.has(name)) {
+          found.add(name);
+          const li = document.createElement('li');
+          li.textContent = beers[idx];
+          document.getElementById('found-list').appendChild(li);
+        }
+        inputEl.value = '';
+        inputEl.focus();
+      }
+
+      document.getElementById('add-button').addEventListener('click', addBeer);
+      inputEl.addEventListener('keypress', e => { if (e.key === 'Enter') addBeer(); });
+    }
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>
