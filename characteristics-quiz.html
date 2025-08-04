@@ -30,6 +30,7 @@
 
     window.addEventListener('DOMContentLoaded', async () => {
       const params = new URLSearchParams(location.search);
+      const source = params.get('source') || 'ba';
       const styleName = params.get('style');
       if (!styleName) {
         document.body.innerHTML = '<p style="color:red">No style specified.</p>';
@@ -102,8 +103,7 @@
           label.appendChild(radio);
           label.append(` ${val}`);
           container.appendChild(label);
-          container.appendChild(document.createElement('br'));
-        });
+          container.appendChild(document.createElement('br'));        });
 
         // Feedback span
         const feedback = document.createElement('div');

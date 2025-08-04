@@ -1,0 +1,301 @@
+{
+    "standard-american-beer": {
+      "display": "Standard American Beer",
+      "beers": [
+        "American Light Lager",
+        "American Lager",
+        "Cream Ale",
+        "American Wheat Beer"
+      ]
+    },
+    "international-lager": {
+      "display": "International Lager",
+      "beers": [
+        "International Pale Lager",
+        "International Amber Lager",
+        "International Dark Lager"
+      ]
+    },
+    "czech-lager": {
+      "display": "Czech Lager",
+      "beers": [
+        "Czech Pale Lager",
+        "Czech Premium Pale Lager",
+        "Czech Amber Lager",
+        "Czech Dark Lager"
+      ]
+    },
+    "pale-malty-european-lager": {
+      "display": "Pale Malty European Lager",
+      "beers": [
+        "Munich Helles",
+        "Festbier",
+        "Helles Bock"
+      ]
+    },
+    "pale-bitter-european-beer": {
+      "display": "Pale Bitter European Beer",
+      "beers": [
+        "German Leichtbier",
+        "Kölsch",
+        "German Helles Exportbier",
+        "German Pils"
+      ]
+    },
+    "amber-malty-european-lager": {
+      "display": "Amber Malty European Lager",
+      "beers": [
+        "Märzen",
+        "Rauchbier",
+        "Dunkles Bock"
+      ]
+    },
+    "amber-bitter-european-beer": {
+      "display": "Amber Bitter European Beer",
+      "beers": [
+        "Vienna Lager",
+        "Altbier",
+        "Kellerbier",
+        "Kellerbier: Amber Kellerbier",
+        "Kellerbier: Pale Kellerbier"
+      ]
+    },
+    "dark-european-lager": {
+      "display": "Dark European Lager",
+      "beers": [
+        "Munich Dunkel",
+        "Schwarzbier"
+      ]
+    },
+    "strong-european-beer": {
+      "display": "Strong European Beer",
+      "beers": [
+        "Doppelbock",
+        "Eisbock",
+        "Baltic Porter"
+      ]
+    },
+    "german-wheat-beer": {
+      "display": "German Wheat Beer",
+      "beers": [
+        "Weissbier",
+        "Dunkles Weissbier",
+        "Weizenbock"
+      ]
+    },
+    "british-bitter": {
+      "display": "British Bitter",
+      "beers": [
+        "Ordinary Bitter",
+        "Best Bitter",
+        "Strong Bitter"
+      ]
+    },
+    "pale-commonwealth-beer": {
+      "display": "Pale Commonwealth Beer",
+      "beers": [
+        "British Golden Ale",
+        "Australian Sparkling Ale",
+        "English IPA"
+      ]
+    },
+    "brown-british-beer": {
+      "display": "Brown British Beer",
+      "beers": [
+        "Dark Mild",
+        "British Brown Ale",
+        "English Porter"
+      ]
+    },
+    "scottish-ale": {
+      "display": "Scottish Ale",
+      "beers": [
+        "Scottish Light",
+        "Scottish Heavy",
+        "Scottish Export"
+      ]
+    },
+    "irish-beer": {
+      "display": "Irish Beer",
+      "beers": [
+        "Irish Red Ale",
+        "Irish Stout",
+        "Irish Extra Stout"
+      ]
+    },
+    "dark-british-beer": {
+      "display": "Dark British Beer",
+      "beers": [
+        "Sweet Stout",
+        "Oatmeal Stout",
+        "Tropical Stout",
+        "Foreign Extra Stout"
+      ]
+    },
+    "strong-british-ale": {
+      "display": "Strong British Ale",
+      "beers": [
+        "British Strong Ale",
+        "Old Ale",
+        "Wee Heavy",
+        "English Barleywine"
+      ]
+    },
+    "pale-american-ale": {
+      "display": "Pale American Ale",
+      "beers": [
+        "Blonde Ale",
+        "American Pale Ale"
+      ]
+    },
+    "amber-and-brown-american-beer": {
+      "display": "Amber and Brown American Beer",
+      "beers": [
+        "American Amber Ale",
+        "California Common",
+        "American Brown Ale"
+      ]
+    },
+    "american-porter-and-stout": {
+      "display": "American Porter and Stout",
+      "beers": [
+        "American Porter",
+        "American Stout",
+        "Imperial Stout"
+      ]
+    },
+    "ipa": {
+      "display": "IPA",
+      "beers": [
+        "American IPA",
+        "Specialty IPA",
+        "Specialty IPA: Belgian IPA",
+        "Specialty IPA: Black IPA",
+        "Specialty IPA: Brown IPA",
+        "Specialty IPA: Brut IPA",
+        "Specialty IPA: Red IPA",
+        "Specialty IPA: Rye IPA",
+        "Specialty IPA: White IPA",
+        "Hazy IPA"
+      ]
+    },
+    "strong-american-ale": {
+      "display": "Strong American Ale",
+      "beers": [
+        "Double IPA",
+        "American Strong Ale",
+        "American Barleywine",
+        "Wheatwine"
+      ]
+    },
+    "european-sour-ale": {
+      "display": "European Sour Ale",
+      "beers": [
+        "Berliner Weisse",
+        "Flanders Red Ale",
+        "Oud Bruin",
+        "Lambic",
+        "Gueuze",
+        "Fruit Lambic",
+        "Gose"
+      ]
+    },
+    "belgian-ale": {
+      "display": "Belgian Ale",
+      "beers": [
+        "Witbier",
+        "Belgian Pale Ale",
+        "Bière de Garde"
+      ]
+    },
+    "strong-belgian-ale": {
+      "display": "Strong Belgian Ale",
+      "beers": [
+        "Belgian Blond Ale",
+        "Saison",
+        "Belgian Golden Strong Ale"
+      ]
+    },
+    "monastic-ale": {
+      "display": "Monastic Ale",
+      "beers": [
+        "Trappist Ale",
+        "Trappist Single",
+        "Belgian Dubbel",
+        "Belgian Tripel",
+        "Belgian Dark Strong Ale"
+      ]
+    },
+    "historical-beer": {
+      "display": "Historical Beer",
+      "beers": [
+        "Historical Beer: Gose",
+        "Historical Beer: Kellerbier",
+        "Historical Beer: Kentucky Common",
+        "Historical Beer: Lichtenhainer",
+        "Historical Beer: London Brown Ale",
+        "Historical Beer: Piwo Grodziskie",
+        "Historical Beer: Pre-Prohibition Lager",
+        "Historical Beer: Pre-Prohibition Porter",
+        "Historical Beer: Roggenbier",
+        "Historical Beer: Sahti"
+      ]
+    },
+    "american-wild-ale": {
+      "display": "American Wild Ale",
+      "beers": [
+        "Brett Beer",
+        "Mixed-Fermentation Sour Beer",
+        "Wild Specialty Beer",
+        "Straight Sour Beer"
+      ]
+    },
+    "fruit-beer": {
+      "display": "Fruit Beer",
+      "beers": [
+        "Fruit Beer",
+        "Fruit and Spice Beer",
+        "Specialty Fruit Beer",
+        "Grape Ale"
+      ]
+    },
+    "spiced-beer": {
+      "display": "Spiced Beer",
+      "beers": [
+        "Spice, Herb, or Vegetable Beer",
+        "Autumn Seasonal Beer",
+        "Winter Seasonal Beer",
+        "Specialty Spice Beer"
+      ]
+    },
+    "alternative-fermentables-beer": {
+      "display": "Alternative Fermentables Beer",
+      "beers": [
+        "Alternative Grain Beer",
+        "Alternative Sugar Beer"
+      ]
+    },
+    "smoked-beer": {
+      "display": "Smoked Beer",
+      "beers": [
+        "Classic Style Smoked Beer",
+        "Specialty Smoked Beer"
+      ]
+    },
+    "wood-beer": {
+      "display": "Wood Beer",
+      "beers": [
+        "Wood-Aged Beer",
+        "Specialty Wood-Aged Beer"
+      ]
+    },
+    "specialty-beer": {
+      "display": "Specialty Beer",
+      "beers": [
+        "Clone Beer",
+        "Mixed-Style Beer",
+        "Experimental Beer"
+      ]
+    }
+  }
+  
