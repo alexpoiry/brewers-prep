@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Loading…</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    h1, h2, h3 { margin-top: 1.5rem; }
+    .section { margin-bottom: 1.5rem; }
+    .options { margin-top: 0.5rem; }
+    .options label { display: block; margin: 0.25rem 0; }
+    button { padding: 0.5rem 1rem; font-size: 1rem; margin-top: 1rem; }
+    .result { font-weight: bold; margin-left: 1rem; }
+  </style>
+</head>
+<body>
+  <h1 id="quiz-title"></h1>
+  <div id="quiz-container"></div>
+  <button id="check-button">Check My Answers</button>
+
+  <script>
+    async function init() {
+      const params = new URLSearchParams(window.location.search);
+      const style = params.get('style');
+      if (!style) {
+        document.body.innerHTML = '<p style="color:red">No style specified.</p>';
+        return;
+      }
+      // Load BJCP details
+      const resp = await fetch('bjcp-details.json');
+      const data = await resp.json();
+      const details = data[style];
+      if (!details) {
+        document.body.innerHTML = `<p style="color:red">Style “${style}” not found.</p>`;
+        return;
+      }
+      document.title = `${style} Details Quiz`;
+      document.getElementById('quiz-title').textContent = `${style} Details Quiz`;
+      const container = document.getElementById('quiz-container');
+
+      // Helper functions
+      function shuffle(arr) {
+        for (let i = arr.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [arr[i], arr[j]] = [arr[j], arr[i]];
+        }
+      }
+      function sample(array, n) {
+        const copy = array.slice(); shuffle(copy); return copy.slice(0, n);
+      }
+
+      // Narrative sections
+      const narrativeKeys = [
+        'Overall Impression', 'Appearance', 'Aroma', 'Flavor', 'Mouthfeel',
+        'Comments', 'History', 'Characteristic Ingredients', 'Style Comparison'
+      ];
+      narrativeKeys.forEach(key => {
+        const correctList = details[key] || [];
+        const count = correctList.length;
+        // Gather distractors
+        const pool = [];
+        Object.entries(data).forEach(([other, det]) => {
+          if (other === style) return;
+          const arr = det[key] || [];
+          arr.forEach(item => pool.push(item));
+        });
+        const distractors = sample(pool.filter(x => !correctList.includes(x)), count);
+        const options = correctList.concat(distractors);
+        shuffle(options);
+
+        // Build section
+        const sec = document.createElement('div'); sec.className = 'section';
+        const header = document.createElement('h3');
+        header.textContent = `${key} (Choose ${count})`;
+        const resSpan = document.createElement('span'); resSpan.className = 'result';
+        header.appendChild(resSpan);
+        sec.appendChild(header);
+        const optsDiv = document.createElement('div'); optsDiv.className = 'options';
+        options.forEach(text => {
+          const id = `${key}-${text}`.replace(/\W+/g, '_');
+          const label = document.createElement('label');
+          const cb = document.createElement('input');
+          cb.type = 'checkbox';
+          cb.name = key;
+          cb.value = text;
+          cb.id = id;
+          label.htmlFor = id;
+          label.textContent = text;
+          label.prepend(cb);
+          optsDiv.appendChild(label);
+        });
+        sec.appendChild(optsDiv);
+        container.appendChild(sec);
+      });
+
+      // Vital Statistics sections
+      const statMap = { ABV: 'Alcohol (ABV)', OG: 'Original Gravity', FG: 'Final Gravity', IBU: 'Bitterness (IBU)', SRM: 'Color (SRM)' };
+      const stats = details['Vital Statistics'] || {};
+      Object.keys(statMap).forEach(key => {
+        const correct = stats[key];
+        if (!correct) return;
+        // Gather distractors
+        const pool = [];
+        Object.entries(data).forEach(([other, det]) => {
+          if (other === style) return;
+          const val = det['Vital Statistics'] && det['Vital Statistics'][key];
+          if (val) pool.push(val);
+        });
+        const distractors = sample(pool.filter(x => x !== correct), 4);
+        const options = [correct].concat(distractors);
+        shuffle(options);
+
+        const sec = document.createElement('div'); sec.className = 'section';
+        const header = document.createElement('h3');
+        header.textContent = statMap[key];
+        const resSpan = document.createElement('span'); resSpan.className = 'result';
+        header.appendChild(resSpan);
+        sec.appendChild(header);
+        const optsDiv = document.createElement('div'); optsDiv.className = 'options';
+        options.forEach(text => {
+          const id = `${key}-${text}`.replace(/\W+/g, '_');
+          const label = document.createElement('label');
+          const rb = document.createElement('input');
+          rb.type = 'radio';
+          rb.name = key;
+          rb.value = text;
+          rb.id = id;
+          label.htmlFor = id;
+          label.textContent = text;
+          label.prepend(rb);
+          optsDiv.appendChild(label);
+        });
+        sec.appendChild(optsDiv);
+        container.appendChild(sec);
+      });
+
+      // Check answers
+      document.getElementById('check-button').addEventListener('click', () => {
+        // Narratives
+        narrativeKeys.forEach(key => {
+          const correctSet = new Set(details[key] || []);
+          const checked = Array.from(document.querySelectorAll(`input[name="${key}"]:checked`)).map(i => i.value);
+          const span = document.querySelector(`h3:contains('${key}') .result`);
+          const result = (checked.length === correctSet.size && checked.every(v => correctSet.has(v))) ? 'Correct!' : 'Try Again!';
+          // update result span
+          document.querySelectorAll(`h3`).forEach(h => {
+            if (h.textContent.startsWith(key)) h.querySelector('.result').textContent = result;
+          });
+        });
+        // Stats
+        Object.keys(statMap).forEach(key => {
+          const correct = stats[key];
+          if (!correct) return;
+          const sel = document.querySelector(`input[name="${key}"]:checked`);
+          const result = (sel && sel.value === correct) ? 'Correct!' : 'Try Again!';
+          document.querySelectorAll(`h3`).forEach(h => {
+            if (h.textContent.startsWith(statMap[key])) h.querySelector('.result').textContent = result;
+          });
+        });
+      });
+    }
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+</html>

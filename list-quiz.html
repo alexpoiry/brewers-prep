@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -77,8 +78,9 @@
             beers.forEach(orig => {
               const li = document.createElement('li');
               const a = document.createElement('a');
+              const quizPage = source === 'bjcp' ? 'bjcp-details-quiz.html' : 'characteristics-quiz.html';
               a.textContent = orig;
-              a.href = `characteristics-quiz.html?source=${source}&style=${encodeURIComponent(orig)}`;
+              a.href = `${quizPage}?source=${source}&style=${encodeURIComponent(orig)}`;
               li.appendChild(a);
               allList.appendChild(li);
             });
