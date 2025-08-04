@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beer Style Quiz</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; }
+    h1 { margin-bottom: 1rem; }
+    form { max-width: 600px; }
+    .question { margin-bottom: 1.5rem; }
+    .feedback { font-weight: bold; margin-top: 0.5rem; }
+    button { padding: 0.5rem 1rem; font-size: 1rem; }
+  </style>
+</head>
+<body>
+  <h1 id="title"></h1>
+  <form id="quiz-form"></form>
+  <button id="check-button">Check My Answer</button>
+
+  <script>
+    // Utility to shuffle an array
+    function shuffle(arr) {
+      for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]];
+      }
+      return arr;
+    }
+
+    window.addEventListener('DOMContentLoaded', async () => {
+      const params = new URLSearchParams(location.search);
+      const styleName = params.get('style');
+      if (!styleName) {
+        document.body.innerHTML = '<p style="color:red">No style specified.</p>';
+        return;
+      }
+      document.getElementById('title').textContent = styleName;
+
+      const resp = await fetch('details.json');
+      const data = await resp.json();
+
+      // Find style in nested JSON
+      let styleObj = null;
+      let siblingStyles = null;
+      for (const family of Object.values(data)) {
+        for (const group of Object.values(family)) {
+          if (group[styleName]) {
+            styleObj = group[styleName];
+            siblingStyles = group;
+            break;
+          }
+        }
+        if (styleObj) break;
+      }
+      if (!styleObj) {
+        document.body.innerHTML = `<p style="color:red">Style “${styleName}” not found in data.</p>`;
+        return;
+      }
+
+      const characteristics = [
+        'color', 'clarity', 'perceived_malt_aroma_and_flavor',
+        'perceived_hop_aroma_and_flavor', 'perceived_bitterness',
+        'fermentation_characteristics', 'body',
+        'original_gravity', 'final_gravity', 'alcohol',
+        'bitterness_ibu', 'color_srm'
+      ];
+
+      const form = document.getElementById('quiz-form');
+      const correctAnswers = {};
+
+      // Randomize question order
+      shuffle(characteristics);
+
+      characteristics.forEach(key => {
+        const container = document.createElement('div');
+        container.className = 'question';
+        const header = document.createElement('h3');
+        header.textContent = key.replace(/_/g, ' ');
+        container.appendChild(header);
+
+        const correctValue = styleObj[key] || 'N/A';
+        correctAnswers[key] = correctValue;
+
+        // Collect distractors
+        const options = new Set([correctValue]);
+        const others = Object.entries(siblingStyles)
+          .filter(([name, obj]) => name !== styleName && obj[key])
+          .map(([_, obj]) => obj[key]);
+        shuffle(others);
+        for (let i = 0; i < 4 && i < others.length; i++) {
+          if (others[i] !== correctValue) options.add(others[i]);
+        }
+
+        const opts = shuffle(Array.from(options));
+        opts.forEach(val => {
+          const label = document.createElement('label');
+          const radio = document.createElement('input');
+          radio.type = 'radio';
+          radio.name = key;
+          radio.value = val;
+          label.appendChild(radio);
+          label.append(` ${val}`);
+          container.appendChild(label);
+          container.appendChild(document.createElement('br'));
+        });
+
+        // Feedback span
+        const feedback = document.createElement('div');
+        feedback.className = 'feedback';
+        feedback.id = `fb-${key}`;
+        container.appendChild(feedback);
+
+        form.appendChild(container);
+      });
+
+      document.getElementById('check-button').addEventListener('click', e => {
+        e.preventDefault();
+        characteristics.forEach(key => {
+          const selected = document.querySelector(`input[name="${key}"]:checked`);
+          const fb = document.getElementById(`fb-${key}`);
+          if (selected && selected.value === correctAnswers[key]) {
+            fb.textContent = 'Correct!';
+            fb.style.color = 'green';
+          } else {
+            fb.textContent = 'Try Again!';
+            fb.style.color = 'red';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>

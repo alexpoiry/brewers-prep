@@ -75,7 +75,10 @@
           if (!allPopulated) {
             beers.forEach(orig => {
               const li = document.createElement('li');
-              li.textContent = orig;
+              const a = document.createElement('a');
+              a.textContent = orig;
+              a.href = `characteristics-quiz.html?style=${encodeURIComponent(orig)}`;
+              li.appendChild(a);
               allList.appendChild(li);
             });
             allPopulated = true;
