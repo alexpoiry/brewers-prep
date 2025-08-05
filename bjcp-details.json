@@ -581,7 +581,7 @@
           "Bernard světlé pivo 10",
           "Březňák Světlé výčepní pivo",
           "Notch Session Pils",
-          "Primátor Antonín světlé výčepní",  
+          "Primátor Antonín světlé výčepní",
           "Radegast Rázna 10",
           "Únětické pivo 10°"
         ],
@@ -828,6 +828,1489 @@
           "traditional-style"
         ]
       }
+    },
+    "Pale Malty European Lager": {
+      "Munich Helles": {
+        "Overall Impression": [
+          "A pale, malty German lager. Soft malt presence with a gentle noble‐hop character.",
+          "Clean, smooth and quaffable."
+        ],
+        "Appearance": [
+          "Pale straw to light gold color.",
+          "Clear with a white, medium‐bubbled head that laces moderately."
+        ],
+        "Aroma": [
+          "Pronounced Pilsner-type malt aroma: clean, bready, slightly sweet.",
+          "Low to moderate noble-hop aroma (floral, spicy).",
+          "Very clean fermentation character; no diacetyl."
+        ],
+        "Flavor": [
+          "Clean, bready malt flavor with a touch of sweetness.",
+          "Moderate to medium‐low noble-hop bitterness; floral/spicy notes.",
+          "Crisp finish; no harshness or diacetyl."
+        ],
+        "Mouthfeel": [
+          "Medium light to medium body.",
+          "Medium carbonation; crisp and refreshing."
+        ],
+        "Comments": [
+          "Classic Munich summer lager.",
+          "Balance is toward malt but not sweet."
+        ],
+        "History": [
+          "Originated in 1895 at Munchen’s Spaten Brewery.",
+          "Became the model for pale European lagers."
+        ],
+        "Characteristic Ingredients": [
+          "Pilsner malt (often with a touch of Munich malt).",
+          "Noble hops (Hallertau, Tettnang)."
+        ],
+        "Style Comparison": [
+          "Less hop‐driven than a German Pils but drier than a Festbier.",
+          "More malt focus than International Pale Lager."
+        ],
+        "Vital Statistics": {
+          "IBU": "16 - 22",
+          "SRM": "3 - 5",
+          "OG": "1.048 - 1.054",
+          "FG": "1.012 - 1.015",
+          "ABV": "4.7% - 5.4%"
+        },
+        "Commercial Examples": [
+          "Augustiner Lagerbier Hell",
+          "Hacker-Pschorr Münchner Gold",
+          "Löwenbräu Original",
+          "Paulaner Münchner Lager",
+          "Schönramer Hell",
+          "Spaten Münchner Hell",
+          "Weihenstephaner Original Helles"
+        ],
+        "Style Attributes": [
+          "bottom-fermented",
+          "central-europe",
+          "lagered",
+          "malty",
+          "pale-color",
+          "pale-lager-family",
+          "standard-strength",
+          "traditional-style"
+        ]
+      },
+      "Festbier": {
+        "Overall Impression": [
+          "A richer, slightly stronger pale German lager brewed for festivals.",
+          "Fuller malt flavor with a balance toward noble-hop bitterness."
+        ],
+        "Appearance": [
+          "Pale gold to deep gold color.",
+          "Clear with a creamy, white head."
+        ],
+        "Aroma": [
+          "Malty aroma: soft bread, light honey notes.",
+          "Moderate noble-hop aroma; floral/spicy.",
+          "Clean fermentation; no diacetyl."
+        ],
+        "Flavor": [
+          "Pronounced maltiness: biscuit, bread crust.",
+          "Moderate to medium‐high hop bitterness.",
+          "Clean finish; slight sweetness possible."
+        ],
+        "Mouthfeel": [
+          "Medium body.",
+          "Medium carbonation; smooth."
+        ],
+        "Comments": [
+          "Traditionally served at Munich’s Oktoberfest.",
+          "Balance shifts a bit toward malt compared to Helles."
+        ],
+        "History": [
+          "Developed in the late 19th century as a stronger ‘fest’ version of Munich Helles."
+        ],
+        "Characteristic Ingredients": [
+          "Pilsner and Vienna malts.",
+          "Noble hops."
+        ],
+        "Style Comparison": [
+          "Stronger and more malt‐driven than Munich Helles.",
+          "Less clean and pale than a Helles Bock."
+        ],
+        "Vital Statistics": {
+          "IBU": "18 - 25",
+          "SRM": "4 - 6",
+          "OG": "1.054 - 1.057",
+          "FG": "1.010 - 1.012",
+          "ABV": "5.8% - 6.3%"
+        },
+        "Commercial Examples": [
+          "Augustiner Oktoberfest",
+          "Hacker-Pschorr Superior Festbier",
+          "Löwenbräu Oktoberfestbier",
+          "Hofbräu Oktoberfestbier",
+          "Paulaner Oktoberfest Bier",
+          "Weihenstephaner Festbier"
+        ],
+        "Style Attributes": [
+          "bottom-fermented",
+          "central-europe",
+          "lagered",
+          "malty",
+          "pale-color",
+          "pale-lager-family",
+          "standard-strength",
+          "traditional-style"
+        ]
+      },
+      "Helles Bock": {
+        "Overall Impression": [
+          "A strong, pale to amber German bock lager with a rich malt complexity.",
+          "Clean, toasty, and moderately hopped."
+        ],
+        "Appearance": [
+          "Gold to deep gold color.",
+          "Clear with a sturdy, off-white head."
+        ],
+        "Aroma": [
+          "Pronounced malt aroma: bread crust, honey, light toast.",
+          "Medium noble-hop aroma.",
+          "Clean fermentation; no diacetyl."
+        ],
+        "Flavor": [
+          "Rich malt flavors: toasted bread, light honey, slight caramel.",
+          "Medium hop bitterness; floral/spicy notes.",
+          "Clean finish; no diacetyl."
+        ],
+        "Mouthfeel": [
+          "Medium-full body.",
+          "Medium carbonation."
+        ],
+        "Comments": [
+          "Also called Maibock or Bayerisch Hell Bock.",
+          "Balance toward malt but with noticeable bitterness."
+        ],
+        "History": [
+          "Originated in Einbeck, refined in Munich around 17th century."
+        ],
+        "Characteristic Ingredients": [
+          "Pilsner and Munich malts.",
+          "Noble hops."
+        ],
+        "Style Comparison": [
+          "Lighter in color than a traditional bock, but stronger than a Festbier.",
+          "More malt complexity than Munich Helles."
+        ],
+        "Vital Statistics": {
+          "IBU": "23 - 35",
+          "SRM": "6 - 9",
+          "OG": "1.064 - 1.072",
+          "FG": "1.011 - 1.018",
+          "ABV": "6.3% - 7.4%"
+        },
+        "Commercial Examples": [
+          "Altenmünster Maibock",
+          "Ayinger Maibock",
+          "Chuckanut Maibock",
+          "Einbecker Mai-Urbock",
+          "Hacker-Pschorr Hubertus Bock",
+          "Hofbräu Maibock",
+          "Mahr’s Heller Bock"
+        ],
+        "Style Attributes": [
+          "bock-family",
+          "bottom-fermented",
+          "central-europe",
+          "high-strength",
+          "lagered",
+          "malty",
+          "pale-color",
+          "traditional-style"
+        ]
+      }
+    },
+    "Pale Bitter European Beer": {
+      "German Leichtbier": {
+        "Overall Impression": [
+          "A pale, highly-attenuated, light-bodied German lager with lower alcohol and calories than standard-strength beers. Moderately bitter with noticeable malt and hop flavors, the beer is still interesting to drink."
+        ],
+        "Appearance": [
+          "Pale straw to deep yellow in color.",
+          "Brilliant clarity.",
+          "Moderate white head with average to below average persistence."
+        ],
+        "Aroma": [
+          "Low to medium hop aroma, with a spicy, herbal, or floral character.",
+          "Low to medium-low grainy-sweet or slightly crackery malt aroma.",
+          "Clean fermentation profile."
+        ],
+        "Flavor": [
+          "Low to medium grainy-sweet malt flavor initially.",
+          "Medium hop bitterness.",
+          "Low to medium hop flavor, with a spicy, herbal, or floral quality.",
+          "Clean fermentation character, well-lagered.",
+          "Dry finish with a light malty and hoppy aftertaste."
+        ],
+        "Mouthfeel": [
+          "Light to very light body.",
+          "Medium to high carbonation.",
+          "Smooth, well-attenuated."
+        ],
+        "Comments": [
+          "Marketed primarily as a diet-oriented beer with lower carbohydrates, alcohol, and calories.",
+          "Pronounced “LYESHT-beer.”",
+          "May also be known as a Diat Pils or Helles, this style is in the schankbier gravity class.",
+          "Other variations of Leicht class beers can be made from Weissbier, Kölsch, and Altbier; those beers are best entered as 34B Mixed-Style Beer."
+        ],
+        "History": [
+          "Traditional versions existed as drinks for physical laborers in factories or fields, but modern versions are more based on popular American products in the same class and targeted towards health or fitness conscious consumers.",
+          "Increasingly supplanted in the current market by non-alcoholic beers and radlers."
+        ],
+        "Characteristic Ingredients": [
+          "Continental Pils malt.",
+          "German lager yeast.",
+          "Traditional German hops."
+        ],
+        "Style Comparison": [
+          "Like a lower-alcohol, lighter-bodied, slightly less aggressive German Pils or Munich Helles.",
+          "More bitter and flavorful than an American Light Lager."
+        ],
+        "Vital Statistics": {
+          "IBU": "15 - 28",
+          "SRM": "1.5 - 4",
+          "OG": "1.026 - 1.034",
+          "FG": "1.006 - 1.010",
+          "ABV": "2.4% - 3.6%"
+        },
+        "Commercial Examples": [
+          "Autenrieder Schlossbräu Leicht",
+          "Greif Bräu Leicht",
+          "Hohenthanner Tannen Hell Leicht",
+          "Müllerbrau Heimer Leicht",
+          "Schönramer Surtaler Schankbier",
+          "Waldhaus Sommer Bier"
+        ],
+        "Style Attributes": [
+          "bitter",
+          "bottom-fermented",
+          "central-europe",
+          "hoppy",
+          "lagered",
+          "pale-color",
+          "pale-lager-family",
+          "session-strength",
+          "traditional-style"
+        ]
+      },
+      "Kölsch": {
+        "Overall Impression": [
+          "A subtle, brilliantly clear, pale beer with a delicate balance of malt, fruit, and hop character, moderate bitterness, and a well-attenuated but soft finish.",
+          "Freshness makes a huge difference, as the delicate character can fade quickly with age."
+        ],
+        "Appearance": [
+          "Medium yellow to light gold.",
+          "Brilliant clarity.",
+          "Delicate white head that may not persist."
+        ],
+        "Aroma": [
+          "Low to very low grainy-sweet malt aroma.",
+          "Subtle fruit aroma (apple, pear, or sometimes cherry) is optional but welcome.",
+          "Low floral, spicy, or herbal hop aroma optional.",
+          "Aromatics are subtle but balanced, clean, fresh, and pleasant."
+        ],
+        "Flavor": [
+          "A delicate balance of malt, fruitiness, bitterness, and hops, with a clean, well-attenuated finish.",
+          "Medium to medium-low grainy maltiness with very light bready or honey notes.",
+          "Fruitiness can have an almost imperceptible sweetness.",
+          "Medium-low to medium bitterness.",
+          "Low to moderately-high floral, spicy, or herbal hop flavor (most are medium-low to medium).",
+          "Neutral-grainy to light malty-sweet impression at the start.",
+          "Soft, rounded palate.",
+          "Soft, dry, slightly crisp finish, not sharp or biting.",
+          "No noticeable residual sweetness.",
+          "Though balance can vary, none of the components are ever strong."
+        ],
+        "Mouthfeel": [
+          "Medium-light to medium body (most are medium-light).",
+          "Medium to medium-high carbonation.",
+          "Smooth and soft, but well-attenuated and not heavy.",
+          "Not harsh."
+        ],
+        "Comments": [
+          "A traditional top-fermented, lagered beer from Cologne, Germany (Köln).",
+          "Köln breweries differentiate themselves through balance; allow for variation when judging.",
+          "Drier versions may seem hoppier or more bitter than IBU levels suggest.",
+          "Delicate flavor profile does not age well—watch for oxidation.",
+          "Served in a tall, narrow 20 cl glass called a Stange."
+        ],
+        "History": [
+          "Köln has a top-fermenting brewing tradition since the Middle Ages.",
+          "Beer now known as Kölsch was developed in the late 1800s as an alternative to pale lagers.",
+          "Bottom fermentation was actually prohibited in Cologne.",
+          "Kölsch is appellation-protected by the Kölsch Konvention (1986), restricted to breweries in and around Köln.",
+          "The Konvention defines the beer as a “light, highly attenuated, hop-accentuated, clear, top-fermenting Vollbier.”"
+        ],
+        "Characteristic Ingredients": [
+          "Traditional German hops.",
+          "German Pils, Pale, or Vienna malt.",
+          "Attenuative, clean German ale yeast.",
+          "Occasional small use of wheat malt.",
+          "Ferment around 15 °C, cold condition near freezing for up to a month, and serve fresh."
+        ],
+        "Style Comparison": [
+          "Can be mistaken for a Cream Ale or somewhat subtle German Pils."
+        ],
+        "Vital Statistics": {
+          "IBU": "18 - 30",
+          "SRM": "3.5 - 5",
+          "OG": "1.044 - 1.050",
+          "FG": "1.007 - 1.011",
+          "ABV": "4.4% - 5.2%"
+        },
+        "Commercial Examples": [
+          "Früh Kölsch",
+          "Gaffel Kölsch",
+          "Mühlen Kölsch",
+          "Päffgen Kolsch",
+          "Reissdorf Kölsch",
+          "Sion Kölsch",
+          "Sünner Kölsch"
+        ],
+        "Style Attributes": [
+          "balanced",
+          "central-europe",
+          "lagered",
+          "pale-ale-family",
+          "pale-color",
+          "standard-strength",
+          "top-fermented",
+          "traditional-style"
+        ]
+      },
+      "German Helles Exportbier": {
+        "Overall Impression": [
+          "A golden German lager balancing a smooth malty profile with a bitter, hoppy character in a slightly above-average body and strength beer."
+        ],
+        "Appearance": [
+          "Medium yellow to deep gold.",
+          "Clear.",
+          "Persistent white head."
+        ],
+        "Aroma": [
+          "Medium-low to medium floral, spicy, or herbal hop aroma.",
+          "Moderate grainy-sweet malt aroma, possibly with light toasty, bready, or doughy notes.",
+          "Clean fermentation profile.",
+          "Hops and malt both noticeable and generally balanced."
+        ],
+        "Flavor": [
+          "Moderate, balanced malt and hops with supporting bitterness.",
+          "Malt and hop flavors similar to aroma (same descriptors and intensities).",
+          "Medium, noticeable bitterness, full on the palate, with a medium-dry finish.",
+          "Clean fermentation character.",
+          "Aftertaste of both malt and hops, generally in balance.",
+          "Mineral character perceived as roundness and fullness, with a dry, flinty sharpness in the finish rather than overt mineral flavors.",
+          "Background sulfate optional."
+        ],
+        "Mouthfeel": [
+          "Medium to medium-full body.",
+          "Medium carbonation.",
+          "Smooth and mellow on the palate.",
+          "Very slight warmth may be noted in stronger versions."
+        ],
+        "Comments": [
+          "Also known as Dortmunder Export, Dortmunder, Export, or simply a Dort.",
+          "Called Export within Germany and often Dortmunder elsewhere.",
+          "Export is also a beer strength descriptor under German brewing tradition.",
+          "Splits the difference between a German Pils and a Munich Helles in several aspects: color, hop-malt balance, finish, bitterness."
+        ],
+        "History": [
+          "Developed in Dortmund in the Ruhr industrial region in the 1870s in response to pale Pilsner-type beers.",
+          "Became very popular after World War II but declined in the 1970s.",
+          "Other Export-class beers developed independently and reflected a slightly stronger version of existing beers."
+        ],
+        "Characteristic Ingredients": [
+          "Minerally water with high levels of sulfates, carbonates, and chlorides.",
+          "Traditional German or Czech hops.",
+          "Pilsner malt.",
+          "German lager yeast.",
+          "Decoction mash traditional."
+        ],
+        "Style Comparison": [
+          "Less finishing hops and more body than a German Pils.",
+          "More bitter and drier than a Munich Helles.",
+          "Stronger, drier, but less hoppy than a Czech Premium Pale Lager."
+        ],
+        "Vital Statistics": {
+          "IBU": "20 - 30",
+          "SRM": "4 - 6",
+          "OG": "1.050 - 1.058",
+          "FG": "1.008 - 1.015",
+          "ABV": "5% - 6%"
+        },
+        "Commercial Examples": [
+          "Chuckanut Export Dortmunder Lager",
+          "DAB Dortmunder Export",
+          "Dortmunder Kronen",
+          "Landshuter Edel Hell",
+          "Müllerbräu Export Gold",
+          "Schönramer Gold"
+        ],
+        "Style Attributes": [
+          "balanced",
+          "bottom-fermented",
+          "central-europe",
+          "lagered",
+          "pale-color",
+          "pale-lager-family",
+          "standard-strength",
+          "traditional-style"
+        ]
+      },
+      "German Pils": {
+        "Overall Impression": [
+          "A pale, dry, bitter German lager featuring a prominent hop aroma. Crisp, clean, and refreshing, showing a brilliant gold color with excellent head retention."
+        ],
+        "Appearance": [
+          "Straw to deep yellow, brilliant to very clear.",
+          "Creamy, long-lasting white head."
+        ],
+        "Aroma": [
+          "Moderately to moderately-high flowery, spicy, or herbal hops.",
+          "Low to medium grainy, sweet, or doughy malt character, often with a light honey and toasted cracker quality.",
+          "Clean fermentation profile.",
+          "Hops should be forward but not totally dominate the malt."
+        ],
+        "Flavor": [
+          "Initial malt flavor quickly overcome with hop flavor and bitterness, leading into a dry, crisp finish.",
+          "Malt and hop flavors similar to aroma (same descriptors and intensities).",
+          "Medium to high bitterness, lingering into the aftertaste along with a touch of malt and hops.",
+          "Clean fermentation profile.",
+          "Minerally water can accentuate and lengthen the dry finish.",
+          "Hops and malt can fade with age, but the beer should always have a bitter balance."
+        ],
+        "Mouthfeel": [
+          "Medium-light body.",
+          "Medium to high carbonation.",
+          "Should not feel heavy.",
+          "Not harsh, but may have a flinty, minerally sharpness in some examples."
+        ],
+        "Comments": [
+          "Modern examples tend to become paler in color, drier and sharper in finish, and more bitter moving from South to North in Germany, mirroring increasing sulfates in the water.",
+          "Pils in Bavaria tend to be a bit softer in bitterness with more malt flavor and late hop character, yet still with sufficient hops and crispness to differentiate from Munich Helles.",
+          "The term ‘Pils’ is more common in Germany than ‘Pilsner’ to differentiate it from the Czech style, and (some say) to show respect."
+        ],
+        "History": [
+          "Adapted from Czech Pilsner to suit brewing conditions in Germany, particularly water with higher mineral content and domestic hop varieties.",
+          "First brewed in Germany in the early 1870s.",
+          "Became more popular after WWII as German brewing schools emphasized modern techniques.",
+          "Along with its cousin Czech Pilsner, it is the ancestor of the most widely produced beer styles today."
+        ],
+        "Characteristic Ingredients": [
+          "Continental Pilsner malt.",
+          "Traditional German hops.",
+          "Clean German lager yeast."
+        ],
+        "Style Comparison": [
+          "Lighter in body and color, drier, crisper, more fully attenuated, more lingering bitterness, and higher carbonation than a Czech Premium Pale Lager.",
+          "More hop character, malt flavor, and bitterness than International Pale Lager.",
+          "More hop character and bitterness with a drier, crisper finish than a Munich Helles; the Helles has more malt intensity of the same character."
+        ],
+        "Vital Statistics": {
+          "IBU": "22 - 40",
+          "SRM": "2 - 4",
+          "OG": "1.044 - 1.050",
+          "FG": "1.008 - 1.013",
+          "ABV": "4.4% - 5.2%"
+        },
+        "Commercial Examples": [
+          "ABK Pils Anno 1907",
+          "Jever Pilsener",
+          "König Pilsener",
+          "Paulaner Pils",
+          "Bierstadt Slow-Pour Pils",
+          "Rothaus Pils",
+          "Schönramer Pils",
+          "Trumer Pils"
+        ],
+        "Style Attributes": [
+          "bitter",
+          "bottom-fermented",
+          "central-europe",
+          "hoppy",
+          "lagered",
+          "pale-color",
+          "pilsner-family",
+          "standard-strength",
+          "traditional-style"
+        ]
+      }
+    },
+    "Amber Malty European Lager": {
+      "Märzen": {
+        "Overall Impression": [
+          "An amber, malty German lager with a clean, rich, toasty, bready malt flavor, restrained bitterness, and a well-attenuated finish. The overall malt impression is soft, elegant, and complex, with a rich malty aftertaste that is never cloying or heavy."
+        ],
+        "Appearance": [
+          "Amber-orange to deep reddish-copper color; should not be golden.",
+          "Bright clarity, with persistent, off-white foam stand."
+        ],
+        "Aroma": [
+          "Moderate malty aroma, typically rich, bready, somewhat toasty, with light bread crust notes.",
+          "Clean lager fermentation character.",
+          "Very low floral, herbal, or spicy hop aroma optional.",
+          "Caramel-sweet, biscuity-dry, or roasted malt aromas are inappropriate.",
+          "Very light alcohol might be detected, but should never be sharp.",
+          "Clean, elegant malt richness should be the primary aroma."
+        ],
+        "Flavor": [
+          "Moderate to high rich malt flavor often initially suggests sweetness, but the finish is moderately-dry to dry.",
+          "Distinctive and complex maltiness often includes a bready, toasty aspect.",
+          "Hop bitterness is moderate, and the floral, herbal, or spicy hop flavor is low to none.",
+          "Hops provide sufficient balance that the malty palate and finish do not seem sweet.",
+          "The aftertaste is malty, with the same elegant, rich malt flavors lingering.",
+          "Noticeable sweet caramel, dry biscuit, or roasted flavors are inappropriate.",
+          "Clean fermentation profile."
+        ],
+        "Mouthfeel": [
+          "Medium body, with a smooth, creamy texture that often suggests a fuller mouthfeel.",
+          "Medium carbonation.",
+          "Fully attenuated, without a sweet or cloying impression.",
+          "May be slightly warming, but the strength should be relatively hidden."
+        ],
+        "Comments": [
+          "Modern domestic German Oktoberfest versions are golden – see the Festbier style for this version.",
+          "Export German versions (to the United States, at least) are typically orange-amber in color, have a distinctive toasty malt character, and are often labeled Oktoberfest.",
+          "Many craft versions of Oktoberfest are based on this style."
+        ],
+        "History": [
+          "As the name suggests, brewed as a stronger “March beer” in March and lagered in cold caves over the summer.",
+          "Modern versions trace back to the lager developed by Spaten in 1841, contemporaneous to the development of Vienna lager.",
+          "However, the Märzen name is much older than 1841 – the early ones were dark brown, and the name implied a strength band (14 °P) rather than a style.",
+          "The amber lager style served at Oktoberfest from 1872 until 1990 when the golden Festbier was adopted as the standard festival beer."
+        ],
+        "Characteristic Ingredients": [
+          "Grist varies, although traditional German versions emphasized Munich malt.",
+          "The notion of elegance is derived from the finest quality ingredients, particularly the base malts.",
+          "A decoction mash is traditional, and enhances the rich malt profile."
+        ],
+        "Style Comparison": [
+          "Not as strong and rich as a Dunkles Bock.",
+          "More malt depth and richness than a Festbier, with a heavier body and slightly less hops.",
+          "Less hoppy but equally malty as a Czech Amber Lager, but with a different malt profile."
+        ],
+        "Vital Statistics": {
+          "IBU": "18 - 24",
+          "SRM": "8 - 17",
+          "OG": "1.054 - 1.060",
+          "FG": "1.010 - 1.014",
+          "ABV": "5.6% - 6.3%"
+        },
+        "Commercial Examples": [
+          "Hacker-Pschorr Oktoberfest Märzen",
+          "Hofmark Märzen",
+          "Paulaner Oktoberfest",
+          "Saalfelder Ur-Saalfelder",
+          "Weltenburg Kloster Anno 1050"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "amber-lager-family",
+          "bottom-fermented",
+          "central-europe",
+          "lagered",
+          "malty",
+          "standard-strength",
+          "traditional-style"
+        ]
+      },
+      "Rauchbier": {
+        "Overall Impression": [
+          "A beechwood-smoked, malty, amber German lager. The expected Märzen profile of toasty-rich malt, restrained bitterness, clean fermentation, and a relatively dry finish is enhanced by a noticeable to intense smoke character."
+        ],
+        "Appearance": [
+          "Very clear, with a large, creamy, rich, tan- to cream-colored head.",
+          "Deep amber to coppery-brown in color, often a little darker than the underlying Märzen style."
+        ],
+        "Aroma": [
+          "Blend of smoke and malt, varying in balance and intensity.",
+          "The beechwood smoke character can range from subtle to fairly strong, and can seem smoky, woody, or bacon-like.",
+          "The malt character can be low to moderate, and be somewhat rich, toasty, or malty-sweet.",
+          "The malt and smoke components are often inversely proportional (i.e., when smoke increases, malt decreases, and vice versa).",
+          "Low floral or spicy hop aroma optional.",
+          "Clean fermentation profile."
+        ],
+        "Flavor": [
+          "Generally follows the aroma profile, with a blend of smoke and malt in varying balance and intensity, yet always mutually supportive.",
+          "Märzen-like qualities should be evident, particularly a malty, toasty richness, but the beechwood smoke flavor can be low to high.",
+          "The palate can be somewhat malty, rich, and sweet, yet the finish tends to be medium-dry to dry with the smoke character sometimes enhancing the dryness of the finish.",
+          "The aftertaste can reflect both malt richness and smoke flavors, with a balanced presentation desirable.",
+          "Moderate, balanced, hop bitterness.",
+          "Can have up to a moderate hop flavor with spicy, floral, or herbal notes.",
+          "Clean lager fermentation character.",
+          "The quality and character of the smoke is important; it should be cleanly smoky.",
+          "At higher levels, the smoke can take on a ham- or bacon-like character, which is acceptable as long as it doesn’t veer into the greasy range.",
+          "Harsh, bitter, burnt, acrid, charred, rubbery, sulfury, or creosote-like smoky-phenolic flavors are inappropriate."
+        ],
+        "Mouthfeel": [
+          "Medium body.",
+          "Medium to medium-high carbonation.",
+          "Smooth lager character.",
+          "Significant astringent, phenolic harshness is inappropriate."
+        ],
+        "Comments": [
+          "Literally “smoke beer” in German.",
+          "The smoke character and intensity varies by maltster and brewery, so allow for variation in the style when judging – not all examples are highly smoked.",
+          "Many other traditional German styles are smoked; those should be entered in the 32A Classic Style Smoked Beer style.",
+          "This style is only for the more common Märzen-based beer."
+        ],
+        "History": [
+          "A historical specialty of the city of Bamberg, in the Franconian region of Bavaria in Germany.",
+          "While smoked beers certainly were made long ago, the origins of this specific style are unclear but must have been developed after Märzen was created."
+        ],
+        "Characteristic Ingredients": [
+          "Märzen-type grist, with the addition of a sizeable quantity of German Rauchmalz (beechwood-smoked Vienna-type malt).",
+          "Some breweries smoke their own malt.",
+          "German lager yeast.",
+          "Traditional German or Czech hops."
+        ],
+        "Style Comparison": [
+          "Like a Märzen but with a balanced, sweet, smoky aroma and flavor and a somewhat darker color."
+        ],
+        "Vital Statistics": {
+          "IBU": "20 - 30",
+          "SRM": "12 - 22",
+          "OG": "1.050 - 1.057",
+          "FG": "1.012 - 1.016",
+          "ABV": "4.8% - 6%"
+        },
+        "Commercial Examples": [
+          "Cervejaria Bamberg Rauchbier",
+          "Göller Rauchbier",
+          "Rittmayer Rauchbier",
+          "Spezial Rauchbier Märzen",
+          "Schlenkerla Rauchbier Märzen"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "amber-lager-family",
+          "bottom-fermented",
+          "central-europe",
+          "lagered",
+          "malty",
+          "smoke",
+          "standard-strength",
+          "traditional-style"
+        ]
+      },
+      "Dunkles Bock": {
+        "Overall Impression": [
+          "A strong, dark, malty German lager beer that emphasizes the malty-rich and somewhat toasty qualities of continental malts without being sweet in the finish."
+        ],
+        "Appearance": [
+          "Light copper to brown color, often with attractive garnet highlights.",
+          "Good clarity despite the dark color.",
+          "Large, creamy, persistent, off-white head."
+        ],
+        "Aroma": [
+          "Medium to medium-high rich bready-malty aroma, often with moderate amounts of rich Maillard products or toasty overtones.",
+          "Virtually no hop aroma.",
+          "Some alcohol may be noticeable.",
+          "Clean lager character, although a slight dark fruit character is allowable."
+        ],
+        "Flavor": [
+          "Medium to medium-high complex, rich maltiness is dominated by toasty-rich Maillard products.",
+          "Some dark caramel notes may be present.",
+          "Hop bitterness is generally only high enough to support the malt flavors, allowing a bit of malty sweetness to linger into the finish.",
+          "Well-attenuated, not cloying.",
+          "Clean fermentation profile, although the malt can provide a slight dark fruit character.",
+          "No hop flavor.",
+          "No roasted, burnt, or dry biscuity character."
+        ],
+        "Mouthfeel": [
+          "Medium to medium-full bodied.",
+          "Moderate to moderately low carbonation.",
+          "Some alcohol warmth may be found, but should never be hot.",
+          "Smooth, without harshness or astringency."
+        ],
+        "Comments": [
+          "Decoction mashing plays an important part of flavor development, as it enhances the caramel and Maillard flavor aspects of the malt."
+        ],
+        "History": [
+          "Originated in the Northern German city of Einbeck, which was a brewing center and popular exporter in the days of the Hanseatic League (14th to 17th century).",
+          "Recreated in Munich starting in the 17th century.",
+          "“Bock” translates to “Ram” in German, which is why the animal is often used in logos and advertisements."
+        ],
+        "Characteristic Ingredients": [
+          "Munich and Vienna malts, rarely a tiny bit of dark roasted malts for color adjustment, never any non-malt adjuncts.",
+          "Continental European hop varieties are used.",
+          "Clean German lager yeast."
+        ],
+        "Style Comparison": [
+          "Darker, with a richer malty flavor and less apparent bitterness than a Helles Bock.",
+          "Less alcohol and malty richness than a Doppelbock.",
+          "Stronger malt flavors and higher alcohol than a Märzen.",
+          "Richer, less attenuated, and less hoppy than a Czech Amber Lager."
+        ],
+        "Vital Statistics": {
+          "IBU": "20 - 27",
+          "SRM": "14 - 22",
+          "OG": "1.064 - 1.072",
+          "FG": "1.013 - 1.019",
+          "ABV": "6.3% - 7.2%"
+        },
+        "Commercial Examples": [
+          "Aass Bock",
+          "Einbecker Ur-Bock Dunkel",
+          "Kneitinger Bock",
+          "Lindeboom Bock",
+          "Schell’s Bock",
+          "Penn Brewery St. Nikolaus Bock"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "bock-family",
+          "bottom-fermented",
+          "central-europe",
+          "high-strength",
+          "lagered",
+          "malty",
+          "traditional-style"
+        ]
+      }
+    },
+    "Amber Bitter European Beer": {
+      "Vienna Lager": {
+        "Overall Impression": [
+          "A moderate-strength continental amber lager with a soft, smooth maltiness and a balanced, moderate bitterness, yet finishing relatively dry.",
+          "The malt flavor is clean, bready-rich, and somewhat toasty, with an elegant impression derived from quality base malts and process, not specialty malts or adjuncts."
+        ],
+        "Appearance": [
+          "Light reddish amber to copper color.",
+          "Bright clarity.",
+          "Large, off-white, persistent head."
+        ],
+        "Aroma": [
+          "Moderately-intense malt aroma, with toasty and malty-rich accents.",
+          "Floral, spicy hop aroma may be low to none.",
+          "Clean lager character.",
+          "A significant caramel, biscuity, or roasted aroma is inappropriate."
+        ],
+        "Flavor": [
+          "Soft, elegant malt complexity is in the forefront, with a firm enough hop bitterness to provide a balanced finish.",
+          "The malt flavor tends toward a rich, toasty character, without significant caramel, biscuity, or roast flavors.",
+          "Fairly dry, soft finish, with both rich malt and hop bitterness present in the aftertaste.",
+          "Floral, spicy, or herbal hop flavor may be low to none.",
+          "Clean fermentation profile."
+        ],
+        "Mouthfeel": [
+          "Medium-light to medium body, with a gentle creaminess.",
+          "Moderate carbonation.",
+          "Smooth."
+        ],
+        "Comments": [
+          "A standard-strength everyday beer, not a beer brewed for festivals.",
+          "Many traditional examples have become sweeter and more adjunct-laden, now seeming more like International Amber or Dark Lagers."
+        ],
+        "History": [
+          "Developed by Anton Dreher in Vienna in 1841, became popular in the mid-late 1800s.",
+          "The style was brought to Mexico by Santiago Graf and other Austrian immigrant brewers in the late 1800s.",
+          "Seems to be embraced as a modern craft style in other countries."
+        ],
+        "Characteristic Ingredients": [
+          "Traditionally, best-quality Vienna malt, but can also use Pils and Munich malts.",
+          "Traditional continental hops.",
+          "Clean German lager yeast.",
+          "May use small amounts of specialty malts for color and sweetness."
+        ],
+        "Style Comparison": [
+          "Similar malt flavor as a Märzen, but lighter in intensity and body, with a touch more bitterness and dryness in the balance.",
+          "Lower in alcohol than Märzen or Festbier.",
+          "Less rich, malty, and hoppy than Czech Amber Lager."
+        ],
+        "Vital Statistics": {
+          "IBU": "18 - 30",
+          "SRM": "9 - 15",
+          "OG": "1.048 - 1.055",
+          "FG": "1.010 - 1.014",
+          "ABV": "4.7% - 5.5%"
+        },
+        "Commercial Examples": [
+          "Chuckanut Vienna Lager",
+          "Devils Backbone Vienna Lager",
+          "Figueroa Mountain Red Lager",
+          "Heavy Seas Cutlass",
+          "Ottakringer Wiener Original",
+          "Schell’s Firebrick",
+          "Theresianer Vienna"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "amber-lager-family",
+          "balanced",
+          "bottom-fermented",
+          "central-europe",
+          "lagered",
+          "standard-strength",
+          "traditional-style"
+        ]
+      },
+      "Altbier": {
+        "Overall Impression": [
+          "A moderately colored, well-attenuated, bitter beer with a rich maltiness balancing a strong bitterness.",
+          "Light and spicy hop character complements the malt.",
+          "A dry beer with a firm body and smooth palate."
+        ],
+        "Appearance": [
+          "Color ranges from amber to deep copper, stopping short of brown; bronze-orange is most common.",
+          "Brilliant clarity.",
+          "Thick, creamy, long-lasting off-white head."
+        ],
+        "Aroma": [
+          "Malty and rich with grainy characteristics like baked bread or nutty, toasted bread crusts.",
+          "Should not have darker roasted or chocolate notes.",
+          "Malt intensity is moderate to moderately-high.",
+          "Moderate to low hops complement but do not dominate the malt, often with a spicy, peppery, or floral character.",
+          "Fermentation character is very clean. Low to medium-low esters optional."
+        ],
+        "Flavor": [
+          "Malt profile similar to the aroma, with an assertive, medium-high hop bitterness balancing the rich malty flavors.",
+          "Finishes medium-dry to dry with a grainy, bitter, malty-rich aftertaste.",
+          "Finish is long-lasting, sometimes with a nutty or bittersweet impression.",
+          "Apparent bitterness level sometimes masked by malt character if not very dry, but scales with malt richness to maintain balance.",
+          "No roast. No harshness. Clean fermentation profile.",
+          "Light fruity esters, especially dark fruit, may be present.",
+          "Medium to low spicy, peppery, or floral hop flavor.",
+          "Light minerally character optional."
+        ],
+        "Mouthfeel": [
+          "Medium body.",
+          "Smooth.",
+          "Medium to medium-high carbonation.",
+          "Astringency low to none."
+        ],
+        "Comments": [
+          "Classic, traditional examples in the Altstadt (“old town”) section of Düsseldorf are served from casks.",
+          "Most examples have a balanced (25–35 IBU) bitterness, not the aggressive hop character of Zum Uerige.",
+          "Stronger sticke and doppelsticke beers belong in the 27 Historical Beer style."
+        ],
+        "History": [
+          "Developed in the late 19th century in Düsseldorf to use lager techniques to compete with lagers.",
+          "Older German styles were brewed in the area but there is no direct linkage to modern Altbier."
+        ],
+        "Characteristic Ingredients": [
+          "Grists vary, but usually consist of German base malts (Pils, sometimes Munich) with small amounts of crystal, chocolate, or black malts.",
+          "May include some wheat, including roasted wheat.",
+          "Spalt hops are traditional, but other German or Czech hops can be used.",
+          "Clean, highly attenuative ale yeast; step mash traditional; fermented at cool ale temperatures, then cold conditioned."
+        ],
+        "Style Comparison": [
+          "More bitter and malty than International Amber Lagers.",
+          "Somewhat similar to California Common in technique and finished flavor/color, though not ingredients.",
+          "Less alcohol, less malty richness, and more bitterness than a Dunkles Bock.",
+          "Drier, richer, and more bitter than a Vienna Lager."
+        ],
+        "Vital Statistics": {
+          "IBU": "25 - 50",
+          "SRM": "9 - 17",
+          "OG": "1.044 - 1.052",
+          "FG": "1.008 - 1.014",
+          "ABV": "4.3% - 5.5%"
+        },
+        "Commercial Examples": [
+          "Bolten Alt",
+          "Diebels Alt",
+          "Füchschen Alt",
+          "Original Schlüssel Alt",
+          "Schlösser Alt",
+          "Schumacher Alt",
+          "Uerige Altbier"
+        ],
+        "Style Attributes": [
+          "amber-ale-family",
+          "amber-color",
+          "bitter",
+          "central-europe",
+          "lagered",
+          "standard-strength",
+          "top-fermented",
+          "traditional-style"
+        ]
+      }
+    },
+    "Dark European Lager": {
+      "Munich Dunkel": {
+        "Overall Impression": [
+          "Medium to medium‐full-bodied, smooth, malty lager with pronounced toasted-bread character."
+        ],
+        "Appearance": [
+          "Light amber to dark reddish-brown color.",
+          "Clear.",
+          "Off-white to tan head."
+        ],
+        "Aroma": [
+          "Medium malt aroma featuring toasted bread, cracker and light nutty notes.",
+          "Very low to low hop aroma with a delicate floral or spicy character.",
+          "Clean lager fermentation character; no esters or diacetyl."
+        ],
+        "Flavor": [
+          "Dominant toasted-malt flavors—bread crust, light toffee and biscuit.",
+          "Low to moderate hop bitterness to provide balance.",
+          "Clean, dry finish with no roasted astringency.",
+          "Subtle bready sweetness may linger."
+        ],
+        "Mouthfeel": [
+          "Medium to medium-full body.",
+          "Smooth, soft mouthfeel.",
+          "Moderate carbonation.",
+          "No warming from alcohol."
+        ],
+        "Comments": [
+          "A classic Bavarian dunkel—often overshadowed by lighter Helles outside Germany."
+        ],
+        "History": [
+          "One of the oldest lager styles in Bavaria, brewed in Munich since the 19th century."
+        ],
+        "Characteristic Ingredients": [
+          "High proportion of Munich malt for color and rich malt backbone.",
+          "Occasional small addition of Carafa or Melanoidin malt for depth."
+        ],
+        "Style Comparison": [
+          "Darker and maltier than Munich Helles, less roasted than Schwarzbier."
+        ],
+        "Vital Statistics": {
+          "IBU": "18 - 28",
+          "SRM": "14 - 22",
+          "OG": "1.048 - 1.056",
+          "FG": "1.012 - 1.016",
+          "ABV": "4.5% - 5.6%"
+        },
+        "Commercial Examples": [
+          "Ayinger Altbairisch Dunkel",
+          "Hofbräu Dunkel",
+          "Paulaner Münchner Dunkel",
+          "Hacker-Pschorr Munich Dunkel"
+        ],
+        "Style Attributes": [
+          "bottom-fermented",
+          "lagered",
+          "malt-focused",
+          "dark-color",
+          "traditional-style",
+          "soft-mouthfeel"
+        ]
+      },
+      "Schwarzbier": {
+        "Overall Impression": [
+          "Very dark, nearly black lager with smooth, mild roast character and medium-light body."
+        ],
+        "Appearance": [
+          "Very dark brown to black color with ruby highlights in the glass.",
+          "Clear.",
+          "Tan to light brown head."
+        ],
+        "Aroma": [
+          "Light roasted malt aroma—coffee, dark chocolate or toast notes.",
+          "Low caramel and toffee character.",
+          "Minimal hop aroma; clean lager yeast profile."
+        ],
+        "Flavor": [
+          "Subtle roast flavors of coffee and dark chocolate without harsh astringency.",
+          "Low to moderate bitterness balances the malt.",
+          "Clean finish; light caramel sweetness may persist."
+        ],
+        "Mouthfeel": [
+          "Medium-light body.",
+          "Smooth and clean.",
+          "Moderate carbonation.",
+          "No dryness or roast-derived astringency."
+        ],
+        "Comments": [
+          "Often called “black lager,” originally from Thuringia and Franconia."
+        ],
+        "History": [
+          "Brewed in central Germany since the Middle Ages; popularized in the 19th century."
+        ],
+        "Characteristic Ingredients": [
+          "Pilsner and Munich malts with a touch of roasted or Carafa malt.",
+          "Clean lager yeast to showcase malt and roast balance."
+        ],
+        "Style Comparison": [
+          "Darker than Munich Dunkel, but lighter and more delicate than porter or stout."
+        ],
+        "Vital Statistics": {
+          "IBU": "22 - 32",
+          "SRM": "17 - 30",
+          "OG": "1.048 - 1.056",
+          "FG": "1.012 - 1.016",
+          "ABV": "4.4% - 5.4%"
+        },
+        "Commercial Examples": [
+          "Köstritzer Schwarzbier",
+          "Samuel Adams Black Lager",
+          "Einbecker Schwarzbier"
+        ],
+        "Style Attributes": [
+          "bottom-fermented",
+          "lagered",
+          "roast-accented",
+          "dark-color",
+          "session-strength",
+          "traditional-style"
+        ]
+      }
+    },
+    "Strong European Beer": {
+      "Doppelbock": {
+        "display": "Doppelbock",
+        "Overall Impression": [
+          "A strong, rich, and very malty German lager that can have both pale and dark variants.",
+          "The darker versions have more richly-developed, deeper malt flavors, while the paler versions have slightly more hops and dryness."
+        ],
+        "Appearance": [
+          "Good clarity, with a large, creamy, persistent head.",
+          "Dark versions are copper to dark brown in color, often with ruby highlights, and an off-white head.",
+          "Pale versions are deep gold to light amber in color, with a white head."
+        ],
+        "Aroma": [
+          "Very strong maltiness, possibly with light caramel notes, and up to a moderate alcohol aroma. Virtually no hop aroma.",
+          "Dark versions have significant, rich Maillard products, deeply toasted malt, and possibly a slight chocolate-like aroma that should never be roasted or burnt. Moderately-low dark fruit, like plums, dark grapes, or fruit leather, is allowable.",
+          "Pale versions have a rich and strong, often toasty, malt presence, possibly with a light floral, spicy, or herbal hop accent."
+        ],
+        "Flavor": [
+          "Very rich and malty. Hop bitterness varies from moderate to moderately low but always allows malt to dominate the flavor. Faint hop flavor optional. Most examples are fairly malty-sweet on the palate, but should have an impression of attenuation in the finish. The impression of sweetness comes from low hopping, not from incomplete fermentation. Clean fermentation profile.",
+          "Dark versions have malt and ester flavors similar to the aroma.",
+          "Pale versions have a strong bready and toasty malt flavor, a light floral, spicy, or herbal hop flavor, and a drier finish."
+        ],
+        "Mouthfeel": [
+          "Medium-full to full body.",
+          "Moderate to moderately-low carbonation.",
+          "Very smooth without harshness or astringency. A light alcohol warmth may be noted, but it should never burn."
+        ],
+        "Comments": [
+          "Doppelbock means double bock. Most versions are dark colored and may display the caramelizing and Maillard products of decoction mashing, but excellent pale versions also exist.",
+          "The pale versions will not have the same richness and darker malt and fruit flavors of the dark versions, and may be a bit drier, hoppier, and more bitter.",
+          "While most traditional examples are in the lower end of the ranges cited, the style can be considered to have no upper limit for gravity and alcohol, provided the balance remains the same."
+        ],
+        "History": [
+          "A Bavarian specialty originating in Munich, first made by the monks of St. Francis of Paula by the 1700s.",
+          "Historical versions were less well-attenuated than modern interpretations, thus with higher sweetness and lower alcohol levels.",
+          "Was called “liquid bread” by monks, and consumed during the Lenten fast.",
+          "Breweries adopted beer names ending in “-ator” after a 19th century court ruling that no one but Paulaner was allowed to use the name Salvator.",
+          "Traditionally dark brown in color; paler examples are a more recent development."
+        ],
+        "Characteristic Ingredients": [
+          "Pils, Vienna, Munich malts.",
+          "Occasionally dark malt for color adjustment.",
+          "Traditional German hops.",
+          "Clean German lager yeast.",
+          "Decoction mashing is traditional."
+        ],
+        "Style Comparison": [
+          "A stronger, richer, more full-bodied version of either a Dunkles Bock or a Helles Bock.",
+          "Pale versions will show higher attenuation and less dark fruity character than the darker versions."
+        ],
+        "Vital Statistics": {
+          "IBU": "16 - 26",
+          "SRM": "6 - 25",
+          "OG": "1.072 - 1.112",
+          "FG": "1.016 - 1.024",
+          "ABV": "7% - 10%"
+        },
+        "Commercial Examples": [
+          "Andechs Doppelbock Dunkel",
+          "Ayinger Celebrator",
+          "Paulaner Salvator",
+          "Spaten Optimator",
+          "Tröegs Troegenator",
+          "Weihenstephaner Korbinian",
+          "Eggenberg Urbock 23º",
+          "Meinel Doppelbock Hell",
+          "Plank Bavarian Heller Doppelbock",
+          "Riegele Auri"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "bock-family",
+          "bottom-fermented",
+          "central-europe",
+          "high-strength",
+          "lagered",
+          "malty",
+          "pale-color",
+          "traditional-style"
+        ]
+      },
+      "Eisbock": {
+        "display": "Eisbock",
+        "Overall Impression": [
+          "A strong, full-bodied, rich, and malty dark German lager often with a viscous quality and strong flavors.",
+          "Even though flavors are concentrated, the alcohol should be smooth and warming, not burning."
+        ],
+        "Appearance": [
+          "Deep copper to dark brown in color, often with attractive ruby highlights.",
+          "Good clarity. Head retention may be moderate to poor.",
+          "Off-white to deep ivory colored head. Pronounced legs are often evident."
+        ],
+        "Aroma": [
+          "Dominated by rich, intense malt and a definite alcohol presence.",
+          "The malt can have bready, toasty qualities, with some caramel or faint chocolate, often with dark fruit notes like plums or grapes.",
+          "No hop aroma. Alcohol aromas should not be harsh or solventy. Clean fermentation profile."
+        ],
+        "Flavor": [
+          "Rich, sweet malt balanced by a significant alcohol presence.",
+          "The malt can have Maillard products, toasty qualities, some caramel, and occasionally a slight chocolate flavor. May have significant malt-derived dark fruit esters.",
+          "Hop bitterness just offsets the malt sweetness enough to avoid a cloying character. No hop flavor.",
+          "Alcohol helps balance the strong malt presence. The finish should be of rich malt with a certain dryness from the alcohol. It should not be sticky, syrupy, or cloyingly sweet.",
+          "Clean fermentation profile."
+        ],
+        "Mouthfeel": [
+          "Full to very full-bodied.",
+          "Low carbonation.",
+          "Significant alcohol warmth without sharp hotness.",
+          "Very smooth and silky without harsh edges from alcohol, bitterness, fusels, or other concentrated flavors."
+        ],
+        "Comments": [
+          "Extended lagering is often needed post-freezing to smooth the alcohol and enhance the malt and alcohol balance.",
+          "Pronounced “ICE-bock.”"
+        ],
+        "History": [
+          "Originating in Kulmbach in Franconia in the late 1800s, although exact origins are not known.",
+          "Fables describe it as coming from beer accidentally freezing at a brewery."
+        ],
+        "Characteristic Ingredients": [
+          "Same as Doppelbock. Produced by freezing a doppelbock-like beer and removing ice (“freeze distillation”), thus concentrating flavor and alcohol, as well as any defects present.",
+          "Commercial eisbocks are generally concentrated anywhere from 7% to 33% by volume."
+        ],
+        "Style Comparison": [
+          "Eisbocks are not simply stronger Doppelbocks; the name refers to the process of freezing and concentrating the beer, and is not a statement on alcohol; some Doppelbocks are stronger than Eisbocks.",
+          "Not as thick, rich, or sweet as a Wheatwine."
+        ],
+        "Vital Statistics": {
+          "IBU": "25 - 35",
+          "SRM": "17 - 30",
+          "OG": "1.078 - 1.120",
+          "FG": "1.020 - 1.035",
+          "ABV": "9% - 14%"
+        },
+        "Commercial Examples": [
+          "Kulmbacher Eisbock"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "bock-family",
+          "bottom-fermented",
+          "central-europe",
+          "lagered",
+          "malty",
+          "traditional-style",
+          "very-high-strength"
+        ]
+      },
+      "Baltic Porter": {
+        "display": "Baltic Porter",
+        "Overall Impression": [
+          "A strong, dark, malty beer with different interpretations within the Baltic region.",
+          "Smooth, warming, and richly malty, with complex dark fruit flavors and a roasted flavor without burnt notes."
+        ],
+        "Appearance": [
+          "Dark reddish-copper to opaque dark brown color, but not black.",
+          "Thick, persistent tan-colored head.",
+          "Clear, although darker versions can be opaque."
+        ],
+        "Aroma": [
+          "Rich maltiness often containing caramel, toffee, nuts, deep toast, or licorice notes.",
+          "Complex alcohol and ester profile of moderate strength, and reminiscent of plums, prunes, raisins, cherries, or currants, occasionally with a vinous Port-like quality.",
+          "Deep malt accents of dark chocolate, coffee, or molasses, but never burnt.",
+          "No hops. No sourness. Smooth, not sharp, impression."
+        ],
+        "Flavor": [
+          "As with aroma, has a rich maltiness with a complex blend of deep malt, dried fruit esters, and alcohol.",
+          "The malt can have a caramel, toffee, nutty, molasses, or licorice complexity.",
+          "Prominent yet smooth Schwarzbier-like roasted flavor that stops short of burnt. Light hints of black currants and dark dried fruits.",
+          "Smooth palate and full finish.",
+          "Starts malty-sweet but darker malt flavors quickly dominate and persist through the dryish finish, leaving a hint of roast coffee or licorice and dried fruit in the aftertaste.",
+          "Medium-low to medium bitterness, just to provide balance and prevent it from seeming cloying.",
+          "Hop flavor from slightly spicy hops ranges from none to medium-low. Clean fermentation profile."
+        ],
+        "Mouthfeel": [
+          "Generally quite full-bodied and smooth, with a well-aged alcohol warmth that can be deceptive.",
+          "Medium to medium-high carbonation, making it seem even more mouth-filling.",
+          "Not heavy on the tongue due to carbonation level."
+        ],
+        "Comments": [
+          "Most commercial versions are in the 7–8.5% ABV range.",
+          "The best examples have a deceptive strength that makes them dangerously easy to drink.",
+          "The character of these beers varies by country of origin, so be careful about generalizing based on a single example.",
+          "Some beers are truer to their English roots, while others are more of the style first popularized in Poland."
+        ],
+        "History": [
+          "Developed indigenously (and independently) in several countries bordering the Baltic Sea after import of popular English porters and stouts was interrupted in the early 1800s.",
+          "Historically top-fermented, many breweries adapted the recipes for bottom-fermenting yeast along with the rest of their production.",
+          "The name Baltic Porter is recent (since the 1990s) and describes the modern collection of beers with a somewhat similar profile from these countries, not historical versions."
+        ],
+        "Characteristic Ingredients": [
+          "Generally lager yeast (cold fermented if using ale yeast, as is required when brewed in Russia).",
+          "Debittered dark malt. Munich or Vienna base malt. Continental hops.",
+          "May contain crystal malts or adjuncts. Brown or amber malt common in historical recipes.",
+          "As a collection of regional beers, different formulations are expected."
+        ],
+        "Style Comparison": [
+          "Combines the body, maltiness, richness, and smoothness of a Doppelbock, the darker malt character of an English Porter, the roast flavors of a Schwarzbier, and alcohol and fruitiness of an Old Ale.",
+          "Much less roasted and often lower in alcohol than an Imperial Stout."
+        ],
+        "Vital Statistics": {
+          "IBU": "20 - 40",
+          "SRM": "17 - 30",
+          "OG": "1.060 - 1.090",
+          "FG": "1.016 - 1.024",
+          "ABV": "6.5% - 9.5%"
+        },
+        "Commercial Examples": [
+          "Aldaris Mežpils Porteris",
+          "Baltika #6 Porter",
+          "Devils Backbone Danzig",
+          "Okocim Mistrzowski Porter",
+          "Sinebrychoff Porter",
+          "Zywiec Porter"
+        ],
+        "Style Attributes": [
+          "any-fermentation",
+          "dark-color",
+          "eastern-europe",
+          "high-strength",
+          "lagered",
+          "malty",
+          "porter-family",
+          "traditional-style"
+        ]
+      }
+    },
+    "German Wheat Beer": {
+      "Weissbier": {
+        "Overall Impression": [
+          "A pale, refreshing, lightly-hopped German wheat beer with high carbonation, dry finish, fluffy mouthfeel, and a distinctive banana-and-clove weizen yeast fermentation profile."
+        ],
+        "Appearance": [
+          "Pale straw to gold in color.",
+          "Very thick, moussy, long-lasting white head.",
+          "Can be hazy and have a shine from wheat and yeast, although this can settle out in bottles."
+        ],
+        "Aroma": [
+          "Moderate to strong esters and phenols, typically banana and clove, often well balanced and typically stronger than the malt.",
+          "Light to moderate bready, doughy, or grainy wheat aroma.",
+          "Light vanilla optional.",
+          "Light floral, spicy, or herbal hops optional.",
+          "Bubblegum (strawberry with banana), sourness, or smoke are faults."
+        ],
+        "Flavor": [
+          "Low to moderately strong banana and clove flavor, often well balanced.",
+          "Low to moderate soft, somewhat bready, doughy, or grainy wheat flavor supported by the slight Pils malt grainy sweetness.",
+          "Very low to moderately low bitterness.",
+          "Well-rounded, flavorful palate with a relatively dry finish.",
+          "Light vanilla optional.",
+          "Very low floral, spicy, or herbal hop flavor optional.",
+          "Any impression of sweetness is due more to low bitterness than residual sweetness; a sweet or heavy finish impairs drinkability.",
+          "Bubblegum, sourness, or smoke are faults. While the banana-and-clove profile is important, it should not be so strong as to be extreme and unbalanced."
+        ],
+        "Mouthfeel": [
+          "Medium-light to medium body; never heavy.",
+          "Fluffy, creamy fullness progressing to a light, spritzy finish aided by high to very high carbonation.",
+          "Effervescent."
+        ],
+        "Comments": [
+          "Also known as hefeweizen or weizenbier, particularly outside Bavaria.",
+          "These beers are best enjoyed while young and fresh, as they often don’t age well.",
+          "In Germany, lower-alcohol light (leicht) and non-alcoholic versions are popular.",
+          "Kristall versions are filtered for brilliant clarity."
+        ],
+        "History": [
+          "While Bavaria has a wheat beer tradition dating back before the 1500s, brewing wheat beer used to be a monopoly reserved for Bavarian royalty.",
+          "Modern Weissbier dates from 1872 when Schneider began production of its amber version.",
+          "Pale Weissbier only became popular since the 1960s (although the name historically could be used in Germany to describe beer made from air-dried malt, a different tradition).",
+          "It is quite popular today, particularly in southern Germany."
+        ],
+        "Characteristic Ingredients": [
+          "Malted wheat, at least half the grist.",
+          "Pilsner malt.",
+          "Decoction mash traditional.",
+          "Weizen yeast, cool fermentation temperatures."
+        ],
+        "Style Comparison": [
+          "Compared to American Wheat, has a banana and clove yeast character and less bitterness.",
+          "Compared to a Dunkles Weissbier, has a paler color and less malt richness and flavor."
+        ],
+        "Vital Statistics": {
+          "IBU": "8 - 15",
+          "SRM": "2 - 6",
+          "OG": "1.044 - 1.053",
+          "FG": "1.008 - 1.014",
+          "ABV": "4.3% - 5.6%"
+        },
+        "Commercial Examples": [
+          "Ayinger Bräu Weisse",
+          "Distelhäuser Hell Weizen",
+          "Hacker-Pschorr Hefeweißbier",
+          "Hofbräuhaus Münchner Weisse",
+          "Schneider Weisse Original Weissbier",
+          "Weihenstephaner Hefeweissbier"
+        ],
+        "Style Attributes": [
+          "central-europe",
+          "malty",
+          "pale-color",
+          "standard-strength",
+          "top-fermented",
+          "traditional-style",
+          "wheat-beer-family"
+        ]
+      },
+      "Dunkles Weissbier": {
+        "Overall Impression": [
+          "A moderately dark German wheat beer with a distinctive banana-and-clove weizen yeast fermentation profile, supported by a toasted bread or caramel malt flavor.",
+          "Highly carbonated and refreshing, with a creamy, fluffy texture and light finish."
+        ],
+        "Appearance": [
+          "Light copper to dark, mahogany brown in color.",
+          "Very thick, moussy, long-lasting off-white head.",
+          "Can be hazy and have a shine from wheat and yeast, although this can settle out in bottled versions."
+        ],
+        "Aroma": [
+          "Moderate esters and phenols, typically banana and clove, often well balanced with each other and with the malt.",
+          "Light to moderate bready, doughy, or grainy wheat aroma, often accompanied by caramel, bread crust, or richer malt notes.",
+          "Low to moderate vanilla optional.",
+          "Light floral, spicy, or herbal hops optional.",
+          "Bubblegum (strawberry with banana), sourness, or smoke are faults."
+        ],
+        "Flavor": [
+          "Low to moderately strong banana and clove flavor, often well balanced with each other and with the malt, although the malt may sometimes mask the clove impression.",
+          "Low to medium-high soft, somewhat bready, doughy, or grainy wheat flavor with richer caramel, toast, or bread crust flavors.",
+          "No strongly roasted flavors, but a touch of roasty dryness is allowable.",
+          "Very low to low bitterness.",
+          "Well-rounded, flavorful, often somewhat malty palate with a relatively dry finish.",
+          "Very light to moderate vanilla optional.",
+          "Low spicy, herbal, or floral hop flavor optional.",
+          "Bubblegum, sourness, or smoke are faults."
+        ],
+        "Mouthfeel": [
+          "Medium-light to medium-full body.",
+          "Fluffy, creamy fullness progressing to a lighter finish, aided by moderate to high carbonation.",
+          "Effervescent."
+        ],
+        "Comments": [
+          "Often known as dunkelweizen, particularly in the United States.",
+          "Increasingly rare and often being replaced by Kristall and non-alcoholic versions in Germany."
+        ],
+        "History": [
+          "Bavaria has a wheat beer brewing tradition hundreds of years old, but the brewing right was reserved for Bavarian royalty until the late 1700s.",
+          "Old-fashioned Bavarian wheat beer was often dark, as were most beers of the time.",
+          "Pale Weissbier started to become popular in the 1960s, but traditional dark wheat beer remained somewhat of an older generation’s drink."
+        ],
+        "Characteristic Ingredients": [
+          "Malted wheat, at least half the grist.",
+          "Munich, Vienna, or Pilsner malt.",
+          "Dark wheat, caramel wheat, or color malt.",
+          "Decoction mash traditional.",
+          "Weizen yeast, cool fermentation temperatures."
+        ],
+        "Style Comparison": [
+          "Combines the yeast and wheat character of Weissbier with the malty richness of a Munich Dunkel.",
+          "The banana-and-clove character is often less apparent than in a Weissbier due to the increased maltiness.",
+          "Has a similar yeast character as Roggenbier, but without the rye flavor and increased body."
+        ],
+        "Vital Statistics": {
+          "IBU": "10 - 18",
+          "SRM": "14 - 23",
+          "OG": "1.044 - 1.057",
+          "FG": "1.008 - 1.014",
+          "ABV": "4.3% - 5.6%"
+        },
+        "Commercial Examples": [
+          "Ayinger Ur-Weisse",
+          "Franziskaner Hefe-Weisse Dunkel",
+          "Ettaler Benediktiner Weißbier Dunkel",
+          "Hirsch Dunkel Weisse",
+          "Tucher Dunkles Hefe Weizen",
+          "Weihenstephaner Hefeweissbier Dunkel"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "central-europe",
+          "malty",
+          "standard-strength",
+          "top-fermented",
+          "traditional-style",
+          "wheat-beer-family"
+        ]
+      },
+      "Weizenbock": {
+        "Overall Impression": [
+          "A strong and malty German wheat beer combining the best wheat and yeast flavors of a Weissbier with the rich maltiness, strength, and body of a Bock. The style range includes Bock and Doppelbock strength, with variations for pale and dark color."
+        ],
+        "Appearance": [
+          "Very thick, moussy, long-lasting head.",
+          "Dark versions are dark amber to dark ruby-brown in color, with a light tan head.",
+          "Pale versions are gold to amber in color, with a very white to off-white head."
+        ],
+        "Aroma": [
+          "Medium-high to high malty richness with a significant bready, grainy wheat character. Medium-low to medium-high weizen yeast character, typically banana and clove. Vanilla accents optional. No hops. Low to moderate alcohol, not hot or solventy. The malt, yeast, and alcohol are well balanced, complex, and inviting. Bubblegum (strawberry with banana), sourness, or smoke are faults.",
+          "Dark versions have a deeper, highly toasted, bready malt richness with significant Maillard products, similar to a Dunkles Bock or dark Doppelbock. They can also have caramel and dark fruit esters, like plums, prunes, dark grapes, fruit leather, and raisins, particularly as they age.",
+          "Pale versions have a grainy-sweet, bready, toasty malty richness, similar to a Helles Bock or pale Doppelbock."
+        ],
+        "Flavor": [
+          "Medium-high to high malty richness with significant bready, grainy wheat flavor. Low to moderate banana and spice (clove, vanilla) yeast character. No hop flavor. Low to medium-low bitterness can give a slightly sweet palate impression, but the beer typically finishes dry. Light alcohol can enhance this character. The interplay between the malt, yeast, and alcohol adds complexity and interest, which is often enhanced with age. Bubblegum, sourness, or smoke are faults.",
+          "Dark versions have deeper, richly bready or toasty malt flavors with significant Maillard products, optionally with caramel or light chocolate but not roast. Can have some dark fruit esters like plums, prunes, dark grapes, fruit leather, or raisins, particularly as they age.",
+          "Pale versions have a bready, toasty, grainy-sweet malt richness."
+        ],
+        "Mouthfeel": [
+          "Medium-full to full body.",
+          "Soft, smooth, fluffy or creamy texture.",
+          "Mild alcohol warmth.",
+          "Moderate to high carbonation."
+        ],
+        "Comments": [
+          "A Weissbier brewed to bock or doppelbock strength, although Schneider also produces an Eisbock version. Pale and dark versions exist, but dark is most common. Lightly oxidized Maillard products can produce some rich, intense flavors and aromas that are often seen in aged imported commercial products; fresher versions will not have this character. Well-aged examples might also take on a slight sherry-like complexity.",
+          "Pale versions, like their doppelbock cousins, have less rich malt complexity and often more hop-forward. However, versions that have significant late hops or are dry-hopped should be entered in 34B Mixed-Style Beer."
+        ],
+        "History": [
+          "Dopplebock-strength Aventinus was created in 1907 at the Schneider Weisse Brauhaus in Munich.",
+          "Pale versions are a much more recent invention."
+        ],
+        "Characteristic Ingredients": [
+          "Malted wheat, at least half the grist.",
+          "Munich, Vienna, or Pilsner malt.",
+          "Color malts may be used sparingly.",
+          "Decoction mash traditional.",
+          "Weizen yeast, cool fermentation temperatures."
+        ],
+        "Style Comparison": [
+          "Stronger and richer than a Weissbier or Dunkles Weissbier, but with similar yeast character.",
+          "More directly comparable to the Doppelbock style, with the pale and dark variations.",
+          "Can vary widely in strength, but most are in the Bock to Doppelbock range."
+        ],
+        "Vital Statistics": {
+          "IBU": "15 - 30",
+          "SRM": "6 - 25",
+          "OG": "1.064 - 1.090",
+          "FG": "1.015 - 1.022",
+          "ABV": "6.5% - 9%"
+        },
+        "Commercial Examples": [
+          "Plank Bavarian Dunkler Weizenbock",
+          "Penn Weizenbock",
+          "Schalchner Weisser Bock",
+          "Schneider Weisse Aventinus",
+          "Ayinger Weizenbock",
+          "Distelhäuser Weizen Bock",
+          "Ladenburger Weizenbock Hell",
+          "Weihenstephaner Vitus"
+        ],
+        "Style Attributes": [
+          "amber-color",
+          "central-europe",
+          "high-strength",
+          "malty",
+          "pale-color",
+          "top-fermented",
+          "traditional-style",
+          "wheat-beer-family"
+        ]
+      }
     }
   }
-  
