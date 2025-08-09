@@ -25,7 +25,7 @@
 
   <script>
     // Load Brewers Association styles dynamically
-    fetch('styles.json')
+    fetch('data/styles.json')
       .then(res => res.json())
       .then(data => {
         const ul = document.getElementById('ba-list');
@@ -41,7 +41,7 @@
       .catch(err => console.error('Failed to load BA styles:', err));
 
     // Load BJCP Test Prep styles dynamically
-    fetch('bjcp-styles.json')
+    fetch('data/bjcp-styles.json')
       .then(res => res.json())
       .then(data => {
         const ul = document.getElementById('bjcp-list');

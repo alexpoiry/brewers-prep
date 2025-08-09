@@ -32,7 +32,7 @@
       if (!key) return document.body.innerHTML = '<p style="color:red">No style specified.</p>';
 
       // Choose JSON based on source param
-      const resp = await fetch(source === 'bjcp' ? 'bjcp-styles.json' : 'styles.json');
+      const resp = await fetch(source === 'bjcp' ? 'data/bjcp-styles.json' : 'data/styles.json');
       const data = await resp.json();
       const { display, beers } = data[key] || {};
       if (!display) return document.body.innerHTML = `<p style="color:red">Style “${key}” not found.</p>`;
