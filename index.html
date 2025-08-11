@@ -1,60 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="wa-theme-mellow wa-palette-anodized wa-brand-gray wa-neutral-yellow wa-success-green wa-warning-red wa-danger-pink" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brewers Association Test Prep</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; }
-    a { text-decoration: none; color: #0366d6; }
-    a:hover { text-decoration: underline; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 0.5rem 0; }
-  </style>
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/mellow.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/color/palettes/anodized.css">
+  <script type="module" src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js"></script>
+  <script type="module" data-fa-kit-code="12805d395c">
+    import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
+    setDefaultIconFamily('classic');
+  </script>
+  <script src="https://kit.fontawesome.com/12805d395c.js" crossorigin="anonymous"></script>
+  <title>Learn You Some Beers</title>
 </head>
 <body>
-  <h1>Learn You Some Beers</h1>
-  <hr>
-  <h2>Brewers Association Styles Practice</h2>
-  <p>Select a beer style to practice:</p>
-  <ul id="ba-list"></ul>
+  <wa-page>
+    <header slot="header">
+        <div class="wa-cluster">
+          <h1>The Beer Tutor</h1>
+        </div>
+        <!-- Random icon splash: 6 icons, colors sampled from data/srm-colors.json -->
+        <div class="wa-cluster" id="icon-splash" aria-hidden="true"></div>
+        <div class="wa-cluster">
+          <wa-button href="https://buymeacoffee.com/poiry" target="_blank" rel="noopener" appearance="filled" size="lg" aria-label="Buy me a coffee">
+            <wa-icon name="mug-saucer" slot="start"></wa-icon>
+            Buy me a coffee
+          </wa-button>
+        </div>
+    </header>
 
-  <h2>BJCP Test Prep Styles</h2>
-  <p>Select a beer style to practice:</p>
-  <ul id="bjcp-list"></ul>
+    <!-- Navigation -->
+    <nav slot="navigation">
+      <a href="home.html" target="mainframe" id="nav-home" class="active">Home</a>
+      <a href="ba.html" target="mainframe" id="nav-ba">Brewers Association Styles</a>
+      <a href="bjcp.html" target="mainframe" id="nav-bjcp">BJCP Styles</a>
+    </nav>
+
+    <!-- Main = only the iframe -->
+    <main>
+      <iframe id="mainframe" name="mainframe" title="Content"></iframe>
+    </main>
+  </wa-page>
 
   <script>
-    // Load Brewers Association styles dynamically
-    fetch('data/styles.json')
-      .then(res => res.json())
-      .then(data => {
-        const ul = document.getElementById('ba-list');
-        Object.entries(data).forEach(([key, { display }]) => {
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = `list-quiz.html?source=ba&style=${encodeURIComponent(key)}`;
-          a.textContent = display;
-          li.appendChild(a);
-          ul.appendChild(li);
-        });
-      })
-      .catch(err => console.error('Failed to load BA styles:', err));
+    // Active nav state
+    function setActiveNav(linkId) {
+      document.querySelectorAll('nav[slot="navigation"] a').forEach(a => {
+        a.classList.toggle('active', a.id === linkId);
+      });
+    }
 
-    // Load BJCP Test Prep styles dynamically
-    fetch('data/bjcp-styles.json')
-      .then(res => res.json())
-      .then(data => {
-        const ul = document.getElementById('bjcp-list');
-        Object.entries(data).forEach(([key, { display }]) => {
-          const li = document.createElement('li');
-          const a = document.createElement('a');
-          a.href = `list-quiz.html?source=bjcp&style=${encodeURIComponent(key)}`;
-          a.textContent = display;
-          li.appendChild(a);
-          ul.appendChild(li);
-        });
-      })
-      .catch(err => console.error('Failed to load BJCP styles:', err));
+    // Default to Home on first load
+    window.addEventListener('DOMContentLoaded', () => {
+      const frame = document.getElementById('mainframe');
+      frame.src = 'home.html';
+      setActiveNav('nav-home');
+
+      // Update active state when clicking nav links
+      document.querySelectorAll('nav[slot="navigations"] a').forEach(a => {
+        a.addEventListener('click', () => setActiveNav(a.id));
+      });
+    });
+
+    // --- Fancy header: six random icons colored by SRM hexes from data/srm-colors.json ---
+    (async function iconSplash() {
+      const ICONS = ['fa-glass', 'fa-beer-mug', 'fa-wine-glass', 'fa-glass-half'];
+      function pick(arr) { return arr[Math.floor(Math.random()*arr.length)]; }
+      function sample(arr, n) { const c=[...arr]; for(let i=c.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [c[i],c[j]]=[c[j],c[i]];} return c.slice(0,n); }
+
+      let hexes = [];
+      try {
+        const resp = await fetch('data/srm-colors.json');
+        const json = await resp.json();
+        if (Array.isArray(json)) {
+          hexes = json.map(x => x.hex).filter(Boolean);
+        } else if (json && typeof json === 'object') {
+          // Allow either {values:[...]} or keyed object
+          if (Array.isArray(json.values)) hexes = json.values.map(x => x.hex).filter(Boolean);
+          else hexes = Object.values(json).map(x => x.hex).filter(Boolean);
+        }
+      } catch (e) {
+        // fallback palette if JSON not found
+        hexes = ['#FFE699','#FAD977','#F1C453','#E6B24B','#D99832','#C07A23','#A05A0B','#7A3E00','#4E2A14','#2B1A0F'];
+      }
+
+      const wrap = document.getElementById('icon-splash');
+      wrap.innerHTML = '';
+      const colors = sample(hexes, Math.min(6, hexes.length));
+      for (let i=0;i<6;i++) {
+        const icon = pick(ICONS);
+        const color = colors[i % colors.length];
+        const el = document.createElement('i');
+        el.className = `fa-duotone fa-light ${icon} fa-2xl`;
+        el.style.setProperty('--fa-secondary-color', color);
+        el.style.setProperty('--fa-secondary-opacity', 1);
+        wrap.appendChild(el);
+      }
+    })();
   </script>
 </body>
 </html>

@@ -1,0 +1,62 @@
+[
+  {
+    "srm": 2,
+    "name": "Pale Straw",
+    "hex": "#FFD878"
+  },
+  {
+    "srm": 3,
+    "name": "Straw",
+    "hex": "#FFCA5A"
+  },
+  {
+    "srm": 4,
+    "name": "Pale Gold",
+    "hex": "#FFBF42"
+  },
+  {
+    "srm": 6,
+    "name": "Deep Gold",
+    "hex": "#F8A600"
+  },
+  {
+    "srm": 9,
+    "name": "Pale Amber",
+    "hex": "#E58500"
+  },
+  {
+    "srm": 12,
+    "name": "Medium Amber",
+    "hex": "#CF6900"
+  },
+  {
+    "srm": 15,
+    "name": "Deep Amber/Light Copper",
+    "hex": "#BB5100"
+  },
+  {
+    "srm": 18,
+    "name": "Medium Copper",
+    "hex": "#A63E00"
+  },
+  {
+    "srm": 20,
+    "name": "Deep Copper",
+    "hex": "#9B3200"
+  },
+  {
+    "srm": 24,
+    "name": "Brown",
+    "hex": "#821E00"
+  },
+  {
+    "srm": 30,
+    "name": "Very Dark Brown",
+    "hex": "#5E0B00"
+  },
+  {
+    "srm": 40,
+    "name": "Black",
+    "hex": "#36080A"
+  }
+]

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="wa-theme-mellow wa-palette-anodized wa-brand-gray wa-neutral-yellow wa-success-green wa-warning-red wa-danger-pink" lang="en">
+<head>
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/mellow.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/color/palettes/anodized.css">
+  <script type="module" src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js"></script>
+  <script type="module" data-fa-kit-code="12805d395c">
+    import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
+    setDefaultIconFamily('classic');
+  </script>
+  <script src="https://kit.fontawesome.com/12805d395c.js" crossorigin="anonymous"></script>
+  <title>Brewers Association Styles</title>
+</head>
+<body>
+  <h2>Brewers Association Styles Practice</h2>
+  <p>Select a beer style to practice:</p>
+  <ul id="ba-list"></ul>
+
+  <script>
+    fetch('data/styles.json')
+      .then(r => r.json())
+      .then(data => {
+        const ul = document.getElementById('ba-list');
+        Object.entries(data).forEach(([key, { display }]) => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          // Clicking stays inside the iframe by default
+          a.href = `list-quiz.html?source=ba&style=${encodeURIComponent(key)}`;
+          a.textContent = display;
+          li.appendChild(a);
+          ul.appendChild(li);
+        });
+      })
+      .catch(err => {
+        document.getElementById('ba-list').innerHTML = `<li style="color:red">Failed to load styles.json: ${err}</li>`;
+      });
+  </script>
+</body>
+</html>

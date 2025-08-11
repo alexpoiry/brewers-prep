@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html class="wa-theme-mellow wa-palette-anodized wa-brand-gray wa-neutral-yellow wa-success-green wa-warning-red wa-danger-pink" lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Loading…</title>
-  <style>
-    body { font-family: Arial, sans-serif; padding: 2rem; }
-    input, button { padding: 0.5rem; font-size: 1rem; margin-right: 0.5rem; }
-    #found-list, #all-list { margin-top: 1rem; }
-    #found-list li, #all-list li { margin: 0.25rem 0; }
-  </style>
+  <link rel="stylesheet" href="css/site.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/mellow.css">
+  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/color/palettes/anodized.css">
+  <script type="module" src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js"></script>
+  <script type="module" data-fa-kit-code="12805d395c">
+    import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
+    setDefaultIconFamily('classic');
+  </script>
+  <title>List Quiz</title>
 </head>
 <body>
   <h1></h1>
-  <p></p>
-  <input type="text" id="beer-input" autocomplete="off" placeholder="" />
-  <button id="add-button">Add</button>
-  <button id="toggle-all-button">Show All Styles</button>
+  
+  <wa-input placeholder="Input a Beer Type" appearance="filled" id="beer-input" with-clear>
+    <wa-icon name="beer-mug" slot="start"></wa-icon>
+  </wa-input>
+
+  <wa-button-group label="Alignment" variant="brand">
+    <wa-button id="add-button">Add</wa-button>
+    <wa-button id="toggle-all-button">Show All Styles</wa-button>
+  </wa-button-group>
 
   <h2>Your Correct Answers</h2>
   <ul id="found-list"></ul>
@@ -38,9 +44,10 @@
       if (!display) return document.body.innerHTML = `<p style="color:red">Style “${key}” not found.</p>`;
 
       document.title = `${display} Quiz`;
-      document.querySelector('h1').textContent = `${display} Quiz`;
-      document.querySelector('p').textContent = `Type the name of a ${display}:`;
+      document.querySelector('h1').textContent = `${display} Quiz`;      
       const inputEl = document.getElementById('beer-input');
+      inputEl.setAttribute('label', `Type the name of a ${display}:`);
+      
       const addBtn = document.getElementById('add-button');
       const toggleAllBtn = document.getElementById('toggle-all-button');
       const foundList = document.getElementById('found-list');
