@@ -1,0 +1,82 @@
+:root {
+    --wa-border-radius-scale: 1;
+    --wa-border-width-scale: 1.5;
+    --wa-space-scale: 1.125;
+}
+
+:where(wa-input, wa-button-group) {
+    display: block;
+}
+
+/* Quiz card grid and states */
+.quiz-grid {
+    display: grid;
+    align-items: stretch;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--wa-space-400, 1rem);
+    grid-auto-flow: dense;
+    /* helps pack wider cards */
+}
+
+.quiz-card {
+    --wa-card-background: white;
+}
+
+.quiz-card .option {
+    display: block;
+    margin-block: 0.25rem;
+}
+
+.quiz-card .feedback {
+    font-weight: 600;
+}
+
+/* Smoothen the change (optional) */
+.quiz-card::part(body),
+.quiz-card::part(header),
+.quiz-card::part(footer) {
+  background-color: white;
+  transition: background-color .2s ease, border-color .2s ease;
+}
+
+/* Success state */
+.quiz-card.card-correct::part(body),
+.quiz-card.card-correct::part(header),
+.quiz-card.card-correct::part(footer) {
+  background-color: var(--wa-color-success-60, #d1f5d3);
+  border-color: var(--wa-color-success-70, #a9e7ae);
+}
+
+/* Error state */
+.quiz-card.card-incorrect::part(body),
+.quiz-card.card-incorrect::part(header),
+.quiz-card.card-incorrect::part(footer) {
+  background-color: var(--wa-color-danger-60, #ffd1d6);
+  border-color: var(--wa-color-danger-70, #ffb0ba);
+}
+
+/* Span modifiers for dynamic layout */
+.quiz-card.span-2 {
+    grid-column: span 2;
+}
+
+.quiz-card.span-3 {
+    grid-column: span 3;
+}
+
+.quiz-card.span-4 {
+    grid-column: span 4;
+}
+
+/* Small screens: keep single column */
+@media (max-width: 600px) {
+    .quiz-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .quiz-card.span-2,
+    .quiz-card.span-3,
+    .quiz-card.span-4 {
+        grid-column: span 1;
+    }
+}

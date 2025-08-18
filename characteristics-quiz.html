@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html class="wa-theme-mellow wa-palette-anodized wa-brand-gray wa-neutral-yellow wa-success-green wa-warning-red wa-danger-pink" lang="en">
+
+<html
+  class="wa-theme-mellow wa-palette-anodized wa-brand-gray wa-neutral-yellow wa-success-green wa-warning-orange wa-danger-red"
+  lang="en">
+
 <head>
-  <link rel="stylesheet" href="css/site.css">
-  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css">
-  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/mellow.css">
-  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/color/palettes/anodized.css">    
-  <script type="module" src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js"></script>
-  <script type="module" data-fa-kit-code="12805d395c">
+  <link href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css" rel="stylesheet" />
+  <link href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/mellow.css" rel="stylesheet" />
+  <link href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/color/palettes/anodized.css"
+    rel="stylesheet" />
+  <script src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js" type="module"></script>
+  <script data-fa-kit-code="12805d395c" type="module">
     import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
     setDefaultIconFamily('classic');
   </script>
   <title>Characteristic Quiz</title>
+  <link href="css/site.css" rel="stylesheet" />
+  <link href="css/test.css" rel="stylesheet" />
 </head>
+
 <body>
   <h1 id="title"></h1>
   <form id="quiz-form"></form>
   <button id="check-button">Check My Answer</button>
-
   <script>
     // Utility to shuffle an array
     function shuffle(arr) {
@@ -72,12 +78,23 @@
       // Randomize question order
       shuffle(characteristics);
 
+
+      const grid = document.createElement('div');
+      grid.className = 'quiz-grid';
+      form.appendChild(grid);
+
       characteristics.forEach(key => {
-        const container = document.createElement('div');
-        container.className = 'question';
+        const card = document.createElement('wa-card');
+        card.className = 'quiz-card';
+        card.id = `card-${key}`;
+        card.setAttribute('elevated', '');
+
+        const headerSlot = document.createElement('div');
+        headerSlot.setAttribute('slot', 'header');
         const header = document.createElement('h3');
         header.textContent = key.replace(/_/g, ' ');
-        container.appendChild(header);
+        headerSlot.appendChild(header);
+        card.appendChild(headerSlot);
 
         const correctValue = styleObj[key] || 'N/A';
         correctAnswers[key] = correctValue;
@@ -93,25 +110,68 @@
         }
 
         const opts = shuffle(Array.from(options));
+        const optionsWrap = document.createElement('div');
+        optionsWrap.className = 'options-wrap';
         opts.forEach(val => {
           const label = document.createElement('label');
+          label.className = 'option';
           const radio = document.createElement('input');
           radio.type = 'radio';
           radio.name = key;
           radio.value = val;
           label.appendChild(radio);
-          label.append(` ${val}`);
-          container.appendChild(label);
-          container.appendChild(document.createElement('br'));        });
+          const span = document.createElement('span');
+          span.textContent = ` ${val}`;
+          label.appendChild(span);
+          optionsWrap.appendChild(label);
+        });
+        card.appendChild(optionsWrap);
 
-        // Feedback span
-        const feedback = document.createElement('div');
-        feedback.className = 'feedback';
-        feedback.id = `fb-${key}`;
-        container.appendChild(feedback);
+        // Footer with feedback + Check button
+        const footer = document.createElement('div');
+        footer.setAttribute('slot', 'footer');
+        footer.className = 'wa-split';
+        const feedbackDiv = document.createElement('div');
+        feedbackDiv.id = `fb-${key}`;
+        feedbackDiv.className = 'feedback';
+        footer.appendChild(feedbackDiv);
 
-        form.appendChild(container);
+        const btn = document.createElement('wa-button');
+        btn.setAttribute('variant', 'brand');
+        btn.className = 'check-card';
+        btn.dataset.key = key;
+        btn.textContent = 'Check';
+        footer.appendChild(btn);
+
+        card.appendChild(footer);
+        grid.appendChild(card);
       });
+
+      // Per-card validation
+      form.addEventListener('click', (e) => {
+        const target = e.target;
+        if (target.matches('wa-button.check-card, wa-button.check-card *')) {
+          const btn = target.closest('wa-button.check-card');
+          if (!btn) return;
+          e.preventDefault();
+          const key = btn.dataset.key;
+          const selected = document.querySelector(`input[name="${key}"]:checked`);
+          const fb = document.getElementById(`fb-${key}`);
+          const card = document.getElementById(`card-${key}`);
+          const isCorrect = !!(selected && selected.value === correctAnswers[key]);
+          if (isCorrect) {
+            fb.textContent = 'Correct!';
+            card.classList.remove('card-incorrect');
+            card.classList.add('card-correct');
+          } else {
+            fb.textContent = 'Try again!';
+            card.classList.remove('card-correct');
+            card.classList.add('card-incorrect');
+          }
+          if (window.updateCardSpans) setTimeout(window.updateCardSpans, 50);
+        }
+      });
+
 
       document.getElementById('check-button').addEventListener('click', e => {
         e.preventDefault();
@@ -120,14 +180,88 @@
           const fb = document.getElementById(`fb-${key}`);
           if (selected && selected.value === correctAnswers[key]) {
             fb.textContent = 'Correct!';
-            fb.style.color = 'green';
           } else {
             fb.textContent = 'Try Again!';
-            fb.style.color = 'red';
           }
         });
       });
     });
   </script>
+
+  <script>
+    (function () {
+      const MAX_SPAN = 4;
+      const MAX_HEIGHT = 150
+
+      function computeMinBaseWidth(cards) {
+        let minW = Infinity;
+        for (const c of cards) {
+          const rect = c.getBoundingClientRect();
+          const w = rect.width || c.offsetWidth || 0;
+          if (w > 0 && w < minW) minW = w;
+        }
+        if (!isFinite(minW) || minW <= 0) return 0;
+        return minW;
+      }
+
+      function updateCardSpans() {
+        const cards = Array.from(document.querySelectorAll('.quiz-card'));
+        if (!cards.length) return;
+
+        // Reset to baseline so we can measure true base widths
+        cards.forEach(c => c.classList.remove('span-2', 'span-3', 'span-4'));
+
+        requestAnimationFrame(() => {
+          const minBaseWidth = computeMinBaseWidth(cards);
+          if (!minBaseWidth) return;
+
+          cards.forEach(card => {
+            const options = card.querySelectorAll('label.option');
+            const lineHeight = Array.from(options).reduce((sum, option) => {
+              return sum + option.offsetHeight;
+            }, 0);
+            if (!lineHeight) return;
+            let span = Math.ceil(lineHeight / MAX_HEIGHT);
+            if (span < 1) span = 1;
+            if (span > MAX_SPAN) span = MAX_SPAN;
+
+            if (span > 1) card.classList.add(`span-${span}`);
+          });
+        });
+      }
+
+      window.updateCardSpans = updateCardSpans;
+
+      let t;
+      function debouncedUpdate() {
+        clearTimeout(t);
+        t = setTimeout(updateCardSpans, 120);
+      }
+
+      window.addEventListener('load', () => {
+        updateCardSpans();
+        setTimeout(updateCardSpans, 250);
+      });
+      window.addEventListener('resize', debouncedUpdate);
+      if (document.fonts && document.fonts.ready) {
+        document.fonts.ready.then(debouncedUpdate).catch(() => { });
+      }
+
+      // Update spans after global "Check All" as well
+      document.addEventListener('click', (e) => {
+        if (e.target && (e.target.id === 'check-button' || e.target.closest('#check-button'))) {
+          setTimeout(updateCardSpans, 50);
+        }
+      });
+
+      const grid = document.querySelector('.quiz-grid');
+      if (grid && 'ResizeObserver' in window) {
+        const ro = new ResizeObserver(debouncedUpdate);
+        ro.observe(grid);
+      }
+    })();
+  </script>
+
 </body>
+
 </html>
