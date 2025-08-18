@@ -11,7 +11,6 @@
 /* Quiz card grid and states */
 .quiz-grid {
     display: grid;
-    align-items: stretch;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: var(--wa-space-400, 1rem);
     grid-auto-flow: dense;
@@ -19,6 +18,7 @@
 }
 
 .quiz-card {
+    height: 100%;
     --wa-card-background: white;
 }
 
@@ -31,28 +31,37 @@
     font-weight: 600;
 }
 
+.quiz-card::part(body) {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
 /* Smoothen the change (optional) */
+.quiz-card::part(media),
 .quiz-card::part(body),
 .quiz-card::part(header),
 .quiz-card::part(footer) {
-  background-color: white;
-  transition: background-color .2s ease, border-color .2s ease;
+    background-color: white;
+    transition: background-color .2s ease, border-color .2s ease;
 }
 
 /* Success state */
+.quiz-card::part(media),
 .quiz-card.card-correct::part(body),
 .quiz-card.card-correct::part(header),
 .quiz-card.card-correct::part(footer) {
-  background-color: var(--wa-color-success-60, #d1f5d3);
-  border-color: var(--wa-color-success-70, #a9e7ae);
+    background-color: var(--wa-color-success-60, #d1f5d3);
+    border-color: var(--wa-color-success-70, #a9e7ae);
 }
 
 /* Error state */
+.quiz-card::part(media),
 .quiz-card.card-incorrect::part(body),
 .quiz-card.card-incorrect::part(header),
 .quiz-card.card-incorrect::part(footer) {
-  background-color: var(--wa-color-danger-60, #ffd1d6);
-  border-color: var(--wa-color-danger-70, #ffb0ba);
+    background-color: var(--wa-color-danger-60, #ffd1d6);
+    border-color: var(--wa-color-danger-70, #ffb0ba);
 }
 
 /* Span modifiers for dynamic layout */
