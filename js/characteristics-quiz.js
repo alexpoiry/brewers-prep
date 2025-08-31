@@ -1,8 +1,6 @@
-// ---- moved from inline script ----
 import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
     setDefaultIconFamily('classic');
 
-// ---- moved from inline script ----
 // Utility to shuffle an array
     function shuffle(arr) {
       for (let i = arr.length - 1; i > 0; i--) {
@@ -166,7 +164,6 @@ import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.
       });
     });
 
-// ---- moved from inline script ----
 (function () {
       const MAX_SPAN = 4;
       const MAX_HEIGHT = 150

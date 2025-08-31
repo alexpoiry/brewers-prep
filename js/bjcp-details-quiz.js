@@ -1,8 +1,6 @@
-// ---- moved from inline script ----
 import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
     setDefaultIconFamily('classic');
 
-// ---- moved from inline script ----
 (function () {
       async function init() {
         const params = new URLSearchParams(window.location.search);

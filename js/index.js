@@ -1,4 +1,42 @@
-(function() {
+import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
+setDefaultIconFamily('classic');
+
+(async function iconSplash() {
+  const ICONS = ['fa-glass', 'fa-beer-mug', 'fa-wine-glass', 'fa-glass-half'];
+  function pick(arr) { return arr[Math.floor(Math.random() * arr.length)]; }
+  function sample(arr, n) { const c = [...arr]; for (let i = c.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[c[i], c[j]] = [c[j], c[i]]; } return c.slice(0, n); }
+
+  let hexes = [];
+  try {
+    const resp = await fetch('data/srm-colors.json');
+    const json = await resp.json();
+    if (Array.isArray(json)) {
+      hexes = json.map(x => x.hex).filter(Boolean);
+    } else if (json && typeof json === 'object') {
+      // Allow either {values:[...]} or keyed object
+      if (Array.isArray(json.values)) hexes = json.values.map(x => x.hex).filter(Boolean);
+      else hexes = Object.values(json).map(x => x.hex).filter(Boolean);
+    }
+  } catch (e) {
+    // fallback palette if JSON not found
+    hexes = ['#FFE699', '#FAD977', '#F1C453', '#E6B24B', '#D99832', '#C07A23', '#A05A0B', '#7A3E00', '#4E2A14', '#2B1A0F'];
+  }
+
+  const wrap = document.getElementById('icon-splash');
+  wrap.innerHTML = '';
+  const colors = sample(hexes, Math.min(6, hexes.length));
+  for (let i = 0; i < 6; i++) {
+    const icon = pick(ICONS);
+    const color = colors[i % colors.length];
+    const el = document.createElement('i');
+    el.className = `fa-duotone fa-light ${icon} fa-2xl`;
+    el.style.setProperty('--fa-secondary-color', color);
+    el.style.setProperty('--fa-secondary-opacity', 1);
+    wrap.appendChild(el);
+  }
+})();
+
+(function () {
   const DEFAULT_PAGE = 'home.html';
   const BRAND = 'Brewers Prep';
 
@@ -7,7 +45,7 @@
     if (window.FontAwesomeConfig) {
       window.FontAwesomeConfig.autoA11y = true;
     }
-  } catch (_) {}
+  } catch (_) { }
 
   const iframe = document.getElementById('mainframe');
   const nav = document.querySelector('nav[slot="navigation"]');
