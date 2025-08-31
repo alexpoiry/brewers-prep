@@ -1,168 +1,22 @@
 <!DOCTYPE html>
-<html class="wa-theme-mellow wa-palette-anodized wa-brand-gray wa-neutral-yellow wa-success-green wa-warning-red wa-danger-pink" lang="en">
+<html
+  class="wa-theme-mellow wa-palette-anodized wa-brand-gray wa-neutral-yellow wa-success-green wa-warning-orange wa-danger-red"
+  lang="en">
 <head>
-  <link rel="stylesheet" href="css/site.css">
-  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css">
-  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/mellow.css">
-  <link rel="stylesheet" href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/color/palettes/anodized.css">
-  <script type="module" src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js"></script>
-  <script type="module" data-fa-kit-code="12805d395c">
-    import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
-    setDefaultIconFamily('classic');
-  </script>
+  <link href="css/site.css" rel="stylesheet" />
+  <link href="css/test.css" rel="stylesheet" />
+  <link href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/webawesome.css" rel="stylesheet" />
+  <link href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/themes/mellow.css" rel="stylesheet" />
+  <link href="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/styles/color/palettes/anodized.css" rel="stylesheet" />
+  <script src="https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.loader.js" type="module"></script>
+  
   <title>BJCP Details Quiz</title>
 </head>
 <body>
   <h1 id="quiz-title"></h1>
-  <div id="quiz-container"></div>
-  <button id="check-button">Check My Answers</button>
 
-  <script>
-    async function init() {
-      const params = new URLSearchParams(window.location.search);
-      const style = params.get('style');
-      if (!style) {
-        document.body.innerHTML = '<p style="color:red">No style specified.</p>';
-        return;
-      }
-      const resp = await fetch('data/bjcp-details.json');
-      const data = await resp.json();
-      let details = null;
-      // Find the style within nested categories
-      for (const styles of Object.values(data)) {
-        if (styles[style]) {
-          details = styles[style];
-          break;
-        }
-      }
-      if (!details) {
-        document.body.innerHTML = `<p style="color:red">Style "${style}" not found.</p>`;
-        return;
-      }
-      document.title = `${style} Details Quiz`;
-      document.getElementById('quiz-title').textContent = `${style} Details Quiz`;
-      const container = document.getElementById('quiz-container');
-
-      // Utility functions
-      function shuffle(arr) {
-        for (let i = arr.length - 1; i > 0; i--) {
-          const j = Math.floor(Math.random() * (i + 1));
-          [arr[i], arr[j]] = [arr[j], arr[i]];
-        }
-      }
-      function sample(arr, n) {
-        const copy = arr.slice(); shuffle(copy); return copy.slice(0, n);
-      }
-
-      // Narrative sections
-      const narrativeKeys = [
-        'Overall Impression', 'Appearance', 'Aroma', 'Flavor', 'Mouthfeel',
-        'Comments', 'History', 'Characteristic Ingredients', 'Style Comparison'
-      ];
-      narrativeKeys.forEach(key => {
-        const correctList = details[key] || [];
-        const count = correctList.length;
-        // Build distractor pool from all other styles
-        const pool = [];
-        for (const styles of Object.values(data)) {
-          for (const [otherStyle, det] of Object.entries(styles)) {
-            if (otherStyle === style) continue;
-            (det[key] || []).forEach(item => pool.push(item));
-          }
-        }
-        const distractors = sample(pool.filter(x => !correctList.includes(x)), count);
-        const options = correctList.concat(distractors);
-        shuffle(options);
-
-        const sec = document.createElement('div'); sec.className = 'section';
-        const header = document.createElement('h3');
-        header.textContent = `${key} (Choose ${count})`;
-        const resSpan = document.createElement('span'); resSpan.className = 'result';
-        header.appendChild(resSpan);
-        sec.appendChild(header);
-        const optsDiv = document.createElement('div'); optsDiv.className = 'options';
-        options.forEach(text => {
-          const id = `${key}-${text}`.replace(/\W+/g, '_');
-          const label = document.createElement('label');
-          const cb = document.createElement('input');
-          cb.type = 'checkbox';
-          cb.name = key;
-          cb.value = text;
-          cb.id = id;
-          label.htmlFor = id;
-          label.textContent = text;
-          label.prepend(cb);
-          optsDiv.appendChild(label);
-        });
-        sec.appendChild(optsDiv);
-        container.appendChild(sec);
-      });
-
-      // Vital Statistics sections
-      const statMap = { IBU: 'Bitterness (IBU)', SRM: 'Color (SRM)', OG: 'Original Gravity', FG: 'Final Gravity', ABV: 'Alcohol (ABV)' };
-      const stats = details['Vital Statistics'] || {};
-      Object.keys(statMap).forEach(key => {
-        const correct = stats[key];
-        if (!correct) return;
-        // Build distractor pool for this stat
-        const pool = [];
-        for (const styles of Object.values(data)) {
-          for (const [otherStyle, det] of Object.entries(styles)) {
-            if (otherStyle === style) continue;
-            const val = det['Vital Statistics'] && det['Vital Statistics'][key];
-            if (val) pool.push(val);
-          }
-        }
-        const distractors = sample(pool.filter(x => x !== correct), 4);
-        const options = [correct].concat(distractors);
-        shuffle(options);
-
-        const sec = document.createElement('div'); sec.className = 'section';
-        const header = document.createElement('h3');
-        header.textContent = statMap[key];
-        const resSpan = document.createElement('span'); resSpan.className = 'result';
-        header.appendChild(resSpan);
-        sec.appendChild(header);
-        const optsDiv = document.createElement('div'); optsDiv.className = 'options';
-        options.forEach(text => {
-          const id = `${key}-${text}`.replace(/\W+/g, '_');
-          const label = document.createElement('label');
-          const rb = document.createElement('input');
-          rb.type = 'radio';
-          rb.name = key;
-          rb.value = text;
-          rb.id = id;
-          label.htmlFor = id;
-          label.textContent = text;
-          label.prepend(rb);
-          optsDiv.appendChild(label);
-        });
-        sec.appendChild(optsDiv);
-        container.appendChild(sec);
-      });
-
-      // Check answers
-      document.getElementById('check-button').addEventListener('click', () => {
-        narrativeKeys.forEach(key => {
-          const correctSet = new Set(details[key] || []);
-          const checked = Array.from(document.querySelectorAll(`input[name="${key}"]:checked`)).map(i => i.value);
-          const resultText = (checked.length === correctSet.size && checked.every(v => correctSet.has(v))) ? 'Correct!' : 'Try Again!';
-          document.querySelectorAll('h3').forEach(h => {
-            if (h.textContent.startsWith(key)) h.querySelector('.result').textContent = resultText;
-          });
-        });
-        Object.keys(statMap).forEach(key => {
-          const correct = stats[key];
-          if (!correct) return;
-          const sel = document.querySelector(`input[name="${key}"]:checked`);
-          const resultText = (sel && sel.value === correct) ? 'Correct!' : 'Try Again!';
-          document.querySelectorAll('h3').forEach(h => {
-            if (h.textContent.startsWith(statMap[key])) h.querySelector('.result').textContent = resultText;
-          });
-        });
-      });
-    }
-    window.addEventListener('DOMContentLoaded', init);
-  </script>
+  <form id="quiz-form"></form>
+  
+<script type="module" src="js/bjcp-details-quiz.js"></script>
 </body>
 </html>

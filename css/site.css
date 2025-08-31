@@ -8,15 +8,6 @@
     display: block;
   }
 
-  #mainframe { width: 100%; height: 80vh; border: 0; border-radius: 12px; background: transparent; }
-
-  main {
-    border: 1px solid var(--wa-color-yellow-70);
-    border-radius: 8px;
-    padding: 1rem;
-    margin: 1rem;
-  }
-
   wa-input {
     width: 100%;              /* fill available space up to the cap */
     max-width: 30%;           /* at most 1/4 of the parent width */
@@ -26,4 +17,14 @@
   wa-button-group {
     margin-block-start: 1rem; /* space above the button group */
     margin-block-end: 1rem;
+  }
+
+  wa-progress-bar {
+    width: 50%;
+    margin-left: 0;
+  }
+
+  wa-callout {
+    width: 50%;
+    margin-left: 0;
   }
