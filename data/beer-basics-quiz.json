@@ -1,0 +1,266 @@
+{
+  "title": "Beer Basics Quiz",
+  "version": 2,
+  "source": "beer-basics.html",
+  "schema": {
+    "question": "string",
+    "term": "string",
+    "correct": "string",
+    "incorrect": [
+      "string",
+      "string",
+      "string",
+      "string"
+    ],
+    "explanation": "string"
+  },
+  "questions": [
+    {
+      "id": "wort-definition",
+      "term": "Wort",
+      "question": "What is wort?",
+      "correct": "A sweet infusion of water made from malted cereal grains used in the brewing process.",
+      "incorrect": [
+        "The result of soaking grain in cold water overnight.",
+        "A sweet infusion of water made from hops used in the brewing process.",
+        "The process of roasting cereal grains prior to mashing.",
+        "A raised skin blemish commonly blamed on toads and witches."
+      ],
+      "explanation": "Wort is the sugary liquid produced during mashing that yeast ferment into alcohol and CO\u2082."
+    },
+    {
+      "id": "malting-purpose",
+      "term": "Malting",
+      "question": "What is the purpose of malting cereal grains?",
+      "correct": "To activate enzymes that convert carbohydrates into simple sugars usable by yeast.",
+      "incorrect": [
+        "To sterilize grain so it won\u2019t contribute flavor.",
+        "To add bitterness to balance sweetness in the finished beer.",
+        "To remove the husk so mashing water can penetrate more easily.",
+        "To politely introduce the grain to hops so they become friends."
+      ],
+      "explanation": "Malting (moistening and germination, then halted) develops enzymes that later create fermentable sugars."
+    },
+    {
+      "id": "mashing-definition",
+      "term": "Mashing",
+      "question": "What is mashing?",
+      "correct": "Mixing hot water with malted grain to dissolve and extract sugars into wort.",
+      "incorrect": [
+        "Boiling hops to extract bitterness and aroma.",
+        "Grinding malted grain into flour for baking.",
+        "A cold-soak of grain used to clarify beer.",
+        "A traditional dance performed to appease the yeast."
+      ],
+      "explanation": "Mashing extracts sugars and other compounds from malt into the liquid called wort."
+    },
+    {
+      "id": "bittering-purpose",
+      "term": "Bittering/Stabilizing agents",
+      "question": "Why are bittering/stabilizing agents like hops added before fermentation?",
+      "correct": "They make wort less hospitable to bacteria while allowing yeast to work.",
+      "incorrect": [
+        "They feed yeast with extra oxygen.",
+        "They caramelize sugars to prevent fermentation.",
+        "They raise the pH so proteins precipitate instantly.",
+        "They scare away unruly microbes with their intimidating cones."
+      ],
+      "explanation": "Hops and similar agents inhibit many bacteria, improving microbial stability pre-fermentation."
+    },
+    {
+      "id": "common-grain",
+      "term": "Grain: Barley",
+      "question": "What is the most commonly used grain in beer?",
+      "correct": "Barley.",
+      "incorrect": [
+        "Wheat.",
+        "Rye.",
+        "Rice.",
+        "Quinoa grown by hipster gnomes."
+      ],
+      "explanation": "Although many grains are used, barley is the most common base for beer."
+    },
+    {
+      "id": "other-grains",
+      "term": "Other grains",
+      "question": "Which list contains other grains commonly used in brewing?",
+      "correct": "Wheat, rye, rice, maize.",
+      "incorrect": [
+        "Oats, spelt, amaranth, chia only.",
+        "Barley, cocoa nibs, coffee beans.",
+        "Corn husks, bamboo, pine needles.",
+        "Only grains that come with free stickers."
+      ],
+      "explanation": "Besides barley, brewers may use grains like wheat, rye, rice, and maize."
+    },
+    {
+      "id": "common-bittering-agent",
+      "term": "Hops",
+      "question": "What is the most common bittering/stabilizing agent in modern beer?",
+      "correct": "Hops.",
+      "incorrect": [
+        "Heather tips.",
+        "Mugwort.",
+        "Gruit herb blends.",
+        "A handful of jalape\u00f1os for excitement."
+      ],
+      "explanation": "Hops are the standard, though historical and regional alternatives exist."
+    },
+    {
+      "id": "other-bittering-agents",
+      "term": "Non-hop bittering agents",
+      "question": "Which are examples of non-hop bittering or stabilizing agents used historically?",
+      "correct": "Mugwort, heather tips, gruit herbs, fruit extracts.",
+      "incorrect": [
+        "Sea salt, oyster shells, kelp strands.",
+        "Cinnamon sticks, vanilla pods, cacao nibs only.",
+        "Only lab-grade bitterness powder.",
+        "Leftover salad greens from lunch."
+      ],
+      "explanation": "Before hops dominated, various herbs and botanicals were used for bitterness and stability."
+    },
+    {
+      "id": "cool-wort",
+      "term": "Cooling wort",
+      "question": "Why is wort cooled before adding yeast?",
+      "correct": "Because boiling temperatures would kill the yeast.",
+      "incorrect": [
+        "Because cold wort contains more sugar.",
+        "Because yeast only reproduce in ice crystals.",
+        "Because hops won\u2019t dissolve unless it\u2019s cold.",
+        "Because the wort needs a nap after a long boil."
+      ],
+      "explanation": "Yeast has a survivable temperature range; hot wort would kill or severely stress it."
+    },
+    {
+      "id": "fermentation-definition",
+      "term": "Fermentation",
+      "question": "What happens during fermentation?",
+      "correct": "Yeast consume sugars and produce ethanol and carbon dioxide.",
+      "incorrect": [
+        "Sugars are converted to protein and vitamins.",
+        "Water becomes alcohol via osmosis.",
+        "Hops transform into sugar.",
+        "Yeast whisper inspirational quotes to the bubbles."
+      ],
+      "explanation": "Alcoholic fermentation is the metabolic conversion of sugars to ethanol and CO\u2082 by yeast."
+    },
+    {
+      "id": "ale-temps",
+      "term": "Ale yeast temperature",
+      "question": "What temperatures do ale yeasts generally prefer?",
+      "correct": "About 18\u201324\u00b0C (65\u201375\u00b0F).",
+      "incorrect": [
+        "About 0\u20134\u00b0C (32\u201339\u00b0F).",
+        "About 7\u201313\u00b0C (42\u201355\u00b0F).",
+        "About 35\u201340\u00b0C (95\u2013104\u00b0F).",
+        "Only room temperature if the room is complimenting them."
+      ],
+      "explanation": "Ales typically ferment warmer than lagers, producing more esters and phenols."
+    },
+    {
+      "id": "lager-temps",
+      "term": "Lager yeast temperature",
+      "question": "What temperatures do lager yeasts generally prefer?",
+      "correct": "About 7\u201313\u00b0C (42\u201355\u00b0F).",
+      "incorrect": [
+        "About 18\u201324\u00b0C (65\u201375\u00b0F).",
+        "About 25\u201330\u00b0C (77\u201386\u00b0F).",
+        "About 0\u20134\u00b0C (32\u201339\u00b0F).",
+        "Whatever temperature the nearest snowman recommends."
+      ],
+      "explanation": "Lager yeasts work best cooler than ale yeasts, producing cleaner profiles."
+    },
+    {
+      "id": "ale-top",
+      "term": "Ale yeast behavior",
+      "question": "Which statement best describes ale yeast behavior?",
+      "correct": "Top-fermenting; often rises and forms noticeable foam.",
+      "incorrect": [
+        "Bottom-fermenting; settles quietly at the start.",
+        "Only ferments in complete darkness.",
+        "Needs to be shaken every hour to keep working.",
+        "Floats to the top to check its social media."
+      ],
+      "explanation": "Ale yeasts are commonly called top-fermenting and often produce a thick krausen."
+    },
+    {
+      "id": "lager-bottom",
+      "term": "Lager yeast behavior",
+      "question": "Which statement best describes lager yeast behavior?",
+      "correct": "Bottom-fermenting; tends to settle toward the bottom.",
+      "incorrect": [
+        "Top-fermenting; forms heavy foam on the surface.",
+        "Requires daily sunlight to remain active.",
+        "Ferments while suspended by tiny parachutes.",
+        "Only works if you hum lullabies to it."
+      ],
+      "explanation": "Lager yeasts are described as bottom-fermenting and generally settle more than ale yeasts."
+    },
+    {
+      "id": "esters-phenols",
+      "term": "Esters and phenols",
+      "question": "What flavors and aromas are esters and phenols commonly associated with in ales?",
+      "correct": "Esters: fruity; Phenols: spicy/complex.",
+      "incorrect": [
+        "Esters: salty; Phenols: sour only.",
+        "Esters: bitter; Phenols: sweet only.",
+        "Esters: smoky; Phenols: chocolaty.",
+        "Esters: grape soda; Phenols: mystery jellybeans."
+      ],
+      "explanation": "Ale fermentations often exhibit ester-driven fruitiness and phenolic spice/complexity."
+    },
+    {
+      "id": "lagering-origin",
+      "term": "Lagering",
+      "question": "What does the term 'lager' relate to in its German origin?",
+      "correct": "Storage at cool temperatures (from the verb 'lagern').",
+      "incorrect": [
+        "Boiling at high temperatures to concentrate flavor.",
+        "Adding hops late for aroma.",
+        "Filtering through wood chips.",
+        "Keeping beer in a secret underground dragon cave."
+      ],
+      "explanation": "The term lager comes from 'lagern', to store\u2014reflecting cool storage practiced historically."
+    },
+    {
+      "id": "wild-yeast",
+      "term": "Wild/uncultivated yeast",
+      "question": "Why are some early beers grouped as 'Other' in yeast type?",
+      "correct": "They relied on wild yeast cultures rather than cultivated ale or lager strains.",
+      "incorrect": [
+        "They used no yeast at all.",
+        "They were brewed exclusively with fruit juice.",
+        "They were fermented by hops instead of yeast.",
+        "They were just vibes in a barrel."
+      ],
+      "explanation": "Before domestication, brewers relied on ambient wild yeasts to ferment wort."
+    },
+    {
+      "id": "brewing-steps",
+      "type": "multi",
+      "term": "Brewing process steps",
+      "question": "Select all steps that are part of the general brewing process.",
+      "correct": [
+        "Mash malted grain with hot water to make wort",
+        "Boil the wort and add bittering/stabilizing agents",
+        "Cool the wort to yeast-safe temperatures",
+        "Pitch (add) yeast",
+        "Ferment the wort into beer"
+      ],
+      "incorrect": [
+        "Soak grain in cold water to extract sugar",
+        "Ferment before adding yeast",
+        "Add hops after fermentation to sterilize the beer",
+        "Expose wort to direct sunlight for clarity",
+        "Raise pH with baking soda to speed fermentation",
+        "Add bacteria to stabilize the wort",
+        "Skip cooling to keep yeast 'excited'",
+        "Dry roast the hops before mashing",
+        "Filter the wort through coffee grounds for color",
+        "Perform a ceremonial dance to appease the yeast"
+      ],
+      "explanation": "From the page: mash to create wort; boil with bittering/stabilizing agents; cool; pitch yeast; and ferment. Some texts treat malting as pre-brewing grain preparation."
+    }
+  ]
+}

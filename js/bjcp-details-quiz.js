@@ -251,7 +251,72 @@ import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.
           }
         });
 
-        // ---- Dynamic grid spanning based on content height ----
+        
+        // ---- Global "Check My Answers" and "Reset" buttons ----
+        const globalCheckBtn = document.getElementById('check-button');
+        if (globalCheckBtn) {
+          globalCheckBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            // Validate narrative (multi-select) cards
+            narrativeKeys.forEach((key) => {
+              const fbId = `fb-${key.replace(/\W+/g,'_')}`;
+              const feedback = document.getElementById(fbId);
+              const card = feedback ? feedback.closest('.quiz-card') : null;
+              if (!feedback || !card) return;
+              const correctSet = new Set((details[key] || []).filter(Boolean));
+              const checked = Array.from(card.querySelectorAll(`input[name="${CSS.escape(key)}"]:checked`)).map(i => i.value);
+              const chosenSet = new Set(checked);
+              const correctSelectedCount = checked.filter(v => correctSet.has(v)).length;
+              const denom = correctSet.size || 1;
+              const ringEl = card.querySelector('wa-progress-ring.card-progress');
+              if (ringEl) { 
+                const pct = Math.round((correctSelectedCount / denom) * 100);
+                ringEl.value = pct; 
+                ringEl.textContent = `${correctSelectedCount}/${denom}`; 
+              }
+              let isCorrect = (chosenSet.size === correctSet.size);
+              if (isCorrect) {
+                for (const v of correctSet) { if (!chosenSet.has(v)) { isCorrect = false; break; } }
+              }
+              feedback.textContent = isCorrect ? 'Correct!' : 'Try again!';
+              card.classList.toggle('card-correct', isCorrect);
+              card.classList.toggle('card-incorrect', !isCorrect);
+            });
+            // Validate stat (single-select) cards
+            Object.keys(statMap).forEach((statKey) => {
+              const fbId = `fb-${statKey}`;
+              const feedback = document.getElementById(fbId);
+              const card = feedback ? feedback.closest('.quiz-card') : null;
+              if (!feedback || !card) return;
+              const correct = stats[statKey];
+              const sel = card.querySelector(`input[name="${CSS.escape(statKey)}"]:checked`);
+              const isCorrect = !!sel && sel.value === correct;
+              feedback.textContent = isCorrect ? 'Correct!' : 'Try again!';
+              card.classList.toggle('card-correct', isCorrect);
+              card.classList.toggle('card-incorrect', !isCorrect);
+            });
+            if (window.updateCardSpans) setTimeout(window.updateCardSpans, 50);
+          });
+        }
+
+        const globalResetBtn = document.getElementById('redo-button');
+        if (globalResetBtn) {
+          globalResetBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            // Clear all selections
+            document.querySelectorAll('.quiz-card input[type="checkbox"], .quiz-card input[type="radio"]').forEach(el => { el.checked = false; });
+            // Clear feedback and classes; reset progress rings
+            document.querySelectorAll('.quiz-card').forEach(card => {
+              card.classList.remove('card-correct','card-incorrect');
+              const fb = card.querySelector('.feedback');
+              if (fb) fb.textContent = '';
+              const ringEl = card.querySelector('wa-progress-ring.card-progress');
+              if (ringEl) { ringEl.value = 0; ringEl.textContent = '0%'; }
+            });
+            if (window.updateCardSpans) setTimeout(window.updateCardSpans, 50);
+          });
+        }
+// ---- Dynamic grid spanning based on content height ----
         const MAX_SPAN = 4;
         const MAX_HEIGHT = 150;
 

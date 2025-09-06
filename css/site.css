@@ -27,4 +27,45 @@
   wa-callout {
     width: 50%;
     margin-left: 0;
+    margin-bottom: 15px;
+  }
+
+  .wide-callout {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .gen-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--wa-space-400, 1rem);
+    grid-auto-flow: dense;
+  }
+
+  .gen-card {
+      height: 100%;
+      --wa-card-background: white;
+  }
+
+  .gen-card .option {
+      display: block;
+      margin-block: 0.25rem;
+  }
+
+  .gen-card .feedback {
+      font-weight: 600;
+  }
+
+  .gen-card::part(body) {
+      height: 100%;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+  }
+
+  .gen-card::part(media),
+  .gen-card::part(body),
+  .gen-card::part(header),
+  .gen-card::part(footer) {
+      background-color: white;
+      transition: background-color .2s ease, border-color .2s ease;
   }
