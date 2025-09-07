@@ -3096,5 +3096,1859 @@
         "traditional-style"
       ]
     }
+  },
+  "Irish Beer": {
+    "Irish Red Ale": {
+      "Overall Impression": [
+        "An easy-drinking pint with subtle flavors. Slightly malty in balance, sometimes with an initial soft toffee or caramel sweetness, a touch of roasted dryness in the finish, and a restrained bitterness."
+      ],
+      "Appearance": [
+        "Amber to deep reddish-copper color.",
+        "Clear.",
+        "Low off-white to tan head with average retention."
+      ],
+      "Aroma": [
+        "Low to moderate malt aroma, with caramel, toffee, butter-toffee, toasted grain, or lightly grainy notes.",
+        "Light buttery aroma optional.",
+        "Low earthy or floral hop aroma optional.",
+        "Clean fermentation profile."
+      ],
+      "Flavor": [
+        "Gentle caramel or toffee malt sweetness upfront.",
+        "Lightly toasted grain or biscuit character.",
+        "Light roasted grain dryness or bitterness in finish optional.",
+        "Low earthy or floral hop flavor optional.",
+        "Medium-low bitterness, balanced or slightly malty."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Moderate carbonation.",
+        "Smooth, easy-drinking."
+      ],
+      "Comments": [
+        "Often brewed as a draught ale in Ireland, typically lower in strength than export versions.",
+        "American craft versions may be stronger."
+      ],
+      "History": [
+        "Traditional Irish ale style, developed in the 19th century as a malt-accented ale distinct from pale ales and stouts.",
+        "Revived in popularity in the late 20th century."
+      ],
+      "Characteristic Ingredients": [
+        "Pale ale malt base with crystal/caramel malts.",
+        "Small amounts of roasted barley for dryness and reddish color.",
+        "English or Irish hops."
+      ],
+      "Style Comparison": [
+        "Similar to a lightly malty bitter, with restrained hop bitterness and a characteristic roasted finish."
+      ],
+      "Vital Statistics": {
+        "IBU": "18 - 28",
+        "SRM": "9 - 14",
+        "OG": "1.036 - 1.046",
+        "FG": "1.010 - 1.014",
+        "ABV": "3.8% - 5.0%"
+      },
+      "Commercial Examples": [
+        "Beamish Red Ale",
+        "Kilkenny Irish Beer",
+        "Murphy’s Irish Red",
+        "O’Hara’s Irish Red Ale",
+        "Smithwick’s Irish Ale"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "british-isles",
+        "malty",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Irish Stout": {
+      "Overall Impression": [
+        "A black beer with a pronounced roasted flavor, often similar to coffee. The balance can range from fairly even to quite bitter, with the level of bitterness increased by the roasted character."
+      ],
+      "Appearance": [
+        "Jet black to very deep brown with garnet highlights.",
+        "Dense, creamy, long-lasting tan head."
+      ],
+      "Aroma": [
+        "Moderate roasted grain or malt aroma, often with coffee, chocolate, or lightly burnt notes.",
+        "Light caramel or grainy malt optional.",
+        "Moderate to low earthy or floral hop aroma optional.",
+        "Low fruity esters possible."
+      ],
+      "Flavor": [
+        "Moderate to high roasted grain or malt flavor, often tasting of coffee, bittersweet chocolate, or lightly burnt grain.",
+        "Moderate bitterness with a dry finish.",
+        "Light caramel or malty sweetness optional.",
+        "Low earthy or floral hop flavor optional.",
+        "Low fruity esters possible."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "Low to moderate carbonation.",
+        "Smooth, creamy, drinkable despite the roasty intensity."
+      ],
+      "Comments": [
+        "The national beer style of Ireland, known simply as 'Stout' in its home country.",
+        "Most commonly served on nitro draught in pubs, producing the classic creamy texture and appearance."
+      ],
+      "History": [
+        "Developed from English porters in the 18th century, gaining a following in Ireland.",
+        "By the 20th century, the style had become firmly associated with Irish breweries."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt with roasted barley as a key ingredient.",
+        "Flaked barley common for body and head retention.",
+        "English or Irish hops."
+      ],
+      "Style Comparison": [
+        "Drier and more roasted than English Porter.",
+        "Lower in strength and lighter-bodied than Foreign Extra Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "25 - 45",
+        "SRM": "25 - 40",
+        "OG": "1.036 - 1.044",
+        "FG": "1.007 - 1.011",
+        "ABV": "4.0% - 4.5%"
+      },
+      "Commercial Examples": [
+        "Beamish Irish Stout",
+        "Guinness Draught",
+        "Murphy’s Stout",
+        "O’Hara’s Irish Stout"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "roasty",
+        "session-strength",
+        "stout-family",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Irish Extra Stout": {
+      "Overall Impression": [
+        "A fuller-bodied, stronger, more roasty version of Irish Stout with a more evident alcohol warmth and flavor intensity."
+      ],
+      "Appearance": [
+        "Jet black to very deep brown.",
+        "Opaque.",
+        "Thick, persistent tan head."
+      ],
+      "Aroma": [
+        "Pronounced roasted grain or malt aroma, with coffee, dark chocolate, or slightly burnt character.",
+        "Light caramel, toffee, or dark fruit notes optional.",
+        "Light earthy or floral hop aroma optional.",
+        "Moderate alcohol presence possible."
+      ],
+      "Flavor": [
+        "Strong roasted grain and malt flavors dominate, with coffee, dark chocolate, and burnt toast.",
+        "Medium to high bitterness, balanced by malty depth.",
+        "Moderate alcohol warmth.",
+        "Dry to medium-dry finish."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Moderate carbonation.",
+        "Creamy, smooth, with noticeable alcohol warmth."
+      ],
+      "Comments": [
+        "Traditionally brewed for export markets, often stronger and more robust than standard Irish Stout."
+      ],
+      "History": [
+        "Developed in the 19th century as a stronger variant of Irish Stout for export to colonial markets.",
+        "Remains a specialty product compared to standard-strength versions."
+      ],
+      "Characteristic Ingredients": [
+        "Similar to Irish Stout but with higher gravity.",
+        "Pale malt, roasted barley, flaked barley.",
+        "English or Irish hops."
+      ],
+      "Style Comparison": [
+        "Stronger, more roasty, and fuller-bodied than Irish Stout.",
+        "Similar to but lower in strength than Foreign Extra Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "35 - 50",
+        "SRM": "25 - 40",
+        "OG": "1.052 - 1.062",
+        "FG": "1.010 - 1.014",
+        "ABV": "5.0% - 6.5%"
+      },
+      "Commercial Examples": [
+        "Guinness Extra Stout",
+        "O’Hara’s Leann Folláin",
+        "Porterhouse Oyster Stout"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "roasty",
+        "standard-strength",
+        "stout-family",
+        "top-fermented",
+        "traditional-style"
+      ]
+    }
+  },
+  "Dark British Beer": {
+    "Sweet Stout": {
+      "Overall Impression": [
+        "A very dark, sweet, full-bodied, slightly roasty ale that can suggest coffee-and-cream, or sweetened espresso."
+      ],
+      "Appearance": [
+        "Very dark brown to black color.",
+        "Creamy, tan to brown head with good retention.",
+        "Usually opaque."
+      ],
+      "Aroma": [
+        "Mild roasted grain aromas, sometimes with coffee or chocolate notes.",
+        "Moderate sweetness from lactose often present.",
+        "Low to moderate fruity esters.",
+        "Hop aroma low to none."
+      ],
+      "Flavor": [
+        "Moderate roasted grain and coffee flavors with a significant degree of sweetness.",
+        "Bitterness low to moderate, balancing but not dominating sweetness.",
+        "Hop flavor low to none.",
+        "Dark fruit esters optional.",
+        "Finish sweet and creamy, not cloying."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Creamy, smooth, with a luscious mouthfeel.",
+        "Moderate carbonation."
+      ],
+      "Comments": [
+        "Also known as Milk Stout or Cream Stout, named for use of lactose.",
+        "Historically marketed as nutritious for invalids and nursing mothers."
+      ],
+      "History": [
+        "Originally a London specialty of the early 20th century.",
+        "Sweetness derived from lactose added post-fermentation."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt base with dark roasted malts.",
+        "Lactose for sweetness and body.",
+        "English hops.",
+        "Ale yeast."
+      ],
+      "Style Comparison": [
+        "Sweeter and less bitter than Irish Stout or Foreign Extra Stout.",
+        "More body and flavor than Irish Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 40",
+        "SRM": "30 - 40",
+        "OG": "1.044 - 1.060",
+        "FG": "1.012 - 1.024",
+        "ABV": "4.0% - 6.0%"
+      },
+      "Commercial Examples": [
+        "Left Hand Milk Stout",
+        "Mackeson’s XXX Stout",
+        "Lancaster Milk Stout"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "roasty",
+        "standard-strength",
+        "stout-family",
+        "sweet",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Oatmeal Stout": {
+      "Overall Impression": [
+        "A dark, roasty, full-bodied stout with a smooth, rich body and complementary oatmeal flavor."
+      ],
+      "Appearance": [
+        "Medium brown to black.",
+        "Thick, creamy tan head.",
+        "Opaque."
+      ],
+      "Aroma": [
+        "Mild roasted grain, coffee, or chocolate aromas.",
+        "Light oatmeal cookie or nutty aroma optional.",
+        "Low fruity esters.",
+        "Hop aroma low to none."
+      ],
+      "Flavor": [
+        "Smooth balance of roasted malt, coffee, and chocolate flavors.",
+        "Medium sweetness, with oatmeal adding nutty, earthy, or grainy flavors.",
+        "Hop flavor low to none.",
+        "Moderate bitterness, balanced by sweetness.",
+        "Clean finish with lingering malt flavors."
+      ],
+      "Mouthfeel": [
+        "Medium-full to full body.",
+        "Smooth, silky, often with a creamy impression.",
+        "Moderate carbonation."
+      ],
+      "Comments": [
+        "Oatmeal adds smoothness, body, and complexity without dominating flavor.",
+        "Sweetness varies; not as sweet as Sweet Stout."
+      ],
+      "History": [
+        "Popular in England in the late 19th century.",
+        "Revived in the 20th century by Samuel Smith’s Brewery."
+      ],
+      "Characteristic Ingredients": [
+        "Oats (5–20% of grist).",
+        "Pale malt base with dark roasted malts.",
+        "English hops.",
+        "Ale yeast."
+      ],
+      "Style Comparison": [
+        "Fuller-bodied than Irish Stout, less sweet than Sweet Stout, and less strong than Foreign Extra Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "25 - 40",
+        "SRM": "22 - 40",
+        "OG": "1.045 - 1.065",
+        "FG": "1.010 - 1.018",
+        "ABV": "4.2% - 5.9%"
+      },
+      "Commercial Examples": [
+        "Samuel Smith Oatmeal Stout",
+        "Anderson Valley Barney Flats Oatmeal Stout",
+        "Young’s Oatmeal Stout"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "roasty",
+        "silky",
+        "standard-strength",
+        "stout-family",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Tropical Stout": {
+      "Overall Impression": [
+        "A very dark, sweet, fruity, moderately strong stout with smooth roasty flavors without burnt harshness."
+      ],
+      "Appearance": [
+        "Very deep brown to black.",
+        "Opaque.",
+        "Persistent tan to brown head."
+      ],
+      "Aroma": [
+        "Moderate to high roasted grain aroma, coffee, or chocolate.",
+        "Moderate to high fruitiness, often with ripe tropical fruit esters.",
+        "Moderate alcohol optional.",
+        "Hop aroma low to none."
+      ],
+      "Flavor": [
+        "Moderate to high roasted grain and malt flavors, often coffee-like or chocolatey.",
+        "Sweetness and fruitiness notable.",
+        "Medium bitterness to balance but not dominate.",
+        "Moderate fruity esters common, sometimes with tropical or ripe fruit notes.",
+        "Alcohol flavors smooth."
+      ],
+      "Mouthfeel": [
+        "Medium-full to full body.",
+        "Moderate to high carbonation.",
+        "Smooth, creamy.",
+        "Warming alcohol optional."
+      ],
+      "Comments": [
+        "Also known as Foreign Export Stout in some regions.",
+        "Originally brewed for export to tropical markets."
+      ],
+      "History": [
+        "Became popular in the Caribbean, Africa, and Asia.",
+        "Derived from export versions of Irish Stout, adapted for warmer climates."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt base with roasted barley and dark crystal malts.",
+        "Adjunct sugars common.",
+        "Ale yeast producing fruity esters."
+      ],
+      "Style Comparison": [
+        "Sweeter, fruitier, and stronger than Irish Stout.",
+        "Lower bitterness than Foreign Extra Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "30 - 50",
+        "SRM": "30 - 40",
+        "OG": "1.056 - 1.075",
+        "FG": "1.010 - 1.018",
+        "ABV": "5.5% - 8.0%"
+      },
+      "Commercial Examples": [
+        "Dragon Stout",
+        "Lion Stout",
+        "Guinness Foreign Extra (tropical versions)"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "fruity",
+        "high-strength",
+        "roasty",
+        "stout-family",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Foreign Extra Stout": {
+      "Overall Impression": [
+        "A very dark, moderately strong, fairly dry, roasty stout with prominent bitterness and dried fruit notes."
+      ],
+      "Appearance": [
+        "Very dark brown to black.",
+        "Opaque.",
+        "Persistent tan head."
+      ],
+      "Aroma": [
+        "Medium to high roasted grain aroma, coffee, or cocoa.",
+        "Moderate hop aroma optional, earthy or floral.",
+        "Light to moderate fruity esters common.",
+        "Alcohol noticeable but not harsh."
+      ],
+      "Flavor": [
+        "Strong roasted grain and malt flavors, coffee, bittersweet chocolate.",
+        "Medium to high bitterness balances malt.",
+        "Low earthy or floral hop flavor optional.",
+        "Moderate dried fruit esters.",
+        "Medium-dry to dry finish."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Moderate to high carbonation.",
+        "Smooth, with light alcohol warmth."
+      ],
+      "Comments": [
+        "Historically brewed for export; stronger, hoppier, and roastier than domestic Irish Stout.",
+        "Known as Extra Stout or Foreign Stout in various markets."
+      ],
+      "History": [
+        "First brewed in Ireland in the 18th century for export markets.",
+        "Retains popularity in the Caribbean, Africa, and Asia."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt base with roasted barley.",
+        "Flaked grains possible.",
+        "English hops.",
+        "Ale yeast."
+      ],
+      "Style Comparison": [
+        "Stronger, more roasty, and hoppier than Irish Stout.",
+        "Less sweet and fruity than Tropical Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "50 - 70",
+        "SRM": "30 - 40",
+        "OG": "1.056 - 1.075",
+        "FG": "1.010 - 1.018",
+        "ABV": "6.3% - 8.0%"
+      },
+      "Commercial Examples": [
+        "Guinness Foreign Extra Stout",
+        "Lion Foreign Extra Stout",
+        "Tuatara Foreign Extra"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "export",
+        "high-strength",
+        "roasty",
+        "stout-family",
+        "top-fermented",
+        "traditional-style"
+      ]
+    }
+  },
+  "Strong British Ale": {
+    "British Strong Ale": {
+      "Overall Impression": [
+        "An ale of moderate to fairly high strength, which can include pale, amber, or dark variants.",
+        "Malty and fruity with varying hop character, often balanced toward malt."
+      ],
+      "Appearance": [
+        "Pale to dark amber or even dark brown.",
+        "Good clarity.",
+        "Low to moderate off-white to tan head."
+      ],
+      "Aroma": [
+        "Medium to strong malt aroma, often with caramel, toffee, biscuity, or nutty notes.",
+        "Moderate fruity esters common.",
+        "Hop aroma low to moderate, earthy or floral."
+      ],
+      "Flavor": [
+        "Medium to high malt flavors, caramel, toffee, biscuity, nutty, or light chocolate.",
+        "Moderate fruity esters common.",
+        "Hop bitterness medium, providing balance.",
+        "Hop flavor low to moderate, earthy or floral.",
+        "Finish ranges from malty to balanced."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Moderate carbonation.",
+        "Smooth, sometimes lightly warming alcohol."
+      ],
+      "Comments": [
+        "A catch-all category for stronger British ales that don’t fit other styles, often labeled by brewers as 'strong ale'."
+      ],
+      "History": [
+        "Developed as stronger versions of British Pale Ales or Milds.",
+        "Some historic examples overlap with Old Ale or Burton Ales."
+      ],
+      "Characteristic Ingredients": [
+        "Pale ale malt base with caramel malts.",
+        "English hops.",
+        "English ale yeast."
+      ],
+      "Style Comparison": [
+        "Stronger than Best Bitter, not as rich or strong as Barleywine.",
+        "Similar to Old Ale, but without aged or oxidized character."
+      ],
+      "Vital Statistics": {
+        "IBU": "30 - 60",
+        "SRM": "8 - 22",
+        "OG": "1.055 - 1.080",
+        "FG": "1.015 - 1.022",
+        "ABV": "5.5% - 8.0%"
+      },
+      "Commercial Examples": [
+        "Fuller’s 1845",
+        "J.W. Lees Manchester Star Ale",
+        "Young’s Winter Warmer"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "british-isles",
+        "malty",
+        "high-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Old Ale": {
+      "Overall Impression": [
+        "An ale of moderate to fairly high strength, malty and fruity, often with some aged, oxidized, or vinous character."
+      ],
+      "Appearance": [
+        "Light amber to very dark reddish-brown.",
+        "Clear, although darker versions may be opaque.",
+        "Low to moderate off-white to tan head."
+      ],
+      "Aroma": [
+        "Medium to high malt aroma, often with caramel, toffee, molasses, or nutty notes.",
+        "Moderate fruity esters common.",
+        "Light vinous or sherry-like character possible.",
+        "Low hop aroma optional."
+      ],
+      "Flavor": [
+        "Medium to high malt flavor, caramel, toffee, molasses, nutty, sometimes licorice.",
+        "Fruity esters common, dark fruits like plums or raisins possible.",
+        "Light vinous, sherry-like, or oxidized flavors acceptable.",
+        "Low hop flavor optional.",
+        "Bitterness medium-low to medium, balance toward malt."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Moderate carbonation.",
+        "Warming alcohol optional."
+      ],
+      "Comments": [
+        "Traditionally aged before consumption, often with some oxidative character.",
+        "Some stronger versions may overlap with Barleywine."
+      ],
+      "History": [
+        "Originated as stock ales brewed for long aging, often blended.",
+        "Now brewed as a specialty strong ale with some aged character."
+      ],
+      "Characteristic Ingredients": [
+        "Pale ale malt base with caramel and darker specialty malts.",
+        "English hops.",
+        "Ale yeast with characterful esters."
+      ],
+      "Style Comparison": [
+        "Stronger and darker than British Strong Ale, but less intense than Barleywine.",
+        "Often shows more aged character than British Strong Ale."
+      ],
+      "Vital Statistics": {
+        "IBU": "30 - 60",
+        "SRM": "10 - 22",
+        "OG": "1.055 - 1.090",
+        "FG": "1.015 - 1.022",
+        "ABV": "5.5% - 9.0%"
+      },
+      "Commercial Examples": [
+        "Adnams Old Ale",
+        "Theakston Old Peculier",
+        "Greene King Strong Suffolk Ale"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "aged",
+        "british-isles",
+        "dark-color",
+        "malty",
+        "high-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Wee Heavy": {
+      "Overall Impression": [
+        "A rich, malty, dextrinous, full-bodied ale with strong caramel flavors.",
+        "Balance always toward malt, with restrained hop character."
+      ],
+      "Appearance": [
+        "Light copper to dark brown.",
+        "Clear, but can be opaque in darker versions.",
+        "Low off-white head, poor retention common due to high alcohol."
+      ],
+      "Aroma": [
+        "Strong malt aroma, often with caramel, toffee, molasses.",
+        "Light roast optional.",
+        "Moderate fruity esters, often dark fruit.",
+        "Hop aroma low to none."
+      ],
+      "Flavor": [
+        "Intensely malty, with caramel, toffee, molasses, or nutty flavors.",
+        "Light roast dryness optional in finish.",
+        "Moderate fruity esters, often plums or raisins.",
+        "Hop bitterness low to moderate, but balance always malty.",
+        "Low hop flavor optional."
+      ],
+      "Mouthfeel": [
+        "Full-bodied, rich, chewy.",
+        "Low to moderate carbonation.",
+        "Warming alcohol often noticeable."
+      ],
+      "Comments": [
+        "Also known as 'Scotch Ale'. Strongest of the Scottish Ale family."
+      ],
+      "History": [
+        "Traditionally brewed in Scotland for export.",
+        "Historically associated with Edinburgh breweries."
+      ],
+      "Characteristic Ingredients": [
+        "Pale ale malt base with caramel or darker specialty malts.",
+        "No peat smoke character.",
+        "English hops."
+      ],
+      "Style Comparison": [
+        "Stronger and maltier than Scottish Export.",
+        "Similar to English Barleywine but maltier, darker, and less hoppy."
+      ],
+      "Vital Statistics": {
+        "IBU": "17 - 35",
+        "SRM": "14 - 25",
+        "OG": "1.070 - 1.130",
+        "FG": "1.018 - 1.030",
+        "ABV": "6.5% - 10.0%"
+      },
+      "Commercial Examples": [
+        "Belhaven Wee Heavy",
+        "Caledonian Edinburgh Scotch Ale",
+        "McEwan’s Scotch Ale",
+        "Traquair House Ale"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "malty",
+        "high-strength",
+        "scotch-ale-family",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "English Barleywine": {
+      "Overall Impression": [
+        "A strong, rich, malty, complex ale with layers of malt and fruity esters, often balanced by alcohol warmth.",
+        "Hop character can vary but is generally supportive rather than dominant."
+      ],
+      "Appearance": [
+        "Amber to deep copper or brown.",
+        "Clear, though darker versions can be opaque.",
+        "Low to moderate off-white to tan head with poor retention."
+      ],
+      "Aroma": [
+        "Strong, rich malt aroma, often with caramel, toffee, molasses, or biscuit notes.",
+        "Moderate fruity esters, often dark fruits like plums, raisins, or figs.",
+        "Alcohol aroma present but smooth.",
+        "Hop aroma low to moderate, earthy or floral."
+      ],
+      "Flavor": [
+        "Strong malt flavors dominate, with caramel, toffee, molasses, or dark fruit complexity.",
+        "Moderate fruity esters common.",
+        "Hop bitterness medium to moderately high but balance is always malt-forward.",
+        "Hop flavor low to moderate, earthy or floral.",
+        "Warming alcohol present."
+      ],
+      "Mouthfeel": [
+        "Full-bodied, rich, chewy.",
+        "Low to moderate carbonation.",
+        "Noticeable warming alcohol, smooth and round."
+      ],
+      "Comments": [
+        "Traditionally aged before release, often gaining complexity from oxidation.",
+        "English versions less bitter and less hoppy than American Barleywine."
+      ],
+      "History": [
+        "Developed in England as a strong stock ale for aging and export.",
+        "Popularized in the 19th century and still brewed by traditional British breweries."
+      ],
+      "Characteristic Ingredients": [
+        "Pale ale malt base with caramel or darker specialty malts.",
+        "English hops.",
+        "Ale yeast with characterful esters."
+      ],
+      "Style Comparison": [
+        "Less bitter and less hop-forward than American Barleywine.",
+        "Often more malt complexity and dark fruit character."
+      ],
+      "Vital Statistics": {
+        "IBU": "35 - 70",
+        "SRM": "8 - 22",
+        "OG": "1.080 - 1.120",
+        "FG": "1.018 - 1.030",
+        "ABV": "8.0% - 12.0%"
+      },
+      "Commercial Examples": [
+        "Fuller’s Golden Pride",
+        "J.W. Lees Harvest Ale",
+        "Robinson’s Old Tom",
+        "Young’s Old Nick"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "dark-color",
+        "high-strength",
+        "malty",
+        "top-fermented",
+        "traditional-style",
+        "barleywine-family"
+      ]
+    }
+  },
+  "Pale American Ale": {
+    "Blonde Ale": {
+      "Overall Impression": [
+        "Easy-drinking, approachable, malt-oriented American craft beer.",
+        "Well-balanced and clean, a gateway into craft beer for many consumers."
+      ],
+      "Appearance": [
+        "Light yellow to deep gold.",
+        "Clear to brilliant.",
+        "Low to medium white head with average retention."
+      ],
+      "Aroma": [
+        "Light to moderate malt aroma, often sweet, bready, or toasty.",
+        "Hop aroma low to moderate, often floral, spicy, fruity, or citrusy.",
+        "Low fruity esters optional.",
+        "Clean fermentation character."
+      ],
+      "Flavor": [
+        "Initial soft malt sweetness, often bready, toasty, biscuity, or honey-like.",
+        "Hop flavor moderate to low, floral, spicy, fruity, or citrusy.",
+        "Bitterness moderate, with balance toward malt.",
+        "Medium-dry to dry finish.",
+        "Low fruity esters optional.",
+        "Clean fermentation."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "Moderate carbonation.",
+        "Smooth, easy-drinking."
+      ],
+      "Comments": [
+        "Also called Golden Ale in some regions.",
+        "Often designed as a less aggressive alternative to Pale Ale."
+      ],
+      "History": [
+        "Developed in the U.S. in the 1980s as one of the first craft beer styles.",
+        "Created to appeal to mass-market lager drinkers seeking entry into craft beer."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt base with lighter caramel malts.",
+        "American hops (floral, spicy, fruity, citrus).",
+        "Clean American ale yeast."
+      ],
+      "Style Comparison": [
+        "Less hoppy and bitter than American Pale Ale.",
+        "More malt-focused and fuller-bodied than Cream Ale."
+      ],
+      "Vital Statistics": {
+        "IBU": "15 - 28",
+        "SRM": "3 - 6",
+        "OG": "1.038 - 1.054",
+        "FG": "1.008 - 1.013",
+        "ABV": "3.8% - 5.5%"
+      },
+      "Commercial Examples": [
+        "Kona Big Wave Golden Ale",
+        "Widmer Blonde Ale",
+        "Redhook Blonde",
+        "Russian River Aud Blonde"
+      ],
+      "Style Attributes": [
+        "balanced",
+        "craft-style",
+        "north-america",
+        "pale-ale-family",
+        "pale-color",
+        "session-strength",
+        "standard-strength",
+        "top-fermented"
+      ]
+    },
+    "American Pale Ale": {
+      "Overall Impression": [
+        "Refreshing and hoppy American craft ale, with supporting malt backbone.",
+        "Hop character typically citrusy, fruity, or piney."
+      ],
+      "Appearance": [
+        "Pale golden to light amber.",
+        "Good clarity.",
+        "Moderate white to off-white head with fair to good retention."
+      ],
+      "Aroma": [
+        "Moderate to strong hop aroma, typically citrusy, piney, resinous, or fruity.",
+        "Low to moderate malt aroma, often bready, toasty, or biscuity.",
+        "Low fruity esters optional.",
+        "Clean fermentation profile."
+      ],
+      "Flavor": [
+        "Moderate to high hop flavor, often citrusy, piney, resinous, or fruity.",
+        "Moderate hop bitterness balances malt.",
+        "Malt flavor low to moderate, often toasty, biscuity, or caramel-like.",
+        "Balance generally toward hops.",
+        "Dry to medium-dry finish.",
+        "Clean fermentation, with low fruity esters optional."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Moderate to high carbonation.",
+        "Smooth, crisp, refreshing."
+      ],
+      "Comments": [
+        "Showcases modern American hops, while still being balanced and drinkable.",
+        "A defining style of the American craft beer movement."
+      ],
+      "History": [
+        "Originated in the U.S. in the late 1970s and 1980s.",
+        "Anchor Liberty Ale and Sierra Nevada Pale Ale popularized the style."
+      ],
+      "Characteristic Ingredients": [
+        "American two-row malt base.",
+        "Caramel malts for color and flavor.",
+        "American hops (Citrus, pine, tropical).",
+        "Clean American ale yeast."
+      ],
+      "Style Comparison": [
+        "Stronger and hoppier than Blonde Ale.",
+        "Less alcohol and hops than American IPA."
+      ],
+      "Vital Statistics": {
+        "IBU": "30 - 50",
+        "SRM": "5 - 10",
+        "OG": "1.045 - 1.060",
+        "FG": "1.010 - 1.015",
+        "ABV": "4.5% - 6.2%"
+      },
+      "Commercial Examples": [
+        "Sierra Nevada Pale Ale",
+        "Stone Pale Ale",
+        "Oskar Blues Dale’s Pale Ale",
+        "Deschutes Mirror Pond"
+      ],
+      "Style Attributes": [
+        "bitter",
+        "craft-style",
+        "hoppy",
+        "north-america",
+        "pale-ale-family",
+        "pale-color",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    }
+  },
+  "Amber and Brown American Beer": {
+    "American Amber Ale": {
+      "Overall Impression": [
+        "An amber, hoppy, moderate-strength American craft beer with a caramel-rich malt profile.",
+        "Balance ranges from evenly balanced to decisively bitter."
+      ],
+      "Appearance": [
+        "Amber to deep amber or copper.",
+        "Generally clear.",
+        "Creamy off-white head with good retention."
+      ],
+      "Aroma": [
+        "Moderate malt with caramel, toffee, toast, or dark bread notes.",
+        "Low to moderate hop aroma with citrusy, floral, piney, or fruity character.",
+        "Low esters optional; clean fermentation profile."
+      ],
+      "Flavor": [
+        "Moderate to high malt flavor with caramel and toast supporting a moderate hop flavor.",
+        "Bitterness moderate to moderately high; balance typically toward hops but with evident malt.",
+        "Clean fermentation; medium-dry to medium finish."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Moderate to moderate-high carbonation.",
+        "Smooth; no harshness."
+      ],
+      "Comments": [
+        "Sometimes labeled Red Ale in the U.S.",
+        "Showcases American hops with a richer malt backbone than an APA."
+      ],
+      "History": [
+        "Developed by U.S. craft breweries in the 1980s–1990s as a more malt-forward, amber cousin of the American Pale Ale."
+      ],
+      "Characteristic Ingredients": [
+        "American two-row with medium to dark crystal malts.",
+        "American hops with citrus, pine, or modern fruit character.",
+        "Clean American ale yeast."
+      ],
+      "Style Comparison": [
+        "More caramel and body than an American Pale Ale, less bitterness and alcohol than American IPA."
+      ],
+      "Vital Statistics": {
+        "IBU": "25 - 40",
+        "SRM": "10 - 17",
+        "OG": "1.045 - 1.060",
+        "FG": "1.010 - 1.015",
+        "ABV": "4.5% - 6.2%"
+      },
+      "Commercial Examples": [
+        "Fat Tire Amber Ale",
+        "Tröegs HopBack Amber",
+        "Bell’s Amber Ale",
+        "Anderson Valley Boont Amber"
+      ],
+      "Style Attributes": [
+        "balanced",
+        "craft-style",
+        "hoppy",
+        "north-america",
+        "amber-color",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "California Common": {
+      "Overall Impression": [
+        "A firmly bittered, moderately malty beer fermented with lager yeast at warm temperatures.",
+        "Clean, with supportive toasty–caramel malt."
+      ],
+      "Appearance": [
+        "Light amber to light copper.",
+        "Clear to brilliant.",
+        "Creamy, persistent off-white head."
+      ],
+      "Aroma": [
+        "Moderate to moderately-high toasty, caramelly malt.",
+        "Moderate hop aroma with woody, herbal, or minty qualities (traditional Northern Brewer).",
+        "Clean fermentation; low fruitiness optional."
+      ],
+      "Flavor": [
+        "Moderately malty with toasty and caramel notes.",
+        "Moderate to high bitterness; hop flavor moderate with woody, rustic character.",
+        "Dry to medium-dry finish; clean yeast profile."
+      ],
+      "Mouthfeel": [
+        "Medium body.",
+        "Moderate to high carbonation.",
+        "Smooth; light crispness in the finish."
+      ],
+      "Comments": [
+        "Often associated with Northern Brewer hops.",
+        "A historic American style sometimes called 'steam beer.'"
+      ],
+      "History": [
+        "Originated in 19th-century California; warm-fermented with lager yeast and cooled in shallow vessels.",
+        "Revived and popularized in the modern era by Anchor Brewing."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt with medium crystal; small amounts of specialty malts for color.",
+        "Northern Brewer hops traditionally.",
+        "Lager yeast fermented at ale temperatures."
+      ],
+      "Style Comparison": [
+        "Similar strength to American Amber Ale but cleaner and more toasty than caramelly; hop character woody rather than citrusy.",
+        "Drier and more bitter than Vienna Lager."
+      ],
+      "Vital Statistics": {
+        "IBU": "30 - 45",
+        "SRM": "10 - 14",
+        "OG": "1.048 - 1.054",
+        "FG": "1.011 - 1.014",
+        "ABV": "4.5% - 5.5%"
+      },
+      "Commercial Examples": [
+        "Anchor Steam Beer",
+        "Flying Dog Old Scratch Amber Lager",
+        "Steamworks Steam Engine Lager"
+      ],
+      "Style Attributes": [
+        "bitter",
+        "amber-color",
+        "standard-strength",
+        "hybrid",
+        "bottom-fermented",
+        "north-america",
+        "traditional-style"
+      ]
+    },
+    "American Brown Ale": {
+      "Overall Impression": [
+        "A malty, brown American ale with caramel, toffee, chocolate, and nutty flavors.",
+        "Moderately bitter with noticeable American hop character."
+      ],
+      "Appearance": [
+        "Dark amber to very dark brown.",
+        "Clear.",
+        "Low to moderate off-white to light tan head."
+      ],
+      "Aroma": [
+        "Moderate malt with caramel, chocolate, toast, and nutty notes.",
+        "Low to moderate hop aroma with citrusy, floral, piney, or earthy qualities.",
+        "Low fruity esters optional; clean fermentation."
+      ],
+      "Flavor": [
+        "Moderate to moderately high malt flavor with caramel, chocolate, toast, and nutty complexity.",
+        "Medium bitterness; hop flavor low to moderate with American character.",
+        "Medium-dry to medium finish; clean fermentation."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Moderate carbonation.",
+        "Smooth; light creaminess possible."
+      ],
+      "Comments": [
+        "More hop character, body, and chocolate notes than British Brown Ale.",
+        "Sometimes called American Brown."
+      ],
+      "History": [
+        "Craft-era reinterpretation of British brown styles with American hops; notable examples emerged in the 1980s–1990s."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt base with crystal and chocolate malts; small amounts of roasted malts possible.",
+        "American hops for bitterness and late flavor.",
+        "Clean American ale yeast."
+      ],
+      "Style Comparison": [
+        "Stronger and more hop-forward than British Brown Ale.",
+        "Less roasty than a Porter."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 30",
+        "SRM": "18 - 35",
+        "OG": "1.045 - 1.060",
+        "FG": "1.010 - 1.016",
+        "ABV": "4.3% - 6.2%"
+      },
+      "Commercial Examples": [
+        "Big Sky Moose Drool",
+        "Brooklyn Brown Ale",
+        "Avery Ellie’s Brown Ale",
+        "Bell’s Best Brown"
+      ],
+      "Style Attributes": [
+        "balanced",
+        "craft-style",
+        "north-america",
+        "brown-color",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    }
+  },
+  "American Porter and Stout": {
+    "American Porter": {
+      "Overall Impression": [
+        "A substantial, malty dark beer with a complex and flavorful dark malt character."
+      ],
+      "Appearance": [
+        "Medium brown to very dark brown, often with ruby highlights.",
+        "Moderate off-white to tan head with good retention.",
+        "Generally clear, although darker versions may be opaque."
+      ],
+      "Aroma": [
+        "Medium-light to medium-strong dark malt aroma, with chocolate, cocoa, caramel, nutty, or toasty notes.",
+        "Roast character moderate but not burnt.",
+        "Hop aroma low to moderate, often resiny, earthy, or floral.",
+        "Clean fermentation; light esters possible."
+      ],
+      "Flavor": [
+        "Moderate to strong malt flavor with chocolate, caramel, nutty, or toasty qualities.",
+        "Moderate roast character without burnt harshness.",
+        "Moderate bitterness balances malt.",
+        "Hop flavor medium-low to medium, resiny, earthy, or floral.",
+        "Clean finish with malt and hops lingering."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium-full body.",
+        "Moderate carbonation.",
+        "Smooth, with light creaminess possible."
+      ],
+      "Comments": [
+        "Balances roasted malts and American hop character.",
+        "Stronger than English Porter, less strong than Imperial Stout."
+      ],
+      "History": [
+        "Craft-beer era interpretation of English Porter, with more alcohol, body, and American hops."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt base with significant dark and crystal malts.",
+        "American hops.",
+        "Clean American ale yeast."
+      ],
+      "Style Comparison": [
+        "More bitter and roast-focused than English Porter, less alcohol than American Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "25 - 50",
+        "SRM": "22 - 40",
+        "OG": "1.050 - 1.070",
+        "FG": "1.012 - 1.018",
+        "ABV": "4.8% - 6.5%"
+      },
+      "Commercial Examples": [
+        "Great Lakes Edmund Fitzgerald Porter",
+        "Anchor Porter",
+        "Deschutes Black Butte Porter"
+      ],
+      "Style Attributes": [
+        "balanced",
+        "craft-style",
+        "dark-color",
+        "hoppy",
+        "north-america",
+        "porter-family",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "American Stout": {
+      "Overall Impression": [
+        "A fairly strong, highly roasted, bitter, hoppy dark stout."
+      ],
+      "Appearance": [
+        "Dark brown to jet black.",
+        "Thick, persistent tan to brown head.",
+        "Opaque."
+      ],
+      "Aroma": [
+        "Moderate to strong roasted malt aroma, often coffee or dark chocolate.",
+        "Medium to high hop aroma, often citrusy, piney, or resiny.",
+        "Low to moderate esters optional.",
+        "Clean fermentation profile."
+      ],
+      "Flavor": [
+        "Strong roasted malt flavors dominate, with coffee, cocoa, or bittersweet chocolate.",
+        "Medium to high bitterness from hops and roast.",
+        "Moderate hop flavor, often citrusy or piney.",
+        "Medium-dry to dry finish.",
+        "Low fruity esters optional."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Moderate to high carbonation.",
+        "Creamy with some astringency from roasted malts."
+      ],
+      "Comments": [
+        "Greater bitterness and hop character than foreign stouts.",
+        "American interpretation of stout with bold flavors."
+      ],
+      "History": [
+        "American craft brewers in the late 20th century applied their hop-forward approach to traditional stouts."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt base with roasted barley and dark specialty malts.",
+        "American hops.",
+        "Clean ale yeast."
+      ],
+      "Style Comparison": [
+        "Like a stronger, hoppier Irish Stout with bolder flavors.",
+        "Not as strong or intense as Imperial Stout."
+      ],
+      "Vital Statistics": {
+        "IBU": "35 - 75",
+        "SRM": "30 - 40",
+        "OG": "1.050 - 1.075",
+        "FG": "1.010 - 1.022",
+        "ABV": "5.0% - 7.0%"
+      },
+      "Commercial Examples": [
+        "Sierra Nevada Stout",
+        "Deschutes Obsidian Stout",
+        "Rogue Shakespeare Stout"
+      ],
+      "Style Attributes": [
+        "bitter",
+        "craft-style",
+        "dark-color",
+        "hoppy",
+        "north-america",
+        "stout-family",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Imperial Stout": {
+      "Overall Impression": [
+        "An intensely flavored, very strong, dark stout with a wide range of flavor balances and regional interpretations.",
+        "Roasty-burnt malt with deep, complex flavors and a warming, bittersweet finish."
+      ],
+      "Appearance": [
+        "Dark reddish-brown to jet black.",
+        "Opaque.",
+        "Thick, persistent deep tan to brown head."
+      ],
+      "Aroma": [
+        "Rich maltiness with roasted grain, coffee, dark chocolate, or burnt notes.",
+        "Complex aroma of dark fruits, caramel, toffee, and molasses.",
+        "Moderate to strong alcohol aroma, smooth not harsh.",
+        "Hop aroma low to strong, often earthy, floral, resiny, or citrusy."
+      ],
+      "Flavor": [
+        "Strong roasted malt dominates with coffee, cocoa, or bittersweet chocolate.",
+        "Complex malt layers of caramel, toffee, molasses, licorice, and dark fruit esters.",
+        "Medium to high hop bitterness balances rich malt.",
+        "Hop flavor low to moderately high, earthy, resiny, or citrusy.",
+        "Alcohol warmth evident, finish bittersweet and warming."
+      ],
+      "Mouthfeel": [
+        "Full-bodied, chewy, viscous.",
+        "Moderate to low carbonation.",
+        "Noticeable alcohol warmth, smooth not hot.",
+        "May have slight astringency from roasted grains."
+      ],
+      "Comments": [
+        "Originally brewed stronger for export to the Baltic region.",
+        "Modern craft interpretations vary in balance and intensity."
+      ],
+      "History": [
+        "Brewed in England in the 18th century for export to Russia and the Baltics.",
+        "Revived and reinterpreted by craft brewers worldwide."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt with large amounts of roasted barley and dark specialty malts.",
+        "American or English hops.",
+        "Ale yeast with ester character possible."
+      ],
+      "Style Comparison": [
+        "Stronger, roastier, and more complex than American Stout.",
+        "Similar strength to Barleywine but with roasted character."
+      ],
+      "Vital Statistics": {
+        "IBU": "50 - 90",
+        "SRM": "30 - 40",
+        "OG": "1.075 - 1.115",
+        "FG": "1.018 - 1.030",
+        "ABV": "8.0% - 12.0%"
+      },
+      "Commercial Examples": [
+        "North Coast Old Rasputin",
+        "Bell’s Expedition Stout",
+        "Great Divide Yeti",
+        "Samuel Smith Imperial Stout"
+      ],
+      "Style Attributes": [
+        "bitter",
+        "dark-color",
+        "high-strength",
+        "imperial",
+        "north-america",
+        "stout-family",
+        "top-fermented",
+        "traditional-style"
+      ]
+    }
+  },
+  "IPA": {
+    "American IPA": {
+      "Overall Impression": [
+        "A decidedly hoppy and bitter, moderately strong American pale ale with a dry finish.",
+        "The balance is hop-forward, with modern American or New World hop character."
+      ],
+      "Appearance": [
+        "Medium gold to light reddish-amber.",
+        "Good clarity, though hazy versions exist.",
+        "Moderate white to off-white head with good retention."
+      ],
+      "Aroma": [
+        "Intense hop aroma with citrusy, floral, piney, resinous, spicy, tropical, stone fruit, or berry character.",
+        "Low to moderate malt aroma, often bready, lightly caramel, or toasty.",
+        "Low fruity esters optional."
+      ],
+      "Flavor": [
+        "Hop flavor dominates with citrus, pine, tropical, or modern hop notes.",
+        "Medium to very high bitterness.",
+        "Malt flavor low to medium, clean, with light bread, biscuit, or caramel notes.",
+        "Finish dry to medium-dry with lingering bitterness."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Moderate carbonation.",
+        "Smooth, not heavy."
+      ],
+      "Comments": [
+        "The defining American craft beer style.",
+        "Variants include West Coast (drier, more bitter) and East Coast (maltier, fruitier)."
+      ],
+      "History": [
+        "Developed in the U.S. in the 1970s–1980s, building on English IPA traditions with American hops.",
+        "Exploded in popularity in the craft beer revolution."
+      ],
+      "Characteristic Ingredients": [
+        "American two-row base malt with specialty malts optional.",
+        "American hops, often with citrus or pine character.",
+        "Clean American ale yeast."
+      ],
+      "Style Comparison": [
+        "Stronger and hoppier than American Pale Ale.",
+        "Less alcohol and malt character than Double IPA."
+      ],
+      "Vital Statistics": {
+        "IBU": "40 - 70",
+        "SRM": "6 - 14",
+        "OG": "1.056 - 1.070",
+        "FG": "1.008 - 1.014",
+        "ABV": "5.5% - 7.5%"
+      },
+      "Commercial Examples": [
+        "Stone IPA",
+        "Lagunitas IPA",
+        "Sierra Nevada Torpedo",
+        "Ballast Point Sculpin"
+      ],
+      "Style Attributes": [
+        "bitter",
+        "craft-style",
+        "hoppy",
+        "ipa-family",
+        "north-america",
+        "pale-color",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Specialty IPA": {
+      "Belgian IPA": {
+        "Overall Impression": [
+          "A hoppier, drier, and often stronger interpretation of Belgian Golden Ale or Tripel with American or New World hops."
+        ],
+        "Appearance": [
+          "Pale gold to amber.",
+          "Good clarity.",
+          "Large white head with high carbonation."
+        ],
+        "Aroma": [
+          "Blend of Belgian yeast phenols and esters (spicy, fruity) with American or New World hop aroma (citrusy, tropical, piney).",
+          "Low to moderate malt aroma."
+        ],
+        "Flavor": [
+          "Complex interplay of Belgian yeast (clove, pepper, fruit) and hop character.",
+          "Medium to high bitterness.",
+          "Finish dry, crisp, refreshing."
+        ],
+        "Mouthfeel": [
+          "Medium body.",
+          "High carbonation.",
+          "Light warming alcohol possible."
+        ],
+        "Comments": [
+          "Often brewed by American craft breweries and Belgian brewers influenced by U.S. hopping techniques."
+        ],
+        "Commercial Examples": [
+          "Stone Cali-Belgique IPA",
+          "Houblon Chouffe",
+          "Brewery Ommegang BPA"
+        ]
+      },
+      "Black IPA": {
+        "Overall Impression": [
+          "A hoppy, bitter, moderately strong dark ale with roasty flavors balanced with American or New World hops."
+        ],
+        "Appearance": [
+          "Dark brown to black with ruby highlights.",
+          "Off-white to tan head."
+        ],
+        "Aroma": [
+          "Prominent hop aroma (citrusy, piney, resinous).",
+          "Low to moderate roast or chocolate notes.",
+          "Clean fermentation."
+        ],
+        "Flavor": [
+          "Hop-forward with citrusy, piney, or tropical hops.",
+          "Roasty, chocolatey malt supports but doesn’t dominate.",
+          "Medium to high bitterness.",
+          "Dry finish with lingering hops."
+        ],
+        "Commercial Examples": [
+          "21st Amendment Back in Black",
+          "Stone Sublimely Self-Righteous Ale"
+        ]
+      },
+      "Brown IPA": {
+        "Overall Impression": [
+          "A stronger, hoppier American Brown Ale with more hop bitterness and flavor."
+        ],
+        "Appearance": [
+          "Dark amber to brown.",
+          "Moderate off-white head."
+        ],
+        "Aroma": [
+          "Hop aroma moderate to high (citrusy, piney, fruity).",
+          "Malt aroma caramel, chocolate, or nutty.",
+          "Clean fermentation."
+        ],
+        "Flavor": [
+          "Hop flavor moderate to high with American/New World hops.",
+          "Malt flavors caramel, toast, chocolate support.",
+          "Medium to high bitterness.",
+          "Dry finish."
+        ],
+        "Commercial Examples": [
+          "Dogfish Head Indian Brown Ale"
+        ]
+      },
+      "Red IPA": {
+        "Overall Impression": [
+          "A stronger, hoppier American Amber Ale with caramel and toasty malt flavors balanced by assertive hops."
+        ],
+        "Appearance": [
+          "Deep amber to reddish copper.",
+          "Off-white head."
+        ],
+        "Aroma": [
+          "Hop aroma moderate to strong (citrus, pine, fruity).",
+          "Moderate caramel or toasty malt."
+        ],
+        "Flavor": [
+          "Hop flavor moderate to strong.",
+          "Caramel and toasty malt backbone.",
+          "Medium-high bitterness.",
+          "Dry finish with lingering hops."
+        ],
+        "Commercial Examples": [
+          "Green Flash Hop Head Red",
+          "Lagunitas Imperial Red"
+        ]
+      },
+      "Rye IPA": {
+        "Overall Impression": [
+          "A modern American IPA with noticeable rye malt character adding spicy, grainy complexity."
+        ],
+        "Appearance": [
+          "Gold to amber.",
+          "Good clarity.",
+          "White head."
+        ],
+        "Aroma": [
+          "Hop aroma moderate to strong, often citrusy, piney, fruity.",
+          "Rye grain adds spicy, earthy notes."
+        ],
+        "Flavor": [
+          "Assertive hops dominate, with rye providing spicy, dry complexity.",
+          "Medium-high bitterness.",
+          "Dry finish with lingering spice and hops."
+        ],
+        "Commercial Examples": [
+          "Bear Republic Hop Rod Rye",
+          "Founders Red’s Rye IPA"
+        ]
+      },
+      "White IPA": {
+        "Overall Impression": [
+          "A fruity, spicy, refreshing version of American IPA with Belgian Witbier yeast character and spices."
+        ],
+        "Appearance": [
+          "Pale gold to light amber.",
+          "Hazy from wheat.",
+          "White head."
+        ],
+        "Aroma": [
+          "Citrusy and fruity hops with wheat, spice, and Belgian yeast esters.",
+          "Coriander and orange peel common."
+        ],
+        "Flavor": [
+          "Hop-forward, citrusy and fruity.",
+          "Spicy wheat and Belgian yeast esters support.",
+          "Dry, refreshing finish."
+        ],
+        "Commercial Examples": [
+          "Deschutes Chainbreaker White IPA"
+        ]
+      }
+    },
+    "Hazy IPA": {
+      "Overall Impression": [
+        "An American IPA with intense fruit-forward hop aroma and flavor, a soft body, smooth mouthfeel, and restrained bitterness.",
+        "Often juicy, hazy, and low in perceived bitterness."
+      ],
+      "Appearance": [
+        "Straw to deep gold.",
+        "Hazy to opaque.",
+        "Large white to off-white head with good retention."
+      ],
+      "Aroma": [
+        "Intense hop aroma with tropical fruit, stone fruit, citrus, melon, or berry notes.",
+        "Low malt aroma, often neutral or lightly grainy.",
+        "Low esters optional."
+      ],
+      "Flavor": [
+        "Strong hop flavor, fruity and juicy.",
+        "Bitterness restrained to moderate, soft and smooth.",
+        "Malt flavor low and neutral, supporting hops.",
+        "Finish medium-dry to medium, with lingering juicy hops."
+      ],
+      "Mouthfeel": [
+        "Medium body, smooth and creamy.",
+        "Medium carbonation.",
+        "No harshness."
+      ],
+      "Comments": [
+        "Also known as New England IPA (NEIPA).",
+        "Hop flavor dominates with juicy, fruit-forward character rather than bitterness."
+      ],
+      "History": [
+        "Originated in New England in the 2010s, popularized by breweries like The Alchemist and Tree House."
+      ],
+      "Characteristic Ingredients": [
+        "American base malts, wheat, and oats for haze and softness.",
+        "American and New World hops added late or in dry hopping.",
+        "Ale yeast with fruity esters."
+      ],
+      "Style Comparison": [
+        "Softer, fruitier, and less bitter than American IPA.",
+        "Much hazier and more fruit-juice-like than West Coast IPA."
+      ],
+      "Vital Statistics": {
+        "IBU": "25 - 60",
+        "SRM": "3 - 7",
+        "OG": "1.060 - 1.085",
+        "FG": "1.010 - 1.016",
+        "ABV": "6.0% - 9.0%"
+      },
+      "Commercial Examples": [
+        "The Alchemist Heady Topper",
+        "Tree House Julius",
+        "Trillium Fort Point Pale Ale"
+      ],
+      "Style Attributes": [
+        "craft-style",
+        "hazy",
+        "hoppy",
+        "ipa-family",
+        "juicy",
+        "north-america",
+        "top-fermented"
+      ]
+    }
+  },
+  "Strong American Ale": {
+    "Double IPA": {
+      "Overall Impression": [
+        "An intensely hoppy, fairly strong, bitter pale ale without the big, rich, complex maltiness, residual sweetness, and body of an American Barleywine.",
+        "Strongly hopped, but clean, dry, and lacking harshness; despite showing its strength, drinkability is important."
+      ],
+      "Appearance": [
+        "Gold to light orange-copper; most modern versions are fairly pale.",
+        "Good clarity, though a little haze is acceptable.",
+        "Moderate, persistent white to off-white head."
+      ],
+      "Aroma": [
+        "Prominent to intense hop aroma with American or New World character (citrus, floral, pine, resin, spice, tropical fruit, stone fruit, berry, or melon).",
+        "Supportive, clean, neutral to grainy malt in background.",
+        "Neutral to lightly fruity fermentation profile; alcohol may be noted but not solventy."
+      ],
+      "Flavor": [
+        "Strong and complex hop flavor (same descriptors as aroma).",
+        "Moderately high to very high bitterness without harshness.",
+        "Low to medium clean, soft, unobtrusive malt; light caramel or toast optional.",
+        "Dry to medium-dry finish with lingering hop bitterness; low to moderate fruitiness optional.",
+        "Light, clean, smooth alcohol flavor allowable."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body with smooth texture.",
+        "Medium to medium-high carbonation.",
+        "No harsh hop astringency; restrained, smooth alcohol warmth acceptable."
+      ],
+      "Comments": [
+        "Rarely called Imperial IPA.",
+        "Many modern versions feature multiple dry-hop additions."
+      ],
+      "History": [
+        "American craft beer innovation from the mid–late 1990s as a more intense American IPA.",
+        "Became more mainstream in the 2000s; Russian River Pliny the Elder (2000) helped popularize the style."
+      ],
+      "Characteristic Ingredients": [
+        "Neutral base malt.",
+        "Sugar adjuncts common.",
+        "Crystal malts rare.",
+        "American or New World hops.",
+        "Neutral or lightly fruity yeast; no oak."
+      ],
+      "Style Comparison": [
+        "Bigger than English and American IPAs in alcohol, bitterness, and hoppiness.",
+        "Less malty-rich, drier, and with greater hop balance than American Barleywine."
+      ],
+      "Vital Statistics": {
+        "IBU": "60 - 100",
+        "SRM": "6 - 14",
+        "OG": "1.065 - 1.085",
+        "FG": "1.008 - 1.018",
+        "ABV": "7.5% - 10%"
+      },
+      "Commercial Examples": [
+        "Columbus Brewing Bohdi",
+        "Fat Heads Hop Juju",
+        "Port Brewing Hop 15",
+        "Russian River Pliny the Elder",
+        "Stone Ruination Double IPA 2.0",
+        "Wicked Weed Freak of Nature"
+      ],
+      "Style Attributes": [
+        "bitter",
+        "craft-style",
+        "hoppy",
+        "ipa-family",
+        "north-america",
+        "pale-color",
+        "top-fermented",
+        "very-high-strength"
+      ]
+    },
+    "American Strong Ale": {
+      "Overall Impression": [
+        "A malty, bitter, and strong American ale that fits between American Barleywine, Double IPA, and Red IPA.",
+        "Malty and hoppy flavors can be quite strong but are generally in balance."
+      ],
+      "Appearance": [
+        "Medium amber to deep copper or light brown.",
+        "Moderate-low to medium off-white to light tan head; may have low retention.",
+        "Good clarity; legs possible."
+      ],
+      "Aroma": [
+        "Medium to high hop aroma with American/New World character (citrus, floral, pine, resinous, spicy, tropical fruit, stone fruit, berry, or melon).",
+        "Moderate to bold malt supporting the hops; medium to dark caramel common; toasty or bready possible; background notes of light roast or chocolate allowable.",
+        "Neutral to moderately fruity fermentation; alcohol may be noted but not solventy."
+      ],
+      "Flavor": [
+        "Medium to high malt with caramel, toffee, or dark fruit quality; toasty/bready/rich flavors possible.",
+        "Light chocolate or roast allowable, but not burnt or sharp.",
+        "Medium-high to high bitterness; moderate to high hop flavor (same descriptors as aroma).",
+        "Low to moderate esters; noticeable but smooth alcohol.",
+        "Medium to high malty sweetness; finish ranges somewhat dry to somewhat sweet; not syrupy or cloying.",
+        "Bitter to bittersweet aftertaste with hops, malt, and alcohol noticeable."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Alcohol warmth may be present but not excessively hot.",
+        "Light hop astringency allowable.",
+        "Medium-low to medium carbonation."
+      ],
+      "Comments": [
+        "Broad style covering beers labeled variously, including Double Red Ales and other strong malty-but-hoppy beers below Barleywine strength.",
+        "Can include what might be viewed as a strong American Amber Ale."
+      ],
+      "History": [
+        "Modern craft versions developed as 'imperial' strength variants of American amber/red ales.",
+        "Has much in common with historic American Stock Ales, which were strong, malty, and highly hopped as provision beers prior to Prohibition."
+      ],
+      "Characteristic Ingredients": [
+        "Pale base malt.",
+        "Medium to dark crystal malts common.",
+        "American/New World hops.",
+        "Neutral or lightly fruity yeast."
+      ],
+      "Style Comparison": [
+        "Not as strong or rich as American Barleywine.",
+        "More malt-balanced than American or Double IPA.",
+        "More American hop intensity than British Strong Ale.",
+        "Maltier and fuller-bodied than Red IPA."
+      ],
+      "Vital Statistics": {
+        "IBU": "50 - 100",
+        "SRM": "7 - 18",
+        "OG": "1.062 - 1.090",
+        "FG": "1.014 - 1.024",
+        "ABV": "6.3% - 10%"
+      },
+      "Commercial Examples": [
+        "Fat Head’s Bone Head",
+        "Great Lakes Nosferatu",
+        "Oskar Blues G’Knight",
+        "Port Brewing Shark Attack Double Red",
+        "Stone Arrogant Bastard"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "bitter",
+        "craft-style",
+        "high-strength",
+        "hoppy",
+        "north-america",
+        "strong-ale-family",
+        "top-fermented"
+      ]
+    },
+    "American Barleywine": {
+      "Overall Impression": [
+        "A very strong, malty, hoppy, bitter American ale with a rich palate, full mouthfeel, and warming aftertaste.",
+        "Suitable for contemplative sipping."
+      ],
+      "Appearance": [
+        "Amber to medium copper, rarely light brown; ruby highlights common.",
+        "Moderately-low to large off-white to light tan head; may have low retention.",
+        "Good to brilliant clarity (some chill haze possible); legs possible."
+      ],
+      "Aroma": [
+        "Strong malt and hop aroma dominates; hops moderate to assertive with American/New World/English characteristics (citrusy, fruity, resiny, etc.).",
+        "Strong grainy, bready, toasty, light caramel, or neutral malt richness; typically not darker caramel, roast, or deep fruit.",
+        "Low to moderately strong esters and alcohol, lower than malt and hops; intensities fade with age."
+      ],
+      "Flavor": [
+        "Similar to aroma: rich malt and notable hop flavor with moderately strong to aggressive bitterness.",
+        "Moderate to high hop flavor; low to moderate esters.",
+        "Noticeable alcohol (not solventy).",
+        "Moderately low to moderately high malty sweetness; somewhat malty to dry but full finish; ages to drier, smoother profile.",
+        "Balance is malty, but always bitter."
+      ],
+      "Mouthfeel": [
+        "Full-bodied and chewy with velvety, luscious texture (declines with age).",
+        "Smooth alcohol warmth noticeable but not burning.",
+        "Carbonation low to moderate depending on age/conditioning."
+      ],
+      "Comments": [
+        "Sometimes labeled as 'Barley Wine' or 'Barleywine-style ale'.",
+        "Many US breweries have discontinued, barrel-aged, or rebranded them as some form of IPA."
+      ],
+      "History": [
+        "Traditionally the strongest ale offered by a brewery; often winter seasonal and vintage-dated.",
+        "American craft adaptation of English style using American ingredients and balance.",
+        "Anchor Old Foghorn (1975) and Sierra Nevada Bigfoot (1983) helped define the modern hop-forward style."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt with some specialty malts; dark malts used with restraint.",
+        "Many hop varieties possible, often American.",
+        "American or English ale yeast."
+      ],
+      "Style Comparison": [
+        "More hop bitterness, flavor, and aroma than English Barley Wine; typically paler and lacking deeper malt flavors.",
+        "Differs from Double IPA: hops not as extreme, malt more forward, body fuller and often richer.",
+        "Typically more residual sweetness than Double IPA (sipping vs. drinking)."
+      ],
+      "Vital Statistics": {
+        "IBU": "50 - 100",
+        "SRM": "9 - 18",
+        "OG": "1.080 - 1.120",
+        "FG": "1.016 - 1.030",
+        "ABV": "8% - 12%"
+      },
+      "Commercial Examples": [
+        "Anchor Old Foghorn",
+        "Bell’s Third Coast Old Ale",
+        "East End Gratitude",
+        "Hair of the Dog Doggie Claws",
+        "Sierra Nevada Bigfoot"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "bitter",
+        "craft-style",
+        "hoppy",
+        "north-america",
+        "strong-ale-family",
+        "top-fermented",
+        "very-high-strength"
+      ]
+    },
+    "Wheatwine": {
+      "Overall Impression": [
+        "A richly textured, high-alcohol sipping beer with significant grainy, bready flavor and a sleek body.",
+        "Emphasis on wheaty, bready flavors with layered complexity from malt, hops, fruity yeast, and alcohol."
+      ],
+      "Appearance": [
+        "Gold to deep amber, often with garnet or ruby highlights.",
+        "Low to medium off-white head, sometimes creamy with good retention.",
+        "Chill haze allowable; high alcohol/viscosity may show legs."
+      ],
+      "Aroma": [
+        "Hop aroma mild and from nearly any variety.",
+        "Moderate to moderately-strong bready, wheaty malt; honey/caramel complexity possible.",
+        "Light, clean alcohol; low to medium fruity notes; very low diacetyl optional.",
+        "No banana-and-clove Weizen yeast character."
+      ],
+      "Flavor": [
+        "Moderate to moderately-high bready wheat malt, dominant over hop character.",
+        "Low to moderate toasty, caramel, biscuity, or honey notes optional.",
+        "Low to medium hop flavor of any variety; moderate to moderately-high fruitiness (often dried-fruit-like).",
+        "Low to moderate bitterness; malty to even balance.",
+        "Not syrupy or under-attenuated."
+      ],
+      "Mouthfeel": [
+        "Medium-full to full body; chewy with luscious, velvety texture.",
+        "Low to moderate carbonation.",
+        "Light to moderate smooth alcohol warmth optional."
+      ],
+      "Comments": [
+        "Much of the color can arise from a lengthy boil.",
+        "Some commercial examples may be stronger than the Vital Statistics."
+      ],
+      "History": [
+        "American craft style first brewed at Rubicon Brewing Company in 1988.",
+        "Usually a winter seasonal, vintage, or one-off release."
+      ],
+      "Characteristic Ingredients": [
+        "Typically 50%+ wheat malt with American two-row; restrained dark malts.",
+        "Any hop variety; may be oak-aged."
+      ],
+      "Style Comparison": [
+        "More than a wheat-based Barleywine; many versions show expressive fruity and hoppy notes, others add complexity via oak.",
+        "Less hop emphasis than American Barleywine.",
+        "Rooted in American Wheat Beer (not German wheat), so no Weizen yeast character."
+      ],
+      "Vital Statistics": {
+        "IBU": "30 - 60",
+        "SRM": "6 - 14",
+        "OG": "1.080 - 1.120",
+        "FG": "1.016 - 1.030",
+        "ABV": "8% - 12%"
+      },
+      "Commercial Examples": [
+        "The Bruery White Oak",
+        "Castelain Winter Ale",
+        "Perennial Heart of Gold",
+        "Two Brothers Bare Tree"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "balanced",
+        "craft-style",
+        "hoppy",
+        "north-america",
+        "strong-ale-family",
+        "top-fermented",
+        "very-high-strength",
+        "wheat-beer-family"
+      ]
+    }
   }
 }
