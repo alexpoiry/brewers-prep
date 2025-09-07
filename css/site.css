@@ -1,4 +1,4 @@
-:root {
+  :root {
     --wa-border-radius-scale: 1;
     --wa-border-width-scale: 1.5;
     --wa-space-scale: 1.125;
@@ -7,10 +7,15 @@
   :where(wa-input, wa-button-group) {
     display: block;
   }
+  
+  html, body, wa-page {
+    background: #feebaf;
+  }
 
   wa-input {
     width: 100%;              /* fill available space up to the cap */
     max-width: 30%;           /* at most 1/4 of the parent width */
+    margin-left: 0.3rem;
     margin-block-end: 1rem;   /* space below the input */
   }
   

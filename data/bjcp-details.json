@@ -4950,5 +4950,2827 @@
         "wheat-beer-family"
       ]
     }
+  },
+  "European Sour Ale": {
+    "Berliner Weisse": {
+      "Overall Impression": [
+        "A very pale, refreshing, low-alcohol German wheat beer with a clean lactic sourness and very high carbonation.",
+        "A regional specialty of Berlin; often served with flavored syrups to balance the sourness."
+      ],
+      "Appearance": [
+        "Very pale straw in color.",
+        "Clarity ranges from poor to good; always hazy.",
+        "A large, dense white head is typical, but it dissipates quickly."
+      ],
+      "Aroma": [
+        "A sharply sour character dominates.",
+        "No hop aroma.",
+        "Optional light wheat aroma may be present."
+      ],
+      "Flavor": [
+        "Clean lactic sourness dominates with a light grainy wheat flavor in the background.",
+        "Hop flavor is absent.",
+        "Very dry finish, highly refreshing."
+      ],
+      "Mouthfeel": [
+        "Light body, crisp.",
+        "Very high carbonation adds to refreshing quality."
+      ],
+      "Comments": [
+        "Often served with woodruff or raspberry syrups in Germany.",
+        "Without syrup, can be a very sour and austere beer."
+      ],
+      "History": [
+        "Popular in 19th-century Berlin as the 'Champagne of the North.'",
+        "Nearly extinct by the late 20th century, but revived by craft brewers."
+      ],
+      "Characteristic Ingredients": [
+        "Wheat malt, Pilsner malt.",
+        "Lactic fermentation or Lactobacillus culture.",
+        "Low hopping rates."
+      ],
+      "Style Comparison": [
+        "Similar in strength and balance to Gose but without coriander or salt."
+      ],
+      "Vital Statistics": {
+        "IBU": "3 - 8",
+        "SRM": "2 - 3",
+        "OG": "1.028 - 1.032",
+        "FG": "1.003 - 1.006",
+        "ABV": "2.8% - 3.8%"
+      },
+      "Commercial Examples": [
+        "Berliner Kindl Weisse",
+        "Professor Fritz Briem 1809 Berliner Weisse",
+        "Nodding Head Berliner Weisse"
+      ],
+      "Style Attributes": [
+        "sour",
+        "wheat-beer-family",
+        "pale-color",
+        "session-strength",
+        "traditional-style",
+        "top-fermented"
+      ]
+    },
+    "Flanders Red Ale": {
+      "Overall Impression": [
+        "A sour, fruity, wine-like Belgian-style ale with refreshing acidity and complex fruit character.",
+        "Known as 'the Burgundy of Belgium.'"
+      ],
+      "Appearance": [
+        "Deep red to reddish-brown.",
+        "Good clarity.",
+        "Off-white to tan head with average retention."
+      ],
+      "Aroma": [
+        "Complex fruitiness reminiscent of plums, red currants, cherries, or blackberries.",
+        "Balanced with lactic sourness and low to moderate acetic character.",
+        "Malt sweetness (caramel, toffee) optional."
+      ],
+      "Flavor": [
+        "Moderate to high sourness balanced with fruit complexity.",
+        "Malt may add toffee, caramel, or toasted notes.",
+        "Acetic flavors acceptable if not harsh."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Moderate carbonation.",
+        "Tart finish."
+      ],
+      "Comments": [
+        "Often aged in oak barrels; blending of young and old beer is traditional."
+      ],
+      "History": [
+        "Specialty of West Flanders, Belgium.",
+        "Developed by breweries like Rodenbach in the 19th century."
+      ],
+      "Characteristic Ingredients": [
+        "Vienna and Munich malts with adjuncts.",
+        "Lactic acid bacteria and Acetobacter contributions.",
+        "Aging in oak."
+      ],
+      "Style Comparison": [
+        "More acetic and wine-like than Oud Bruin."
+      ],
+      "Vital Statistics": {
+        "IBU": "10 - 25",
+        "SRM": "10 - 16",
+        "OG": "1.048 - 1.057",
+        "FG": "1.002 - 1.012",
+        "ABV": "4.6% - 6.5%"
+      },
+      "Commercial Examples": [
+        "Rodenbach Grand Cru",
+        "Duchesse de Bourgogne",
+        "Verhaeghe Vichtenaar"
+      ],
+      "Style Attributes": [
+        "sour",
+        "amber-color",
+        "belgium",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Oud Bruin": {
+      "Overall Impression": [
+        "A malty, fruity, aged, somewhat sour dark Belgian-style ale.",
+        "Less sour and more malty than Flanders Red."
+      ],
+      "Appearance": [
+        "Dark reddish-brown.",
+        "Clear to opaque.",
+        "Off-white to tan head."
+      ],
+      "Aroma": [
+        "Malty sweetness with caramel, toffee, and dark fruit esters.",
+        "Low to moderate lactic sourness.",
+        "No hop aroma."
+      ],
+      "Flavor": [
+        "Malt-forward with caramel, toffee, molasses, and dark fruit.",
+        "Moderate sourness.",
+        "Light chocolate or roast optional."
+      ],
+      "Mouthfeel": [
+        "Medium body.",
+        "Moderate carbonation.",
+        "Smooth with light tartness."
+      ],
+      "Comments": [
+        "May be blended with younger beer to balance flavors."
+      ],
+      "History": [
+        "Traditional specialty of East Flanders.",
+        "Fermented with mixed cultures and aged before packaging."
+      ],
+      "Characteristic Ingredients": [
+        "Dark crystal malts, small amounts of chocolate malt.",
+        "Mixed fermentation organisms."
+      ],
+      "Style Comparison": [
+        "Less sour, more malt-forward than Flanders Red."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 25",
+        "SRM": "15 - 22",
+        "OG": "1.040 - 1.074",
+        "FG": "1.008 - 1.012",
+        "ABV": "4.0% - 8.0%"
+      },
+      "Commercial Examples": [
+        "Liefmans Goudenband",
+        "Ichtegem’s Oud Bruin"
+      ],
+      "Style Attributes": [
+        "sour",
+        "brown-color",
+        "belgium",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Lambic": {
+      "Overall Impression": [
+        "A fairly sour, dry, wild Belgian wheat beer with fruity, earthy, funky complexity."
+      ],
+      "Appearance": [
+        "Pale yellow to deep gold.",
+        "Hazy.",
+        "Low to no head."
+      ],
+      "Aroma": [
+        "Funky Brett character, lactic sourness, fruity esters (apple, citrus, stone fruit)."
+      ],
+      "Flavor": [
+        "Sour, fruity, funky, earthy, very dry finish."
+      ],
+      "Mouthfeel": [
+        "Light body, low to high carbonation depending on age."
+      ],
+      "Comments": [
+        "Produced only in the Senne Valley and Brussels with spontaneous fermentation."
+      ],
+      "History": [
+        "Brewing practice dates back centuries; wild yeast fermentation unique to region."
+      ],
+      "Characteristic Ingredients": [
+        "Unmalted wheat, aged hops, spontaneous fermentation."
+      ],
+      "Style Comparison": [
+        "Unique; not directly comparable to other sour beers."
+      ],
+      "Vital Statistics": {
+        "IBU": "0 - 10",
+        "SRM": "3 - 7",
+        "OG": "1.040 - 1.054",
+        "FG": "1.001 - 1.010",
+        "ABV": "5% - 6.5%"
+      },
+      "Commercial Examples": [
+        "Cantillon Lambic",
+        "Boon Lambic",
+        "Girardin Lambic"
+      ],
+      "Style Attributes": [
+        "sour",
+        "belgium",
+        "wheat-beer-family",
+        "traditional-style"
+      ]
+    },
+    "Gueuze": {
+      "Overall Impression": [
+        "A complex, pleasantly sour, highly carbonated Belgian blend of young and old Lambics."
+      ],
+      "Appearance": [
+        "Golden to amber.",
+        "Hazy.",
+        "Large, rocky white head."
+      ],
+      "Aroma": [
+        "Funky Brett, lactic sourness, citrusy and fruity esters."
+      ],
+      "Flavor": [
+        "Pleasantly tart, funky, complex, dry finish."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "Effervescent, tart, lively."
+      ],
+      "Comments": [
+        "Created by blending young and old Lambics, then bottle-conditioned."
+      ],
+      "History": [
+        "Traditional to Pajottenland region and Brussels."
+      ],
+      "Characteristic Ingredients": [
+        "Blended Lambics, aged hops, spontaneous fermentation."
+      ],
+      "Style Comparison": [
+        "More complex and effervescent than straight Lambic."
+      ],
+      "Vital Statistics": {
+        "IBU": "0 - 10",
+        "SRM": "3 - 7",
+        "OG": "1.040 - 1.060",
+        "FG": "1.000 - 1.006",
+        "ABV": "5% - 8%"
+      },
+      "Commercial Examples": [
+        "Cantillon Gueuze",
+        "Boon Oude Geuze",
+        "Lindemans Gueuze"
+      ],
+      "Style Attributes": [
+        "sour",
+        "belgium",
+        "traditional-style"
+      ]
+    },
+    "Fruit Lambic": {
+      "Overall Impression": [
+        "A Lambic with fruit added, showing both fruit and funky, sour character."
+      ],
+      "Appearance": [
+        "Varies with fruit, usually hazy, with low to no head."
+      ],
+      "Aroma": [
+        "Fruit character blends with Lambic sourness and funk."
+      ],
+      "Flavor": [
+        "Sour, funky, fruity, dry finish."
+      ],
+      "Mouthfeel": [
+        "Light body, effervescent."
+      ],
+      "Comments": [
+        "Traditional versions are dry, not sweetened."
+      ],
+      "History": [
+        "Originated in Belgium by adding fruit during fermentation."
+      ],
+      "Characteristic Ingredients": [
+        "Base Lambic with fruit additions."
+      ],
+      "Style Comparison": [
+        "Fruity version of Lambic."
+      ],
+      "Vital Statistics": {
+        "IBU": "0 - 10",
+        "SRM": "Varies",
+        "OG": "1.040 - 1.060",
+        "FG": "1.000 - 1.010",
+        "ABV": "5% - 7%"
+      },
+      "Commercial Examples": [
+        "Boon Kriek",
+        "Lindemans Framboise",
+        "Cantillon Kriek"
+      ],
+      "Style Attributes": [
+        "fruit",
+        "sour",
+        "belgium",
+        "traditional-style"
+      ]
+    },
+    "Gose": {
+      "Overall Impression": [
+        "A tart, lightly fruity wheat beer with coriander and salt."
+      ],
+      "Appearance": [
+        "Unfiltered, hazy, pale yellow.",
+        "Large white head."
+      ],
+      "Aroma": [
+        "Sourness, coriander, salt, fruity esters optional."
+      ],
+      "Flavor": [
+        "Tart, refreshing, coriander and salt noticeable but balanced.",
+        "Dry finish."
+      ],
+      "Mouthfeel": [
+        "Light to medium-light body.",
+        "High carbonation.",
+        "Slight saltiness."
+      ],
+      "Comments": [
+        "Specialty of Leipzig, revived by craft brewers."
+      ],
+      "History": [
+        "Originated in Goslar, Germany; later popular in Leipzig.",
+        "Salt originally came from the local water."
+      ],
+      "Characteristic Ingredients": [
+        "Wheat malt, coriander, salt, lactic souring."
+      ],
+      "Style Comparison": [
+        "Like Berliner Weisse but with coriander and salt."
+      ],
+      "Vital Statistics": {
+        "IBU": "5 - 12",
+        "SRM": "3 - 4",
+        "OG": "1.036 - 1.056",
+        "FG": "1.006 - 1.012",
+        "ABV": "4.2% - 4.8%"
+      },
+      "Commercial Examples": [
+        "Bayerischer Bahnhof Leipziger Gose",
+        "Anderson Valley Gose",
+        "Westbrook Gose"
+      ],
+      "Style Attributes": [
+        "sour",
+        "spiced",
+        "wheat-beer-family",
+        "traditional-style"
+      ]
+    }
+  },
+  "Belgian Ale": {
+    "Witbier": {
+      "Overall Impression": [
+        "A refreshing, elegant, tasty, moderate-strength wheat-based ale.",
+        "Delicate balance of citrus, spice, bready wheat, and subtle sweetness, with a dry finish."
+      ],
+      "Appearance": [
+        "Very pale straw to light gold.",
+        "Typically cloudy from starch haze or yeast.",
+        "Dense, white, moussy head with good retention."
+      ],
+      "Aroma": [
+        "Moderate malty-sweet aroma, often with honey, vanilla, or light bready wheat.",
+        "Moderate perfumy coriander, often combined with complex herbal-spicy notes.",
+        "Moderate zesty, orange-citrusy fruitiness.",
+        "Low spicy-herbal hop aroma optional.",
+        "Low tartness optional."
+      ],
+      "Flavor": [
+        "Pleasant bready, grainy wheat flavors with sweet orange-citrusy fruitiness and herbal-spicy coriander.",
+        "Balance of fruit, spice, and wheat.",
+        "Low hop bitterness.",
+        "Light, crisp, dry, tart finish."
+      ],
+      "Mouthfeel": [
+        "Medium-light body, smooth, creamy, sometimes with a silky mouthfeel.",
+        "Effervescent, with high carbonation."
+      ],
+      "Comments": [
+        "Spicing should be subtle and blend in, not dominate.",
+        "Refreshing summer drink, traditionally served with lemon."
+      ],
+      "History": [
+        "A 400-year-old Belgian style, nearly extinct by the 1950s.",
+        "Revived by Pierre Celis at Hoegaarden in the 1960s."
+      ],
+      "Characteristic Ingredients": [
+        "About 50% unmalted wheat.",
+        "Pils malt.",
+        "Spiced with coriander and Curaçao orange peel.",
+        "Belgian ale yeast."
+      ],
+      "Style Comparison": [
+        "Similar strength and balance to Weissbier, but spiced and more citrusy."
+      ],
+      "Vital Statistics": {
+        "IBU": "8 - 20",
+        "SRM": "2 - 4",
+        "OG": "1.044 - 1.052",
+        "FG": "1.008 - 1.012",
+        "ABV": "4.5% - 5.5%"
+      },
+      "Commercial Examples": [
+        "Hoegaarden Wit",
+        "St. Bernardus Witbier",
+        "Celis White",
+        "Allagash White"
+      ],
+      "Style Attributes": [
+        "spiced",
+        "wheat-beer-family",
+        "belgium",
+        "pale-color",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Belgian Pale Ale": {
+      "Overall Impression": [
+        "A moderately malty, somewhat fruity, easy-drinking, copper-colored Belgian ale.",
+        "Subtly spicy, dry finish, moderate strength."
+      ],
+      "Appearance": [
+        "Amber to copper color.",
+        "Good clarity.",
+        "Creamy, off-white head with good retention."
+      ],
+      "Aroma": [
+        "Moderate malt aroma with toasty, biscuity, nutty, or light caramel notes.",
+        "Moderate fruity esters, often pear or orange.",
+        "Light spicy phenols optional.",
+        "Low earthy, floral hop aroma optional."
+      ],
+      "Flavor": [
+        "Medium malt flavor with biscuity, toasty, or caramel character.",
+        "Moderate fruity esters.",
+        "Low spicy phenols optional.",
+        "Low to moderate hop flavor, earthy or floral.",
+        "Medium bitterness balances malt.",
+        "Medium-dry finish."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Smooth, moderate carbonation."
+      ],
+      "Comments": [
+        "Everyday drinking beer in Belgium, less strong and intense than abbey or Trappist ales."
+      ],
+      "History": [
+        "Developed in the early 20th century as a response to Pilsner popularity.",
+        "Examples common in Antwerp and Brabant regions."
+      ],
+      "Characteristic Ingredients": [
+        "Belgian pale malt.",
+        "Low use of caramel malts.",
+        "Belgian ale yeast with fruity esters."
+      ],
+      "Style Comparison": [
+        "Less sweet and more malty than many Belgian beers.",
+        "Less strong than abbey-style ales."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 30",
+        "SRM": "8 - 14",
+        "OG": "1.048 - 1.054",
+        "FG": "1.010 - 1.014",
+        "ABV": "4.8% - 5.5%"
+      },
+      "Commercial Examples": [
+        "De Koninck",
+        "Palm",
+        "Spéciale Belge"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "belgium",
+        "malty",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Bière de Garde": {
+      "Overall Impression": [
+        "A family of strong, malty, French farmhouse ales with a range of colors and dryness.",
+        "Smooth, rich malt flavors dominate."
+      ],
+      "Appearance": [
+        "Three substyles: Blonde (golden), Ambrée (amber), and Brune (brown).",
+        "Clear, with well-formed persistent head."
+      ],
+      "Aroma": [
+        "Prominent malt aromas, often toasty, bready, or lightly caramel.",
+        "Low noble hop aroma.",
+        "Low fruity esters optional.",
+        "Clean fermentation profile."
+      ],
+      "Flavor": [
+        "Malt flavors dominate: toasty, bready, biscuit, caramel.",
+        "Moderate bitterness balances but doesn’t dominate.",
+        "Dry to medium-dry finish.",
+        "Low fruity esters optional.",
+        "Clean lager-like profile."
+      ],
+      "Mouthfeel": [
+        "Medium to medium-full body.",
+        "Moderate carbonation.",
+        "Smooth, often with light alcohol warmth."
+      ],
+      "Comments": [
+        "Traditionally brewed in farmhouses of northern France for storage (garde).",
+        "Three substyles vary by color and malt expression."
+      ],
+      "History": [
+        "Farmhouse style from the Nord-Pas-de-Calais region.",
+        "Historically brewed in cool seasons for storage and consumption later."
+      ],
+      "Characteristic Ingredients": [
+        "French pale ale malts, Vienna or Munich malt.",
+        "Sugar adjuncts optional.",
+        "Noble hops.",
+        "Clean yeast or lagering."
+      ],
+      "Style Comparison": [
+        "Similar in malt balance to a Belgian Pale Ale but stronger and smoother.",
+        "Comparable to some German Bocks but with French character."
+      ],
+      "Vital Statistics": {
+        "IBU": "18 - 28",
+        "SRM": "6 - 19",
+        "OG": "1.060 - 1.080",
+        "FG": "1.008 - 1.016",
+        "ABV": "6.0% - 8.5%"
+      },
+      "Commercial Examples": [
+        "3 Monts",
+        "Ch’Ti Ambrée",
+        "Jenlain Ambrée",
+        "St. Sylvestre Bière de Noël"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "belgium",
+        "farmhouse",
+        "high-strength",
+        "malty",
+        "traditional-style"
+      ]
+    }
+  },
+  "Strong Belgian Ale": {
+    "Belgian Blond Ale": {
+      "Overall Impression": [
+        "A moderate-strength golden ale that has a subtle Belgian complexity, slightly sweet flavor, and dry finish.",
+        "Smooth, malty, and somewhat fruity, but restrained overall."
+      ],
+      "Appearance": [
+        "Light to deep gold.",
+        "Good clarity.",
+        "Large, dense, creamy white head with excellent retention."
+      ],
+      "Aroma": [
+        "Moderate malty-sweet aroma, often with light honey or vanilla.",
+        "Moderate fruity esters (orange, pear, apple) common.",
+        "Low spicy phenols optional.",
+        "Low noble hop aroma optional."
+      ],
+      "Flavor": [
+        "Smooth malt flavor with a lightly sweet, honey-like impression.",
+        "Moderate fruity esters.",
+        "Low spicy phenols optional.",
+        "Low hop flavor (herbal or floral) optional.",
+        "Medium bitterness keeps balance, finish is medium-dry to dry."
+      ],
+      "Mouthfeel": [
+        "Medium body.",
+        "Smooth, creamy texture.",
+        "Medium-high carbonation."
+      ],
+      "Comments": [
+        "Deceptive in strength, often designed to appeal to consumers more than other stronger Belgian beers."
+      ],
+      "History": [
+        "Relatively recent development to compete with Pilsner lagers in Belgium.",
+        "Popular in abbey and Trappist breweries."
+      ],
+      "Characteristic Ingredients": [
+        "Pilsner malt.",
+        "Sugar for light body.",
+        "Noble hops.",
+        "Belgian yeast."
+      ],
+      "Style Comparison": [
+        "Similar strength and balance to a Belgian Pale Ale but stronger, smoother, and more golden."
+      ],
+      "Vital Statistics": {
+        "IBU": "15 - 30",
+        "SRM": "4 - 7",
+        "OG": "1.062 - 1.075",
+        "FG": "1.008 - 1.018",
+        "ABV": "6.0% - 7.5%"
+      },
+      "Commercial Examples": [
+        "Leffe Blond",
+        "La Trappe Blond",
+        "Affligem Blond",
+        "Grimbergen Blonde"
+      ],
+      "Style Attributes": [
+        "belgium",
+        "blonde",
+        "golden",
+        "high-strength",
+        "malty",
+        "pale-color",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Saison": {
+      "Overall Impression": [
+        "A pale, refreshing, dry, and moderately bitter Belgian ale with a fruity and spicy yeast character.",
+        "Highly carbonated, refreshing, and complex."
+      ],
+      "Appearance": [
+        "Pale gold to deep amber.",
+        "Well carbonated, effervescent.",
+        "Dense, rocky, white head with good retention."
+      ],
+      "Aroma": [
+        "Moderate fruity esters (citrus, pear, apple, or apricot).",
+        "Moderate spicy phenols (pepper, clove).",
+        "Light malt (grainy, bready).",
+        "Low herbal, floral, or spicy hop aroma optional."
+      ],
+      "Flavor": [
+        "Fruity esters and peppery phenols dominate.",
+        "Moderate malt character (grainy, toasty, biscuity).",
+        "Moderate bitterness, dry finish.",
+        "Moderate hop flavor optional.",
+        "Complex, refreshing balance."
+      ],
+      "Mouthfeel": [
+        "Medium-light to medium body.",
+        "Very high carbonation.",
+        "Effervescent, dry, refreshing."
+      ],
+      "Comments": [
+        "Farmhouse style with many variations; pale versions are more common today.",
+        "Often brewed with adjuncts like spices, honey, or sugar."
+      ],
+      "History": [
+        "Traditional farmhouse ale brewed in Wallonia (French-speaking Belgium).",
+        "Historically lower alcohol, now brewed stronger for export."
+      ],
+      "Characteristic Ingredients": [
+        "Pilsner malt base.",
+        "Adjuncts such as sugar, wheat, or spices optional.",
+        "Distinctive Belgian yeast for fruity/spicy character."
+      ],
+      "Style Comparison": [
+        "Less strong and rich than Belgian Golden Strong or Tripel.",
+        "More highly attenuated, drier, and hoppier than most Belgian ales."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 35",
+        "SRM": "5 - 14",
+        "OG": "1.048 - 1.065",
+        "FG": "1.002 - 1.008",
+        "ABV": "5.0% - 7.0%"
+      },
+      "Commercial Examples": [
+        "Saison Dupont",
+        "Fantôme Saison",
+        "Blaugies Saison d’Epeautre",
+        "Saison Voisin"
+      ],
+      "Style Attributes": [
+        "belgium",
+        "farmhouse",
+        "high-attenuation",
+        "hoppy",
+        "pale-color",
+        "standard-strength",
+        "top-fermented",
+        "traditional-style"
+      ]
+    },
+    "Belgian Golden Strong Ale": {
+      "Overall Impression": [
+        "A very pale, highly attenuated, strong Belgian-style ale with a complex fruitiness and light, spicy phenolics.",
+        "Highly effervescent and deceptive in strength."
+      ],
+      "Appearance": [
+        "Pale yellow to deep gold.",
+        "Good clarity.",
+        "Effervescent with large, rocky, white head."
+      ],
+      "Aroma": [
+        "Complex fruity esters (pear, apple, citrus, apricot).",
+        "Light peppery phenolics.",
+        "Soft malty sweetness.",
+        "Low spicy or floral hop aroma optional.",
+        "Alcohol soft but present."
+      ],
+      "Flavor": [
+        "Fruit esters (pear, apple, citrus) balanced with peppery phenols.",
+        "Soft malt flavor, light honey-like sweetness.",
+        "Moderate to high hop bitterness with dry finish.",
+        "Alcohol warmth noticeable but smooth."
+      ],
+      "Mouthfeel": [
+        "Medium-light body.",
+        "Very high carbonation.",
+        "Effervescent, smooth alcohol warmth."
+      ],
+      "Comments": [
+        "Deceptively strong; highly drinkable despite high ABV.",
+        "Often brewed as a showpiece ale by Belgian brewers."
+      ],
+      "History": [
+        "Developed by Moortgat brewery in the early 20th century to compete with Pilsners.",
+        "Best known as Duvel."
+      ],
+      "Characteristic Ingredients": [
+        "Pilsner malt.",
+        "Sugar to lighten body.",
+        "Noble hops.",
+        "Distinctive Belgian yeast with fruity/spicy balance."
+      ],
+      "Style Comparison": [
+        "Similar strength and attenuation as a Tripel, but paler, drier, crisper, and more hop-focused."
+      ],
+      "Vital Statistics": {
+        "IBU": "22 - 35",
+        "SRM": "3 - 6",
+        "OG": "1.070 - 1.095",
+        "FG": "1.005 - 1.016",
+        "ABV": "7.5% - 10.5%"
+      },
+      "Commercial Examples": [
+        "Duvel",
+        "Delirium Tremens",
+        "Lucifer",
+        "Dulle Teve"
+      ],
+      "Style Attributes": [
+        "belgium",
+        "golden",
+        "high-strength",
+        "hoppy",
+        "pale-color",
+        "top-fermented",
+        "traditional-style"
+      ]
+    }
+  },
+  "Monastic Ale": {
+    "Belgian Single": {
+      "Overall Impression": [
+        "A pale, bitter, highly attenuated Belgian ale, traditionally brewed as a monastic table beer.",
+        "Very drinkable, refreshing, and balanced between fruity esters, spicy phenols, and hops."
+      ],
+      "Appearance": [
+        "Pale yellow to deep gold.",
+        "Good clarity.",
+        "Dense, rocky, white head with excellent retention."
+      ],
+      "Aroma": [
+        "Moderate fruity esters (pear, apple, citrus).",
+        "Moderate spicy phenols (pepper, clove).",
+        "Low to moderate noble hop aroma.",
+        "Soft grainy malt background."
+      ],
+      "Flavor": [
+        "Fruity esters and spicy phenols balanced with soft malt and firm hop bitterness.",
+        "Finish is dry, crisp, and refreshing.",
+        "Clean fermentation with no heavy alcohol character."
+      ],
+      "Mouthfeel": [
+        "Medium-light body.",
+        "High carbonation.",
+        "Light, refreshing, highly drinkable."
+      ],
+      "Comments": [
+        "Traditionally brewed as an abbey or monastic session beer.",
+        "Rarely seen commercially outside abbeys and monasteries."
+      ],
+      "History": [
+        "Trappist breweries brewed this as their everyday table beer for monks, lighter than the commercial Dubbel or Tripel."
+      ],
+      "Characteristic Ingredients": [
+        "Pilsner malt.",
+        "Sugar may be added to aid attenuation.",
+        "Noble hops.",
+        "Distinctive Belgian yeast for fruity and spicy profile."
+      ],
+      "Style Comparison": [
+        "Similar to a Belgian Blond Ale but drier, hoppier, and lower in alcohol."
+      ],
+      "Vital Statistics": {
+        "IBU": "25 - 45",
+        "SRM": "3 - 5",
+        "OG": "1.044 - 1.054",
+        "FG": "1.004 - 1.010",
+        "ABV": "4.8% - 6.0%"
+      },
+      "Commercial Examples": [
+        "Westmalle Extra",
+        "Chimay Dorée",
+        "Achel Blond 5°"
+      ],
+      "Style Attributes": [
+        "belgium",
+        "pale-color",
+        "session-strength",
+        "top-fermented",
+        "traditional-style",
+        "monastic"
+      ]
+    },
+    "Belgian Dubbel": {
+      "Overall Impression": [
+        "A deep reddish-copper, moderately strong, malty, complex Belgian ale with rich malt flavors, fruity esters, and light spicy phenols.",
+        "Smooth, not heavy, with a dry finish."
+      ],
+      "Appearance": [
+        "Dark amber to copper-brown.",
+        "Good clarity.",
+        "Large, creamy, persistent light tan head."
+      ],
+      "Aroma": [
+        "Rich malt sweetness with caramel, toast, or chocolate.",
+        "Moderate fruity esters (raisin, plum, cherry).",
+        "Light spicy phenols (clove, pepper).",
+        "Low noble hop aroma optional."
+      ],
+      "Flavor": [
+        "Rich malt flavor with dark fruit esters and subtle spice.",
+        "Moderate alcohol warmth.",
+        "Moderate bitterness balances malt, finish is dry.",
+        "Low chocolate or licorice optional, but never roasted or burnt."
+      ],
+      "Mouthfeel": [
+        "Medium to medium-full body.",
+        "Smooth, creamy texture.",
+        "Medium-high carbonation.",
+        "Light warming alcohol."
+      ],
+      "Comments": [
+        "A Trappist style; balance leans toward malt and yeast complexity, not hops."
+      ],
+      "History": [
+        "Re-created in the mid-1800s by Trappist monasteries, most famously Westmalle, as a stronger specialty beer."
+      ],
+      "Characteristic Ingredients": [
+        "Pilsner and Munich malts.",
+        "Caramelized sugar syrup.",
+        "Belgian yeast with fruity and spicy balance."
+      ],
+      "Style Comparison": [
+        "Stronger and darker than Belgian Pale Ale, not as strong as Tripel."
+      ],
+      "Vital Statistics": {
+        "IBU": "15 - 25",
+        "SRM": "10 - 17",
+        "OG": "1.062 - 1.075",
+        "FG": "1.008 - 1.018",
+        "ABV": "6.0% - 7.6%"
+      },
+      "Commercial Examples": [
+        "Westmalle Dubbel",
+        "Chimay Red",
+        "Rochefort 6",
+        "St. Bernardus Pater 6"
+      ],
+      "Style Attributes": [
+        "belgium",
+        "amber-color",
+        "dark-color",
+        "high-strength",
+        "malty",
+        "top-fermented",
+        "traditional-style",
+        "monastic"
+      ]
+    },
+    "Belgian Tripel": {
+      "Overall Impression": [
+        "A pale, spicy, dry, strong Belgian ale with a complex fruity and hoppy character, supported by soft malt.",
+        "Highly attenuated, smooth, and deceptively strong."
+      ],
+      "Appearance": [
+        "Deep yellow to deep gold.",
+        "Good clarity.",
+        "Large, rocky white head with excellent retention."
+      ],
+      "Aroma": [
+        "Moderate fruity esters (orange, apple, pear).",
+        "Moderate spicy phenols (pepper, clove).",
+        "Soft, grainy-sweet malt.",
+        "Low to moderate hop aroma, often floral or spicy."
+      ],
+      "Flavor": [
+        "Fruity esters and spicy phenols balanced by soft malt and firm hop bitterness.",
+        "Moderately high to high attenuation produces a dry finish.",
+        "Light honey-like sweetness optional.",
+        "Alcohol warmth noticeable but smooth."
+      ],
+      "Mouthfeel": [
+        "Medium-light body.",
+        "High carbonation.",
+        "Effervescent, smooth, light alcohol warmth."
+      ],
+      "Comments": [
+        "A showcase for the fruity and spicy character of Belgian yeast combined with a crisp, dry finish."
+      ],
+      "History": [
+        "First brewed by Westmalle in 1934, became the model for the style."
+      ],
+      "Characteristic Ingredients": [
+        "Pilsner malt.",
+        "Sugar to aid attenuation.",
+        "Noble hops.",
+        "Belgian yeast."
+      ],
+      "Style Comparison": [
+        "Stronger, drier, and more hop-forward than a Dubbel.",
+        "Paler and less rich than Belgian Golden Strong Ale."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 40",
+        "SRM": "4.5 - 7",
+        "OG": "1.075 - 1.085",
+        "FG": "1.008 - 1.014",
+        "ABV": "7.5% - 9.5%"
+      },
+      "Commercial Examples": [
+        "Westmalle Tripel",
+        "Chimay White (Cinq Cents)",
+        "St. Bernardus Tripel",
+        "Rochefort 8"
+      ],
+      "Style Attributes": [
+        "belgium",
+        "pale-color",
+        "high-strength",
+        "hoppy",
+        "top-fermented",
+        "traditional-style",
+        "monastic"
+      ]
+    },
+    "Belgian Dark Strong Ale": {
+      "Overall Impression": [
+        "A dark, rich, complex, very strong Belgian ale with layers of malt, fruity esters, phenols, and alcohol.",
+        "Smooth, warming, and balanced despite its strength."
+      ],
+      "Appearance": [
+        "Dark amber to dark brown, often with ruby highlights.",
+        "Good clarity.",
+        "Large, persistent light tan head."
+      ],
+      "Aroma": [
+        "Rich malt (caramel, toffee, bread crust).",
+        "Dark fruit esters (plum, raisin, fig, prune).",
+        "Spicy phenols (pepper, clove).",
+        "Alcohol present but smooth."
+      ],
+      "Flavor": [
+        "Complex interplay of rich malt, dark fruit esters, and spicy phenols.",
+        "Moderate to high alcohol warmth, smooth not hot.",
+        "Finish is moderately dry despite malt richness.",
+        "Hop bitterness low to moderate, balance always toward malt and yeast."
+      ],
+      "Mouthfeel": [
+        "Medium-full to full body.",
+        "High carbonation.",
+        "Smooth, creamy, warming."
+      ],
+      "Comments": [
+        "Sometimes called Quadrupel (Quad) in modern usage."
+      ],
+      "History": [
+        "Trappist and abbey breweries brewed strong, dark ales as special offerings.",
+        "Commercial examples often vintage-dated and age-worthy."
+      ],
+      "Characteristic Ingredients": [
+        "Pilsner malt, dark specialty malts.",
+        "Caramelized sugar syrups.",
+        "Belgian yeast with fruity/spicy character."
+      ],
+      "Style Comparison": [
+        "Stronger and darker than Dubbel, not as dry or hoppy as Tripel.",
+        "Richer and darker than Belgian Golden Strong Ale."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 35",
+        "SRM": "12 - 22",
+        "OG": "1.075 - 1.110",
+        "FG": "1.010 - 1.024",
+        "ABV": "8.0% - 12.0%"
+      },
+      "Commercial Examples": [
+        "Chimay Blue (Grande Réserve)",
+        "Rochefort 10",
+        "St. Bernardus Abt 12",
+        "Westvleteren 12"
+      ],
+      "Style Attributes": [
+        "belgium",
+        "dark-color",
+        "very-high-strength",
+        "malty",
+        "top-fermented",
+        "traditional-style",
+        "monastic"
+      ]
+    }
+  },
+  "Historical Beer": {
+    "Gose": {
+      "Overall Impression": [
+        "A tart, lightly sour, refreshing wheat beer with coriander and salt.",
+        "Balance between sourness, spice, and salt is key."
+      ],
+      "Appearance": [
+        "Unfiltered, hazy, pale yellow.",
+        "Dense white head."
+      ],
+      "Aroma": [
+        "Moderate lactic sourness.",
+        "Light wheat, coriander, and salt.",
+        "Low fruity esters optional."
+      ],
+      "Flavor": [
+        "Clean lactic sourness, restrained coriander, noticeable salt.",
+        "Low bitterness, dry finish."
+      ],
+      "Mouthfeel": [
+        "Light to medium-light body.",
+        "High carbonation.",
+        "Slight saltiness on the palate."
+      ],
+      "Comments": [
+        "Specialty of Leipzig; many modern craft examples exist."
+      ],
+      "History": [
+        "Originated in Goslar, adopted and popularized in Leipzig.",
+        "Revived after near extinction in the late 20th century."
+      ],
+      "Characteristic Ingredients": [
+        "50% malted wheat, Pilsner malt.",
+        "Coriander and salt.",
+        "Lactic fermentation."
+      ],
+      "Style Comparison": [
+        "Similar to Berliner Weisse but with spice and salt."
+      ],
+      "Vital Statistics": {
+        "IBU": "5 - 12",
+        "SRM": "3 - 4",
+        "OG": "1.036 - 1.056",
+        "FG": "1.006 - 1.012",
+        "ABV": "4.2% - 4.8%"
+      },
+      "Commercial Examples": [
+        "Bayerischer Bahnhof Leipziger Gose",
+        "Anderson Valley Gose"
+      ],
+      "Style Attributes": [
+        "sour",
+        "spiced",
+        "wheat-beer-family",
+        "germany",
+        "traditional-style"
+      ]
+    },
+    "Kellerbier": {
+      "Overall Impression": [
+        "A young, unfiltered, unpasteurized German lager with a smooth, natural character."
+      ],
+      "Appearance": [
+        "Gold to amber.",
+        "Cloudy from yeast.",
+        "Creamy white head."
+      ],
+      "Aroma": [
+        "Fresh maltiness, bread, and toast.",
+        "Low herbal hop aroma."
+      ],
+      "Flavor": [
+        "Soft malt character with bready notes.",
+        "Moderate bitterness, balanced finish.",
+        "Clean fermentation."
+      ],
+      "Mouthfeel": [
+        "Medium body.",
+        "Moderate carbonation.",
+        "Smooth and creamy."
+      ],
+      "Comments": [
+        "Served young and unfiltered, often directly from the lagering tank."
+      ],
+      "History": [
+        "Traditional Franconian lager, served straight from the cellar."
+      ],
+      "Characteristic Ingredients": [
+        "German Pilsner and Munich malts.",
+        "German noble hops.",
+        "Lager yeast."
+      ],
+      "Style Comparison": [
+        "A fresher, less-refined version of a German lager."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 35",
+        "SRM": "3 - 7",
+        "OG": "1.045 - 1.051",
+        "FG": "1.008 - 1.012",
+        "ABV": "4.7% - 5.4%"
+      },
+      "Commercial Examples": [
+        "Mahr’s Bräu Ungespundet Lager",
+        "Kellerbier from Franconian breweries"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "lagered",
+        "germany",
+        "traditional-style"
+      ]
+    },
+    "Kentucky Common": {
+      "Overall Impression": [
+        "A dark, grainy, refreshing, pre-Prohibition American ale.",
+        "Balanced, easy-drinking with a dry finish."
+      ],
+      "Appearance": [
+        "Amber to dark brown.",
+        "Clear.",
+        "Off-white to light tan head."
+      ],
+      "Aroma": [
+        "Light grainy malt with corn sweetness.",
+        "Low caramel and toast.",
+        "Low floral or spicy hops optional."
+      ],
+      "Flavor": [
+        "Lightly sweet corn and grain character.",
+        "Caramel and toast add depth.",
+        "Medium bitterness balances.",
+        "Clean fermentation."
+      ],
+      "Mouthfeel": [
+        "Medium-light body.",
+        "Moderate to high carbonation."
+      ],
+      "Comments": [
+        "A style unique to the U.S., centered in Louisville, Kentucky before Prohibition."
+      ],
+      "History": [
+        "Brewed in Louisville from the late 1800s until Prohibition.",
+        "Used local corn and dark malts."
+      ],
+      "Characteristic Ingredients": [
+        "6-row barley malt.",
+        "Corn grits.",
+        "Caramel and black malts."
+      ],
+      "Style Comparison": [
+        "Like a darker Cream Ale with more malt complexity."
+      ],
+      "Vital Statistics": {
+        "IBU": "15 - 30",
+        "SRM": "11 - 20",
+        "OG": "1.044 - 1.055",
+        "FG": "1.010 - 1.018",
+        "ABV": "4.0% - 5.5%"
+      },
+      "Commercial Examples": [
+        "Apocalypse Brew Works Ortel’s Kentucky Common"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "corn-adjunct",
+        "north-america",
+        "top-fermented",
+        "historical-style"
+      ]
+    },
+    "Lichtenhainer": {
+      "Overall Impression": [
+        "A pale, sour, smoked, low-alcohol German wheat beer.",
+        "Refreshing, tart, and smoky."
+      ],
+      "Appearance": [
+        "Pale straw to light gold.",
+        "Hazy.",
+        "White head."
+      ],
+      "Aroma": [
+        "Smoke character blends with lactic sourness.",
+        "Light wheat background."
+      ],
+      "Flavor": [
+        "Balance of smoke and sourness.",
+        "Light wheat malt supports.",
+        "Dry finish."
+      ],
+      "Mouthfeel": [
+        "Light body.",
+        "High carbonation.",
+        "Refreshing tartness."
+      ],
+      "Comments": [
+        "Historic central German style, rare today."
+      ],
+      "History": [
+        "Originated in the 1800s around Jena, Germany.",
+        "Almost extinct but revived by enthusiasts."
+      ],
+      "Characteristic Ingredients": [
+        "Smoked malt.",
+        "Wheat malt.",
+        "Lactic souring."
+      ],
+      "Style Comparison": [
+        "Like a Berliner Weisse with smoke character."
+      ],
+      "Vital Statistics": {
+        "IBU": "5 - 12",
+        "SRM": "3 - 6",
+        "OG": "1.032 - 1.040",
+        "FG": "1.004 - 1.008",
+        "ABV": "3.5% - 4.7%"
+      },
+      "Commercial Examples": [
+        "Historische Lichtenhainer"
+      ],
+      "Style Attributes": [
+        "sour",
+        "smoked",
+        "wheat-beer-family",
+        "germany",
+        "historical-style"
+      ]
+    },
+    "London Brown Ale": {
+      "Overall Impression": [
+        "A very dark, sweet, low-strength British ale.",
+        "Balanced toward caramel and chocolate flavors, smooth and sweet."
+      ],
+      "Appearance": [
+        "Dark brown to black.",
+        "Clear.",
+        "Tan head."
+      ],
+      "Aroma": [
+        "Sweet malt aromas of caramel, toffee, and chocolate.",
+        "Light fruity esters possible."
+      ],
+      "Flavor": [
+        "Sweet caramel, chocolate, molasses.",
+        "Very low bitterness, finish sweet."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "Smooth, slightly creamy."
+      ],
+      "Comments": [
+        "A bottled style popular in mid-20th-century Britain."
+      ],
+      "History": [
+        "Originated as a bottled product for working-class drinkers in London."
+      ],
+      "Characteristic Ingredients": [
+        "Pale malt with caramel and dark specialty malts.",
+        "Low hopping."
+      ],
+      "Style Comparison": [
+        "Like a sweeter, lower-strength Mild."
+      ],
+      "Vital Statistics": {
+        "IBU": "12 - 20",
+        "SRM": "22 - 35",
+        "OG": "1.030 - 1.038",
+        "FG": "1.012 - 1.015",
+        "ABV": "2.8% - 3.6%"
+      },
+      "Commercial Examples": [
+        "Manns Brown Ale"
+      ],
+      "Style Attributes": [
+        "british-isles",
+        "brown-color",
+        "malty",
+        "session-strength",
+        "top-fermented",
+        "historical-style"
+      ]
+    },
+    "Piwo Grodziskie": {
+      "Overall Impression": [
+        "A very pale, highly carbonated, lightly smoked Polish wheat beer.",
+        "Light, refreshing, effervescent."
+      ],
+      "Appearance": [
+        "Straw to pale gold.",
+        "Brilliant clarity.",
+        "Huge white head."
+      ],
+      "Aroma": [
+        "Moderate smoky aroma.",
+        "Light grainy wheat background."
+      ],
+      "Flavor": [
+        "Light smoke flavor balanced with grainy wheat.",
+        "Dry finish.",
+        "No hop flavor."
+      ],
+      "Mouthfeel": [
+        "Light body.",
+        "Very high carbonation.",
+        "Prickly and refreshing."
+      ],
+      "Comments": [
+        "Known as 'Polish Champagne.'"
+      ],
+      "History": [
+        "Originated in Grodzisk Wielkopolski, Poland in the 14th century.",
+        "Revived by craft brewers."
+      ],
+      "Characteristic Ingredients": [
+        "Oak-smoked wheat malt.",
+        "Polish hops."
+      ],
+      "Style Comparison": [
+        "Like a smoked Berliner Weisse, but without sourness."
+      ],
+      "Vital Statistics": {
+        "IBU": "20 - 35",
+        "SRM": "3 - 6",
+        "OG": "1.028 - 1.032",
+        "FG": "1.006 - 1.012",
+        "ABV": "2.5% - 3.3%"
+      },
+      "Commercial Examples": [
+        "Grodzisk Wielkopolski",
+        "Professor Fritz Briem Piwo Grodziskie"
+      ],
+      "Style Attributes": [
+        "smoked",
+        "wheat-beer-family",
+        "pale-color",
+        "session-strength",
+        "historical-style"
+      ]
+    },
+    "Pre-Prohibition Lager": {
+      "Overall Impression": [
+        "A stronger, more flavorful American lager brewed before Prohibition.",
+        "Balanced, grainy, crisp."
+      ],
+      "Appearance": [
+        "Pale gold to amber.",
+        "Clear.",
+        "White head."
+      ],
+      "Aroma": [
+        "Grainy malt sweetness with corn or adjuncts.",
+        "Low floral hop aroma."
+      ],
+      "Flavor": [
+        "Moderate grainy malt sweetness balanced with hop bitterness.",
+        "Crisp finish."
+      ],
+      "Mouthfeel": [
+        "Medium body.",
+        "Moderate carbonation."
+      ],
+      "Comments": [
+        "Represents American lager before industrial mass-production changes."
+      ],
+      "History": [
+        "Common in the U.S. before Prohibition.",
+        "Replaced by lighter, less flavorful lagers afterward."
+      ],
+      "Characteristic Ingredients": [
+        "6-row barley malt.",
+        "Corn or rice adjuncts.",
+        "American hops."
+      ],
+      "Style Comparison": [
+        "More body, flavor, and strength than modern American lagers."
+      ],
+      "Vital Statistics": {
+        "IBU": "25 - 40",
+        "SRM": "3 - 6",
+        "OG": "1.044 - 1.060",
+        "FG": "1.010 - 1.015",
+        "ABV": "4.5% - 6.0%"
+      },
+      "Commercial Examples": [
+        "Anchor California Lager",
+        "Yards Brawler Pre-Prohibition Lager"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "lagered",
+        "north-america",
+        "traditional-style",
+        "historical-style"
+      ]
+    },
+    "Pre-Prohibition Porter": {
+      "Overall Impression": [
+        "A dark, hoppy, American porter brewed before Prohibition.",
+        "Balanced roast and hops."
+      ],
+      "Appearance": [
+        "Brown to black.",
+        "Clear.",
+        "Tan head."
+      ],
+      "Aroma": [
+        "Roasted malt with chocolate and coffee notes.",
+        "Moderate hop aroma."
+      ],
+      "Flavor": [
+        "Roasty malt with chocolate, caramel, coffee.",
+        "Moderate hop bitterness and flavor.",
+        "Dry finish."
+      ],
+      "Mouthfeel": [
+        "Medium body.",
+        "Moderate carbonation."
+      ],
+      "Comments": [
+        "Stronger and hoppier than modern porters."
+      ],
+      "History": [
+        "Brewed in the U.S. before Prohibition, influenced by English porters."
+      ],
+      "Characteristic Ingredients": [
+        "American 6-row malt.",
+        "Roasted malt.",
+        "American hops."
+      ],
+      "Style Comparison": [
+        "More bitter and robust than modern English Porter."
+      ],
+      "Vital Statistics": {
+        "IBU": "30 - 50",
+        "SRM": "20 - 30",
+        "OG": "1.048 - 1.065",
+        "FG": "1.012 - 1.016",
+        "ABV": "5.0% - 6.5%"
+      },
+      "Commercial Examples": [
+        "Stevens Point 2012 Porter"
+      ],
+      "Style Attributes": [
+        "dark-color",
+        "porter-family",
+        "north-america",
+        "top-fermented",
+        "historical-style"
+      ]
+    },
+    "Roggenbier": {
+      "Overall Impression": [
+        "A German rye beer reminiscent of a Dunkelweizen but spicier and richer.",
+        "Malty, fruity, with rye spice."
+      ],
+      "Appearance": [
+        "Light copper to dark brown.",
+        "Hazy.",
+        "Large, persistent tan head."
+      ],
+      "Aroma": [
+        "Spicy rye bread character.",
+        "Fruity esters (banana, plum).",
+        "Clove-like phenols."
+      ],
+      "Flavor": [
+        "Complex blend of rye spiciness, dark fruit esters, and clove phenolics.",
+        "Malty sweetness supports.",
+        "Dry, spicy finish."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Creamy mouthfeel.",
+        "Moderate carbonation."
+      ],
+      "Comments": [
+        "Rye adds spicy, earthy character."
+      ],
+      "History": [
+        "Traditional German rye beer, revived by modern brewers."
+      ],
+      "Characteristic Ingredients": [
+        "50% or more rye malt.",
+        "Weizen yeast for banana and clove character."
+      ],
+      "Style Comparison": [
+        "Like a Dunkelweizen with rye spiciness."
+      ],
+      "Vital Statistics": {
+        "IBU": "10 - 20",
+        "SRM": "14 - 19",
+        "OG": "1.046 - 1.056",
+        "FG": "1.010 - 1.014",
+        "ABV": "4.5% - 6.0%"
+      },
+      "Commercial Examples": [
+        "Paulaner Roggenbier"
+      ],
+      "Style Attributes": [
+        "amber-color",
+        "wheat-beer-family",
+        "spicy",
+        "germany",
+        "top-fermented",
+        "historical-style"
+      ]
+    },
+    "Sahti": {
+      "Overall Impression": [
+        "A strong, farmhouse-style Finnish ale with juniper, raw ale character, and banana-like esters.",
+        "Thick, rustic, and hearty."
+      ],
+      "Appearance": [
+        "Pale amber to dark brown.",
+        "Hazy.",
+        "Minimal head."
+      ],
+      "Aroma": [
+        "Prominent banana-like esters.",
+        "Juniper and grainy rye notes.",
+        "Sweet malt character."
+      ],
+      "Flavor": [
+        "Sweet malt, rye bread, juniper, banana-like esters.",
+        "Low bitterness, raw grain character.",
+        "Full-bodied, sweet finish."
+      ],
+      "Mouthfeel": [
+        "Full-bodied, chewy.",
+        "Low carbonation.",
+        "Warming alcohol."
+      ],
+      "Comments": [
+        "Traditionally unboiled, giving raw ale character."
+      ],
+      "History": [
+        "Traditional Finnish farmhouse beer brewed for centuries, often for festivals."
+      ],
+      "Characteristic Ingredients": [
+        "Rye malt, barley, oats.",
+        "Juniper branches for infusion and filtering.",
+        "Top-fermenting yeast."
+      ],
+      "Style Comparison": [
+        "Unique; rustic, raw, and banana-like."
+      ],
+      "Vital Statistics": {
+        "IBU": "7 - 15",
+        "SRM": "4 - 22",
+        "OG": "1.076 - 1.120",
+        "FG": "1.016 - 1.020",
+        "ABV": "7% - 11%"
+      },
+      "Commercial Examples": [
+        "Lammin Sahti",
+        "Finland farmhouse Sahti brewers"
+      ],
+      "Style Attributes": [
+        "farmhouse",
+        "rye",
+        "finland",
+        "very-high-strength",
+        "top-fermented",
+        "historical-style"
+      ]
+    }
+  },
+  "American Wild Ale": {
+    "Brett Beer": {
+      "Overall Impression": [
+        "Any beer style with a significant Brettanomyces-derived character.",
+        "May be funky, fruity, or earthy, but balanced with the underlying base style."
+      ],
+      "Appearance": [
+        "Varies with base style.",
+        "Often hazy if young, clearing with age.",
+        "Head retention varies."
+      ],
+      "Aroma": [
+        "Brett character ranges from barnyard, horse blanket, leathery, earthy, funky to fruity (tropical fruit, stone fruit, citrus).",
+        "Hop and malt character depends on base style."
+      ],
+      "Flavor": [
+        "Brettanomyces character dominates: funky, fruity, earthy, leathery.",
+        "Underlying base beer noticeable but altered by Brett.",
+        "Dry finish common."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "Moderate to high carbonation.",
+        "May have slight tannic or acidic bite."
+      ],
+      "Comments": [
+        "Not all Brett character is intensely funky; some strains produce tropical fruit notes.",
+        "Balance depends on base style and aging."
+      ],
+      "History": [
+        "Brett historically considered a contaminant in beer, revived by American craft brewers for complexity."
+      ],
+      "Characteristic Ingredients": [
+        "Base style plus Brettanomyces cultures.",
+        "Often bottle-conditioned for extended aging."
+      ],
+      "Style Comparison": [
+        "Like the base style but with Brett funk overlay."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Crooked Stave Surette",
+        "Jolly Pumpkin Bam Biere",
+        "The Bruery Saison Rue"
+      ],
+      "Style Attributes": [
+        "wild",
+        "brett",
+        "craft-style",
+        "experimental",
+        "top-fermented"
+      ]
+    },
+    "Mixed-Fermentation Sour Beer": {
+      "Overall Impression": [
+        "A sour beer fermented with a mix of Saccharomyces, Brettanomyces, and lactic acid bacteria.",
+        "Balanced acidity, funk, and complexity."
+      ],
+      "Appearance": [
+        "Varies by base style.",
+        "Often hazy, with low to moderate head retention."
+      ],
+      "Aroma": [
+        "Complex blend of lactic sourness, Brett funk, fruity esters, and base style malt/hop notes."
+      ],
+      "Flavor": [
+        "Moderate to high lactic acidity.",
+        "Fruity esters, Brett funk, earthy and spicy notes.",
+        "Balance depends on base style; usually dry finish."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "Moderate to high carbonation.",
+        "Refreshing acidity."
+      ],
+      "Comments": [
+        "Sourness should be pleasant, not harsh.",
+        "Balance of acidity, funk, and base style is key."
+      ],
+      "History": [
+        "Inspired by Belgian Lambics, Flanders ales, and American craft innovation.",
+        "Common in barrel-aged beer programs."
+      ],
+      "Characteristic Ingredients": [
+        "Mixed cultures of Saccharomyces, Brettanomyces, Lactobacillus, Pediococcus.",
+        "Often aged in wood."
+      ],
+      "Style Comparison": [
+        "More sour than Brett Beer, less fruit/spice than Wild Specialty Beer."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Russian River Supplication",
+        "Cascade Kriek",
+        "Allagash Coolship Red"
+      ],
+      "Style Attributes": [
+        "sour",
+        "wild",
+        "craft-style",
+        "experimental",
+        "mixed-fermentation"
+      ]
+    },
+    "Wild Specialty Beer": {
+      "Overall Impression": [
+        "A wild beer with fruit, spice, herbs, additional fermentables, or other specialty ingredients added.",
+        "Balance of base beer, Brett/sourness, and specialty ingredient is key."
+      ],
+      "Appearance": [
+        "Varies with base style and specialty additions."
+      ],
+      "Aroma": [
+        "Combination of Brett funk, lactic sourness, and specialty additions."
+      ],
+      "Flavor": [
+        "Funky, sour, and fruity flavors blend with specialty additions.",
+        "Finish ranges from dry to tart."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "Moderate to high carbonation."
+      ],
+      "Comments": [
+        "Specialty ingredient should enhance, not overwhelm, wild beer character."
+      ],
+      "History": [
+        "American craft brewers expanded wild ale tradition with specialty ingredients."
+      ],
+      "Characteristic Ingredients": [
+        "Any base style plus Brett and/or bacteria.",
+        "Specialty ingredients such as fruit, spices, herbs, honey."
+      ],
+      "Style Comparison": [
+        "A Mixed-Fermentation Sour Beer with added specialty ingredients."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Cascade Apricot",
+        "Crooked Stave L’Brett d’Apricot",
+        "New Belgium Le Terroir"
+      ],
+      "Style Attributes": [
+        "fruit",
+        "spiced",
+        "sour",
+        "wild",
+        "craft-style",
+        "experimental"
+      ]
+    },
+    "Straight Sour Beer": {
+      "Overall Impression": [
+        "A sour beer without significant Brett funk or specialty additions.",
+        "Focus is on clean lactic sourness."
+      ],
+      "Appearance": [
+        "Varies by base style.",
+        "Often pale, hazy, with white head."
+      ],
+      "Aroma": [
+        "Lactic sourness dominates.",
+        "Clean fermentation character."
+      ],
+      "Flavor": [
+        "Lactic sourness dominates with refreshing, tart finish.",
+        "Balance depends on base beer style."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "High carbonation."
+      ],
+      "Comments": [
+        "Clean sourness should be pleasant, not harsh or vinegary."
+      ],
+      "History": [
+        "Modern American craft interpretation of kettle-soured beers."
+      ],
+      "Characteristic Ingredients": [
+        "Base style soured with Lactobacillus in the kettle."
+      ],
+      "Style Comparison": [
+        "Simpler and less funky than Mixed-Fermentation Sour Beer."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Destihl Here Gose Nothin’",
+        "The Rare Barrel Map of the Sun",
+        "Anderson Valley Briney Melon Gose"
+      ],
+      "Style Attributes": [
+        "sour",
+        "clean",
+        "craft-style",
+        "north-america",
+        "experimental"
+      ]
+    }
+  },
+  "Fruit Beer": {
+    "Fruit Beer": {
+      "Overall Impression": [
+        "A harmonious marriage of fruit and beer, but still recognizable as a beer.",
+        "Fruit should complement the base style without overwhelming it."
+      ],
+      "Appearance": [
+        "Varies by base style and fruit.",
+        "Often shows fruit color tints.",
+        "Clarity may be hazy."
+      ],
+      "Aroma": [
+        "Fruit character should be noticeable, authentic, and pleasant.",
+        "Base style malt, hops, and yeast still evident."
+      ],
+      "Flavor": [
+        "Fruit should balance with base beer flavors.",
+        "Sweetness or tartness from fruit acceptable.",
+        "Balance is key: fruit-enhanced, not fruit-dominated."
+      ],
+      "Mouthfeel": [
+        "Varies with base style and fruit.",
+        "Fruit can add acidity or tannins."
+      ],
+      "Comments": [
+        "Overall balance is critical; fruit should integrate seamlessly."
+      ],
+      "History": [
+        "Fruit additions have historic precedent, but modern craft interpretations are diverse."
+      ],
+      "Characteristic Ingredients": [
+        "Any fruit; whole, puree, juice, concentrate.",
+        "Base beer style varies widely."
+      ],
+      "Style Comparison": [
+        "Like the declared base style, with fruit character present."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Founders Rubaeus (Raspberry Ale)",
+        "Dogfish Head Aprihop"
+      ],
+      "Style Attributes": [
+        "fruit",
+        "specialty",
+        "craft-style",
+        "top-fermented"
+      ]
+    },
+    "Fruit and Spice Beer": {
+      "Overall Impression": [
+        "A harmonious blend of fruit, spice, and base beer.",
+        "Balance between fruit and spice is critical, with base beer still evident."
+      ],
+      "Appearance": [
+        "Varies by fruit, spice, and base style.",
+        "Fruit often gives color tint; spice may affect clarity."
+      ],
+      "Aroma": [
+        "Fruit and spice aromas noticeable, natural, and pleasant.",
+        "Base beer should remain identifiable."
+      ],
+      "Flavor": [
+        "Fruit and spice balanced with beer flavors.",
+        "Neither should dominate or seem artificial.",
+        "Finish should reflect integration."
+      ],
+      "Mouthfeel": [
+        "Varies by fruit, spice, and base style.",
+        "May add warming or drying qualities."
+      ],
+      "Comments": [
+        "Overall impression depends on synergy of ingredients.",
+        "Spice and fruit should taste natural."
+      ],
+      "History": [
+        "Popularized in the craft beer movement; builds on fruit beer with added complexity."
+      ],
+      "Characteristic Ingredients": [
+        "Any fruit with complementary spices (cinnamon, ginger, etc.).",
+        "Base beer varies."
+      ],
+      "Style Comparison": [
+        "Like Fruit Beer, but with spice complexity added."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Dogfish Head Midas Touch",
+        "21st Amendment Hell or High Watermelon (seasonal spiced variants)"
+      ],
+      "Style Attributes": [
+        "fruit",
+        "spiced",
+        "specialty",
+        "craft-style"
+      ]
+    },
+    "Specialty Fruit Beer": {
+      "Overall Impression": [
+        "A creative, experimental fruit beer that doesn’t fit the standard Fruit Beer category.",
+        "Fruit remains central but with unique treatment."
+      ],
+      "Appearance": [
+        "Varies widely, influenced by fruit and base beer."
+      ],
+      "Aroma": [
+        "Fruit should be prominent and natural.",
+        "Special processes (barrel-aging, souring) may add complexity."
+      ],
+      "Flavor": [
+        "Fruit is evident and central, but integration and drinkability are key.",
+        "Specialty aspects differentiate it from regular Fruit Beer."
+      ],
+      "Mouthfeel": [
+        "Varies widely, depending on base beer and fruit used."
+      ],
+      "Comments": [
+        "Judges expect description of base beer, fruit, and unique treatment."
+      ],
+      "History": [
+        "Driven by experimentation in craft brewing."
+      ],
+      "Characteristic Ingredients": [
+        "Any fruit, unusual combinations, or processing methods (smoking, aging, blending)."
+      ],
+      "Style Comparison": [
+        "Like Fruit Beer, but distinct enough to stand apart as specialty."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Cascade Apricot",
+        "The Bruery Terreux Frucht series"
+      ],
+      "Style Attributes": [
+        "fruit",
+        "specialty",
+        "craft-style",
+        "experimental"
+      ]
+    },
+    "Grape Ale": {
+      "Overall Impression": [
+        "A hybrid beer made with significant grape additions, bridging wine and beer characteristics."
+      ],
+      "Appearance": [
+        "Varies with grape type and proportion.",
+        "Often has wine-like clarity and hue."
+      ],
+      "Aroma": [
+        "Prominent grape character (white, red, or muscat).",
+        "Base beer aromatics present but secondary."
+      ],
+      "Flavor": [
+        "Wine-like flavors blend with beer.",
+        "Balance varies, but grapes should be evident.",
+        "Dry to semi-dry finish."
+      ],
+      "Mouthfeel": [
+        "Light to medium body.",
+        "High carbonation common.",
+        "Tannins possible depending on grape variety."
+      ],
+      "Comments": [
+        "Straddles beer and wine categories.",
+        "Presentation often highlights grape varietal."
+      ],
+      "History": [
+        "Modern specialty style driven by craft brewers experimenting with wine-beer hybrids."
+      ],
+      "Characteristic Ingredients": [
+        "Malt base with significant grape must or juice.",
+        "Ale yeast or mixed fermentation."
+      ],
+      "Style Comparison": [
+        "Wine-beer hybrid, more grape-forward than standard fruit beers."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Dogfish Head Sixty-One",
+        "Russian River Consecration",
+        "Cantillon Vigneronne"
+      ],
+      "Style Attributes": [
+        "fruit",
+        "grape",
+        "wine-hybrid",
+        "craft-style",
+        "experimental"
+      ]
+    }
+  },
+  "Spiced Beer": {
+    "Spice, Herb, or Vegetable Beer": {
+      "Overall Impression": [
+        "A harmonious marriage of beer and spices, herbs, or vegetables.",
+        "Balance between added ingredients and base beer is critical."
+      ],
+      "Appearance": [
+        "Varies by base style and additives.",
+        "Additives may influence color or clarity."
+      ],
+      "Aroma": [
+        "Additives noticeable but balanced.",
+        "Base beer malt, hops, and yeast still apparent."
+      ],
+      "Flavor": [
+        "Additives should enhance rather than overwhelm the base beer.",
+        "Sweetness, spice heat, or vegetal flavors should taste natural."
+      ],
+      "Mouthfeel": [
+        "Varies by base style and ingredients.",
+        "Additives may add body, astringency, or warmth."
+      ],
+      "Comments": [
+        "Balance and drinkability are the most important factors.",
+        "Judges need base style declared along with additives."
+      ],
+      "History": [
+        "Rooted in historic traditions (e.g., gruit ales).",
+        "Modern craft beers popularized new combinations."
+      ],
+      "Characteristic Ingredients": [
+        "Any culinary spice, herb, or vegetable.",
+        "Base beer can be any style."
+      ],
+      "Style Comparison": [
+        "Like the base beer style but with spice/herb/vegetable presence."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Dogfish Head Punkin Ale",
+        "Rogue Chipotle Ale",
+        "Buffalo Bill’s Pumpkin Ale"
+      ],
+      "Style Attributes": [
+        "spiced",
+        "herbal",
+        "vegetable",
+        "specialty",
+        "craft-style"
+      ]
+    },
+    "Autumn Seasonal Beer": {
+      "Overall Impression": [
+        "An amber to copper, spiced beer that evokes fall seasonal flavors.",
+        "Spices should complement, not overpower, the base beer."
+      ],
+      "Appearance": [
+        "Deep golden to reddish amber.",
+        "Clear.",
+        "Off-white head."
+      ],
+      "Aroma": [
+        "Malt character often bready, biscuity, or caramel.",
+        "Spices reminiscent of autumn (cinnamon, nutmeg, allspice, clove).",
+        "Low hop aroma optional."
+      ],
+      "Flavor": [
+        "Spices dominate with supportive malt backbone.",
+        "Balance is key: not overly sweet or spiced.",
+        "Low bitterness.",
+        "Finish ranges from dry to sweet."
+      ],
+      "Mouthfeel": [
+        "Medium body.",
+        "Moderate carbonation.",
+        "Smooth, warming quality possible."
+      ],
+      "Comments": [
+        "Often brewed as Pumpkin Ale, but pumpkin is not mandatory.",
+        "Spice profile defines the style."
+      ],
+      "History": [
+        "Popularized by American craft brewers in the late 20th century, inspired by pumpkin pie."
+      ],
+      "Characteristic Ingredients": [
+        "Autumn spices (cinnamon, nutmeg, allspice, clove, ginger).",
+        "Optional pumpkin or other squashes."
+      ],
+      "Style Comparison": [
+        "Like Spice/Herb/Vegetable Beer with fall spice focus."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Southern Tier Pumking",
+        "Dogfish Head Punkin Ale",
+        "Shipyard Pumpkinhead Ale"
+      ],
+      "Style Attributes": [
+        "spiced",
+        "autumn",
+        "amber-color",
+        "seasonal",
+        "craft-style"
+      ]
+    },
+    "Winter Seasonal Beer": {
+      "Overall Impression": [
+        "A stronger, often darker spiced beer that evokes the festive character of the winter holidays.",
+        "Balance between spice, malt, and strength is critical."
+      ],
+      "Appearance": [
+        "Amber to very dark brown.",
+        "Clear, though darker versions may be opaque.",
+        "Creamy, persistent head."
+      ],
+      "Aroma": [
+        "Rich malt character, often caramel, toffee, or chocolate.",
+        "Spices common to winter holidays (cinnamon, clove, nutmeg, ginger).",
+        "Alcohol may add complexity."
+      ],
+      "Flavor": [
+        "Malt-driven with caramel, toffee, chocolate, or molasses.",
+        "Spices noticeable but balanced.",
+        "Moderate to high strength, warming finish."
+      ],
+      "Mouthfeel": [
+        "Medium to full body.",
+        "Smooth, often with alcohol warmth.",
+        "Moderate carbonation."
+      ],
+      "Comments": [
+        "Often associated with Christmas ales or holiday beers.",
+        "Spice expression defines the style."
+      ],
+      "History": [
+        "Traditional European winter seasonals influenced modern craft holiday ales."
+      ],
+      "Characteristic Ingredients": [
+        "Rich malt base.",
+        "Spices associated with winter holidays.",
+        "Optional dark fruits."
+      ],
+      "Style Comparison": [
+        "Stronger and richer than Autumn Seasonal Beer, more alcohol warmth."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Anchor Christmas Ale",
+        "Harpoon Winter Warmer",
+        "Great Lakes Christmas Ale"
+      ],
+      "Style Attributes": [
+        "spiced",
+        "winter",
+        "dark-color",
+        "high-strength",
+        "seasonal",
+        "craft-style"
+      ]
+    },
+    "Specialty Spice Beer": {
+      "Overall Impression": [
+        "A spiced beer that does not fit into Autumn or Winter categories.",
+        "Unusual or creative use of spices is typical."
+      ],
+      "Appearance": [
+        "Varies with base style and spice."
+      ],
+      "Aroma": [
+        "Spice should be noticeable and pleasant.",
+        "Base beer character still evident."
+      ],
+      "Flavor": [
+        "Spice flavor noticeable, authentic, and complementary.",
+        "Balance with base beer is critical."
+      ],
+      "Mouthfeel": [
+        "Varies by base style and spices used."
+      ],
+      "Comments": [
+        "Judges expect declaration of base beer and spice additions."
+      ],
+      "History": [
+        "Craft brewers experiment with creative combinations of spices."
+      ],
+      "Characteristic Ingredients": [
+        "Any culinary spice or spice blend."
+      ],
+      "Style Comparison": [
+        "Like Spice/Herb/Vegetable Beer, but with unique or unusual spice focus."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Ballast Point Orange Vanilla Wahoo",
+        "The Bruery 12 Days of Christmas series"
+      ],
+      "Style Attributes": [
+        "spiced",
+        "specialty",
+        "experimental",
+        "craft-style"
+      ]
+    }
+  },
+  "Alternative Fermentables Beer": {
+    "Alternative Grain Beer": {
+      "Overall Impression": [
+        "A beer featuring one or more non-traditional grains (e.g., rye, oats, wheat, corn, rice, spelt, sorghum, millet) as a significant component.",
+        "The alternative grain character should be noticeable and harmonious with the base beer."
+      ],
+      "Appearance": [
+        "Varies with base style and grains used.",
+        "Alternative grains may increase haze and impact head formation and retention."
+      ],
+      "Aroma": [
+        "Base beer malt, hop, and fermentation character present.",
+        "Alternative grains may add grain-specific notes: spicy or earthy (rye), nutty or grainy (oats), bready/doughy (wheat), corn-like or neutral (corn/rice), rustic (spelt), or unique gluten-free grain aromatics (sorghum/millet)."
+      ],
+      "Flavor": [
+        "Base style flavors supported by the distinct contribution of the alternative grain(s).",
+        "Rye can add peppery spiciness and dryness; oats can add soft graininess and silkiness; wheat can add bready, doughy notes and a fuller impression; corn/rice tend to lighten body and flavor; gluten-free grains can add light tartness or mineral-like notes.",
+        "Bitterness, sweetness, and finish should remain balanced and drinkable."
+      ],
+      "Mouthfeel": [
+        "Varies by base style and grains.",
+        "Oats and wheat can increase body and creaminess; corn and rice can lighten body; rye can lend a firm, drying finish."
+      ],
+      "Comments": [
+        "Entrants should declare the base style and the specific alternative grain(s).",
+        "Balance and drinkability are more important than intensity of the alternative grain."
+      ],
+      "History": [
+        "Traditional and regional brewing often employed adjunct grains.",
+        "Modern craft brewing frequently revisits these grains for flavor and texture."
+      ],
+      "Characteristic Ingredients": [
+        "Any brewing grains beyond standard barley malt as a significant portion of the grist.",
+        "Typical examples include rye, oats, wheat, corn, rice, spelt, sorghum, and millet."
+      ],
+      "Style Comparison": [
+        "Like the declared base style but with a noticeable alternative grain signature in flavor and/or mouthfeel."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Founders Red Rye",
+        "Terrapin Rye",
+        "The Kernel Table Beer (various grains)",
+        "Glutenberg (various gluten-free grains, style dependent)"
+      ],
+      "Style Attributes": [
+        "specialty",
+        "alternative-grain",
+        "balanced",
+        "craft-style"
+      ]
+    },
+    "Alternative Sugar Beer": {
+      "Overall Impression": [
+        "A beer featuring one or more fermentable sugars beyond malt (e.g., honey, molasses, maple, treacle, candi sugar, panela, jaggery) as a significant component.",
+        "Sugar-derived flavors should be evident yet integrated with the base beer."
+      ],
+      "Appearance": [
+        "Varies with base style and sugar used.",
+        "Dark sugars can deepen color; lighter sugars typically do not affect color."
+      ],
+      "Aroma": [
+        "Base beer aromatics supported by sugar character when present.",
+        "Honey can add floral, nectar-like notes; maple can be woodsy or earthy; molasses and treacle can be dark, rum-like, or licorice-like; candi sugars can be light-neutral to raisin-caramel (dark)."
+      ],
+      "Flavor": [
+        "Sugar additions may lighten body, increase attenuation, and contribute specific flavors depending on type and usage.",
+        "Honey may read floral and delicate; maple can be subtle and woodsy; molasses/treacle can add dark, robust notes; candi sugars can add caramel, toffee, dried fruit, or rum-like complexity.",
+        "Overall balance should remain pleasant and drinkable without cloying sweetness or harshness."
+      ],
+      "Mouthfeel": [
+        "Often leaner and more attenuated than the base style due to highly fermentable sugars.",
+        "Higher-strength examples may show smooth alcohol warmth."
+      ],
+      "Comments": [
+        "Entrants should declare the base style and the type(s) of sugar used.",
+        "Perceptible sugar character is expected but should not overwhelm the beer."
+      ],
+      "History": [
+        "Refined and unrefined sugars have historical use in many traditions (e.g., Belgian ales with candi sugar, British ales with invert sugars).",
+        "Modern brewers use diverse sugars for flavor nuance and attenuation control."
+      ],
+      "Characteristic Ingredients": [
+        "Honey, maple syrup, molasses, treacle, invert sugars, candi sugars (light to dark), panela, jaggery, or other culinary sugars.",
+        "Base style is brewer’s choice."
+      ],
+      "Style Comparison": [
+        "Like the declared base style but with sugar-derived fermentation character and flavor complexity; often drier or more highly attenuated."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Dupont Avec les Bons Vœux (candi sugar)",
+        "Unibroue La Fin du Monde (sugar-assisted, style dependent)",
+        "Dogfish Head Midas Touch (honey; historical-inspired)",
+        "Fuller’s Old Burton Extra (historical, sugar use varies)"
+      ],
+      "Style Attributes": [
+        "specialty",
+        "alternative-sugar",
+        "attenuated",
+        "craft-style"
+      ]
+    }
+  },
+  "Smoked Beer": {
+    "Classic Style Smoked Beer": {
+      "Overall Impression": [
+        "A well-balanced fusion of smoke and a classic beer style.",
+        "Smoke should complement and not overwhelm the base style."
+      ],
+      "Appearance": [
+        "Varies by base style.",
+        "Smoke may deepen color slightly.",
+        "Clarity generally matches base style."
+      ],
+      "Aroma": [
+        "Smoke aroma should be noticeable to strong, reminiscent of wood smoke, bacon, ham, or campfire.",
+        "Base beer malt, hops, and yeast still evident."
+      ],
+      "Flavor": [
+        "Smoke flavor present but in balance with base style.",
+        "Intensity can range from low to assertive, but never acrid or harsh.",
+        "Finish reflects base style with smoke overlay."
+      ],
+      "Mouthfeel": [
+        "Varies with base style.",
+        "Smoke may add perceived dryness or tannic edge."
+      ],
+      "Comments": [
+        "Classic example is Rauchbier, usually based on Märzen with beechwood smoke character.",
+        "Balance is key; smoke should integrate seamlessly."
+      ],
+      "History": [
+        "Traditional to Bamberg, Germany, where smoked malt was common before kilning technology improved.",
+        "Modern craft brewing revived smoke use in other base styles."
+      ],
+      "Characteristic Ingredients": [
+        "Smoked malt (often beechwood, alder, oak, cherrywood).",
+        "Base beer malt, hops, and yeast vary with style."
+      ],
+      "Style Comparison": [
+        "Like the declared base style but with a noticeable, complementary smoke character."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Aecht Schlenkerla Märzen",
+        "Spezial Rauchbier",
+        "Alaskan Smoked Porter (when based on classic style guidelines)"
+      ],
+      "Style Attributes": [
+        "smoked",
+        "traditional-style",
+        "specialty",
+        "germany",
+        "lagered"
+      ]
+    },
+    "Specialty Smoked Beer": {
+      "Overall Impression": [
+        "A smoked beer with more unusual base styles or experimental smoke usage.",
+        "Balance of smoke with base beer and other ingredients is essential."
+      ],
+      "Appearance": [
+        "Varies by base style and smoke intensity."
+      ],
+      "Aroma": [
+        "Smoke noticeable and pleasant.",
+        "Other aromatics depend on base style and specialty additions."
+      ],
+      "Flavor": [
+        "Smoke evident but integrated with base beer.",
+        "Specialty additions (fruit, spices, unusual woods) may enhance complexity.",
+        "Balance remains drinkable, not acrid."
+      ],
+      "Mouthfeel": [
+        "Varies widely with base style.",
+        "Smoke can create perceived dryness."
+      ],
+      "Comments": [
+        "Allows experimentation with non-traditional smoked styles and adjuncts.",
+        "Judges expect declaration of base beer and smoking method."
+      ],
+      "History": [
+        "Revived by craft brewers exploring smoke character in unusual bases (IPAs, porters, wheat ales, etc.)."
+      ],
+      "Characteristic Ingredients": [
+        "Any smoked malt.",
+        "Base style and specialty adjuncts vary."
+      ],
+      "Style Comparison": [
+        "Like the declared base style but with a noticeable smoked malt character."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Alaskan Smoked Porter",
+        "Bamberg experimental rauchbiers",
+        "Various craft smoked IPAs and saisons"
+      ],
+      "Style Attributes": [
+        "smoked",
+        "specialty",
+        "experimental",
+        "craft-style"
+      ]
+    }
+  },
+  "Wood Beer": {
+    "Wood-Aged Beer": {
+      "Overall Impression": [
+        "A pleasant enhancement of the base beer style with wood-aging character.",
+        "Wood should be complementary, not overwhelming."
+      ],
+      "Appearance": [
+        "Varies with base style.",
+        "Wood aging may darken color slightly.",
+        "Clarity generally reflects the base beer."
+      ],
+      "Aroma": [
+        "Wood-derived aromatics (vanilla, caramel, toast, coconut, char, or tannins).",
+        "Balance with malt, hops, and fermentation character of base beer is key."
+      ],
+      "Flavor": [
+        "Wood notes such as vanilla, coconut, toast, or tannic dryness.",
+        "May include mild oxidation (sherry-like) if aged.",
+        "Balance with base style is essential; no harsh or acrid flavors."
+      ],
+      "Mouthfeel": [
+        "Varies with base style.",
+        "Wood tannins may lend slight dryness or astringency.",
+        "Alcohol warmth may be accentuated by aging."
+      ],
+      "Comments": [
+        "Typically aged in previously used barrels or with wood staves/chips.",
+        "Judges expect declaration of base style and type of wood or barrel used."
+      ],
+      "History": [
+        "Historically, beer was stored in wooden vessels before modern materials.",
+        "Modern craft brewers intentionally age in wood to impart flavor."
+      ],
+      "Characteristic Ingredients": [
+        "Any base style.",
+        "Wood types (oak, ash, chestnut, etc.).",
+        "Previous barrel contents (wine, whiskey, bourbon) can add character."
+      ],
+      "Style Comparison": [
+        "Like the base beer style but with wood-aging character layered in."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Firestone Walker Double Barrel Ale",
+        "Fuller’s Brewers Reserve Oak Aged Ale"
+      ],
+      "Style Attributes": [
+        "wood-aged",
+        "specialty",
+        "traditional-style",
+        "craft-style"
+      ]
+    },
+    "Specialty Wood-Aged Beer": {
+      "Overall Impression": [
+        "A specialty beer with wood-aging as a central feature, often involving spirit barrels, unusual woods, or additional ingredients.",
+        "Wood and other specialty aspects should harmonize with the base style."
+      ],
+      "Appearance": [
+        "Varies by base style and barrel or wood type."
+      ],
+      "Aroma": [
+        "Strong wood, spirit, or wine character possible.",
+        "Base beer aromatics should still be noticeable."
+      ],
+      "Flavor": [
+        "Wood and barrel character integrated with base beer.",
+        "Spirit-derived flavors (bourbon, rum, sherry, wine) often evident.",
+        "No harsh raw wood or solventy alcohol."
+      ],
+      "Mouthfeel": [
+        "Varies with base style.",
+        "Tannins may add dryness.",
+        "Alcohol warmth common in spirit-aged versions."
+      ],
+      "Comments": [
+        "Judges expect declaration of base style, wood/barrel type, and any special additions.",
+        "Balance and integration determine quality."
+      ],
+      "History": [
+        "Craft breweries popularized bourbon-barrel-aged stouts and other specialty wood-aged beers in the late 20th century."
+      ],
+      "Characteristic Ingredients": [
+        "Base beer plus wood or barrel treatment.",
+        "Spirit- or wine-soaked barrels.",
+        "Optional fruit, spices, or adjuncts."
+      ],
+      "Style Comparison": [
+        "Like Wood-Aged Beer, but more extreme or experimental in barrel/spirit influence."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Goose Island Bourbon County Stout",
+        "The Bruery Black Tuesday",
+        "Firestone Walker Anniversary Ale"
+      ],
+      "Style Attributes": [
+        "wood-aged",
+        "barrel-aged",
+        "specialty",
+        "craft-style",
+        "experimental"
+      ]
+    }
+  },
+  "Specialty Beer": {
+    "Clone Beer": {
+      "Overall Impression": [
+        "A beer made to replicate a specific commercial beer.",
+        "Balance, aroma, flavor, and appearance should be close to the target example."
+      ],
+      "Appearance": [
+        "Varies depending on the beer being cloned."
+      ],
+      "Aroma": [
+        "Modeled after the target commercial example."
+      ],
+      "Flavor": [
+        "Should taste like the declared commercial beer.",
+        "Base style, if applicable, should be recognizable."
+      ],
+      "Mouthfeel": [
+        "Varies depending on the target commercial example."
+      ],
+      "Comments": [
+        "Entrants must identify the target beer.",
+        "Accuracy to the declared beer is more important than style guidelines."
+      ],
+      "History": [
+        "Clone brewing is common among homebrewers aiming to reproduce commercial favorites."
+      ],
+      "Characteristic Ingredients": [
+        "Ingredients and methods should reflect the target beer."
+      ],
+      "Style Comparison": [
+        "Direct comparison is to the declared commercial beer."
+      ],
+      "Vital Statistics": {
+        "IBU": "Matches target",
+        "SRM": "Matches target",
+        "OG": "Matches target",
+        "FG": "Matches target",
+        "ABV": "Matches target"
+      },
+      "Commercial Examples": [
+        "Varies based on target beer."
+      ],
+      "Style Attributes": [
+        "specialty",
+        "clone",
+        "craft-style"
+      ]
+    },
+    "Mixed-Style Beer": {
+      "Overall Impression": [
+        "A combination of multiple style guidelines to create a balanced, integrated product.",
+        "Neither style should dominate; synergy is expected."
+      ],
+      "Appearance": [
+        "Varies depending on chosen base styles."
+      ],
+      "Aroma": [
+        "Balance of aromatics from multiple styles."
+      ],
+      "Flavor": [
+        "Flavor profile integrates key features of declared styles.",
+        "Balance and drinkability are critical."
+      ],
+      "Mouthfeel": [
+        "Varies depending on chosen styles."
+      ],
+      "Comments": [
+        "Entrants must specify the component styles.",
+        "Judges evaluate on balance, integration, and drinkability."
+      ],
+      "History": [
+        "Modern craft brewing embraces hybridization of styles."
+      ],
+      "Characteristic Ingredients": [
+        "Any combination of malts, hops, yeast, or adjuncts typical of declared styles."
+      ],
+      "Style Comparison": [
+        "Directly compared to the declared component styles."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Examples vary widely, e.g., Belgian IPA, Black IPA (before its own category)."
+      ],
+      "Style Attributes": [
+        "specialty",
+        "mixed-style",
+        "craft-style",
+        "experimental"
+      ]
+    },
+    "Experimental Beer": {
+      "Overall Impression": [
+        "A beer that doesn’t fit any other BJCP category.",
+        "Experimental techniques, ingredients, or concepts define the beer."
+      ],
+      "Appearance": [
+        "Completely open-ended, but should be appropriate to concept."
+      ],
+      "Aroma": [
+        "Depends on ingredients and concept."
+      ],
+      "Flavor": [
+        "Should be balanced, drinkable, and aligned with brewer’s intent.",
+        "Novelty should not come at expense of quality."
+      ],
+      "Mouthfeel": [
+        "Depends on design; should suit concept."
+      ],
+      "Comments": [
+        "Entrants must clearly describe concept and intent.",
+        "Judges evaluate how well the beer delivers on that description."
+      ],
+      "History": [
+        "Driven by innovation in craft brewing, often pushing boundaries."
+      ],
+      "Characteristic Ingredients": [
+        "Unusual grains, adjuncts, yeast, bacteria, processes, or aging methods."
+      ],
+      "Style Comparison": [
+        "No direct comparison; evaluated on concept execution."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Dogfish Head R&D releases",
+        "Mikkeller experimental brews"
+      ],
+      "Style Attributes": [
+        "experimental",
+        "specialty",
+        "innovative",
+        "craft-style"
+      ]
+    },
+    "Commercial Specialty Beer": {
+      "Overall Impression": [
+        "A commercial beer that doesn’t fit other categories but is sold as a unique product.",
+        "Judge based on description and intended concept."
+      ],
+      "Appearance": [
+        "Varies widely depending on product."
+      ],
+      "Aroma": [
+        "Defined by brewer’s intent; may include unusual or creative aromatics."
+      ],
+      "Flavor": [
+        "Should be drinkable and aligned with brewer’s description."
+      ],
+      "Mouthfeel": [
+        "Depends on product design."
+      ],
+      "Comments": [
+        "Judged primarily on how well it matches brewer’s description and consumer expectations."
+      ],
+      "History": [
+        "Category created to allow commercial oddities and unique beers not otherwise covered."
+      ],
+      "Characteristic Ingredients": [
+        "Any."
+      ],
+      "Style Comparison": [
+        "Not comparable; unique products judged on own merits."
+      ],
+      "Vital Statistics": {
+        "IBU": "Varies",
+        "SRM": "Varies",
+        "OG": "Varies",
+        "FG": "Varies",
+        "ABV": "Varies"
+      },
+      "Commercial Examples": [
+        "Widely variable; depends on declared product."
+      ],
+      "Style Attributes": [
+        "specialty",
+        "commercial",
+        "unique",
+        "craft-style"
+      ]
+    }
   }
 }
