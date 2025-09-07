@@ -12,6 +12,12 @@ main {
   height: 100%;
 }
 
+nav {
+  background-image: url('../assets/beer-bg.svg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
 /* Let the child page control its own colors */
 #mainframe {
   width: 100%;
