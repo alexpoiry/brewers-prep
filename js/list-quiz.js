@@ -19,7 +19,6 @@ async function init() {
       inputEl.setAttribute('label', `Type the name of a ${display}:`);
       
       const addBtn = document.getElementById('add-button');
-      const toggleAllBtn = document.getElementById('toggle-all-button');
       const foundList = document.getElementById('found-list');
       const allList = document.getElementById('all-list');
       const progressBar = document.querySelector('wa-progress-bar');
@@ -33,9 +32,15 @@ async function init() {
           const pnorm = part.toLowerCase().replace(/-/g, ' ').replace(/\s+/g, ' ').trim();
           normMap[pnorm] = orig;
         });
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        const quizPage = source === 'bjcp' ? 'bjcp-details-quiz.html' : 'characteristics-quiz.html';
+        a.textContent = orig;
+        a.href = `${quizPage}?source=${source}&style=${encodeURIComponent(orig)}`;
+        li.appendChild(a);
+        allList.appendChild(li);
       });
       const found = new Set();
-      let allPopulated = false;
 
       function updateProgress() {
         const percentage = Math.floor((found.size / beers.length) * 100);
@@ -56,35 +61,8 @@ async function init() {
         }
       }
 
-      function toggleAll() {
-        if (allList.style.display === 'none') {
-          if (!allPopulated) {
-            beers.forEach(orig => {
-              const li = document.createElement('li');
-              const a = document.createElement('a');
-              const quizPage = source === 'bjcp' ? 'bjcp-details-quiz.html' : 'characteristics-quiz.html';
-              a.textContent = orig;
-              a.href = `${quizPage}?source=${source}&style=${encodeURIComponent(orig)}`;
-              li.appendChild(a);
-              allList.appendChild(li);
-            });
-            allPopulated = true;
-          }
-          allList.style.display = 'block';
-          inputEl.disabled = true;
-          addBtn.disabled = true;
-          toggleAllBtn.textContent = 'Hide All Styles';
-        } else {
-          allList.style.display = 'none';
-          inputEl.disabled = false;
-          addBtn.disabled = false;
-          toggleAllBtn.textContent = 'Show All Styles';
-        }
-      }
-
       addBtn.addEventListener('click', addBeer);
       inputEl.addEventListener('keypress', e => { if (e.key === 'Enter') addBeer(); });
-      toggleAllBtn.addEventListener('click', toggleAll);
       
       updateProgress();
     }

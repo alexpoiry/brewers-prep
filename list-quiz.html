@@ -12,31 +12,42 @@
 <body id="list-quiz">
   <h1></h1>
 
-  <wa-callout variant="neutral">
-    <p>
-      This allows you to test your knowledge of various styles of beer that are part of this category.
-      Correct answers will ignore capitalization, hyphens, etc., but must otherwise match the style name exactly.
-      By selecting "Show All Styles" below, you can see the styles and their expected name.
-      If you click on a specific style, you'll be taken to quiz where you can test your knowledge of the details of that specific style.
-    </p>
-  </wa-callout>
-  
-  <wa-input placeholder="Input a Beer Type" appearance="filled" id="beer-input" with-clear>
-    <wa-icon name="beer-mug" slot="start"></wa-icon>
-  </wa-input>
+  <wa-tab-group>
+    <wa-tab panel="styles">Styles</wa-tab>
+    <wa-tab panel="quiz">List Quiz</wa-tab>
 
-  <wa-button-group label="Alignment" variant="brand">
-    <wa-button id="add-button">Add</wa-button>
-    <wa-button id="toggle-all-button">Show All Styles</wa-button>
-  </wa-button-group>
+    <wa-tab-panel name="styles">
+      <h2>All Styles</h2>
+      <wa-callout variant="neutral">
+        <p>
+          Click on a specific style and you'll be taken to quiz where you can test your knowledge of the details of that specific style.
+        </p>
+      </wa-callout>
+      <ul id="all-list" style="display:block;"></ul>
+    </wa-tab-panel>
 
-  <h2>Your Correct Answers</h2>
-  <wa-progress-bar value="50"></wa-progress-bar>
-  <ul id="found-list"></ul>
+    <wa-tab-panel name="quiz">
+      <wa-callout variant="neutral">
+        <p>
+          This allows you to test your knowledge of various styles of beer that are part of this category.
+          Correct answers will ignore capitalization, hyphens, etc., but must otherwise match the style name exactly.
+        </p>
+      </wa-callout>
+      
+      <wa-input placeholder="Input a Beer Type" appearance="filled" id="beer-input" with-clear>
+        <wa-icon name="beer-mug" slot="start"></wa-icon>
+      </wa-input>
 
-  <h2>All Styles</h2>
-  <ul id="all-list" style="display:none;"></ul>
+      <wa-button id="add-button">
+        <wa-icon name="plus" slot="start"></wa-icon>
+        Add
+      </wa-button>
 
+      <h2>Your Correct Answers</h2>
+      <wa-progress-bar value="50"></wa-progress-bar>
+      <ul id="found-list"></ul>
+    </wa-tab-panel>
+  </wa-tab-group>
   
 <script type="module" src="js/list-quiz.js"></script>
 </body>
