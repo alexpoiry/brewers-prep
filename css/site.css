@@ -74,3 +74,7 @@
       background-color: white;
       transition: background-color .2s ease, border-color .2s ease;
   }
+
+  .quiz-footer{display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+  .quiz-footer .footer-actions{display:flex;align-items:center;gap:.5rem}
+

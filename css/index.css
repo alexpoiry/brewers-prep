@@ -24,7 +24,6 @@ nav {
   height: 100%;
   border: 0;
   border-radius: 12px;
-  background-color: var(--wa-color-yellow-50);
   display: block;
   overflow: hidden; /* keeps rounded corners looking clean */
 }

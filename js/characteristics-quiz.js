@@ -1,29 +1,32 @@
+
 import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
 setDefaultIconFamily('classic');
 
-// Utility to shuffle an array
+import { createQuizCard, wirePageControls } from './quiz-card.js';
+
 function shuffle(arr) {
-  for (let i = arr.length - 1; i > 0; i--) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [arr[i], arr[j]] = [arr[j], arr[i]];
+    [a[i], a[j]] = [a[j], a[i]];
   }
-  return arr;
+  return a;
 }
 
 window.addEventListener('DOMContentLoaded', async () => {
   const params = new URLSearchParams(location.search);
-  const source = params.get('source') || 'ba';
   const styleName = params.get('style');
   if (!styleName) {
     document.body.innerHTML = '<p style="color:red">No style specified.</p>';
     return;
   }
-  document.getElementById('title').textContent = styleName;
+  const titleEl = document.getElementById('title');
+  if (titleEl) titleEl.textContent = styleName;
 
+  // ---- Load data & find the selected style ----
   const resp = await fetch('data/details.json');
   const data = await resp.json();
 
-  // Find style in nested JSON
   let styleObj = null;
   let siblingStyles = null;
   for (const family of Object.values(data)) {
@@ -41,6 +44,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     return;
   }
 
+  // ---- Characteristics we quiz on (single-select) ----
   const characteristics = [
     'color', 'clarity', 'perceived_malt_aroma_and_flavor',
     'perceived_hop_aroma_and_flavor', 'perceived_bitterness',
@@ -49,159 +53,82 @@ window.addEventListener('DOMContentLoaded', async () => {
     'bitterness_ibu', 'color_srm'
   ];
 
-  const form = document.getElementById('quiz-form');
-  const correctAnswers = {};
-
-  // Randomize question order
+  // Randomize question order for variety
   shuffle(characteristics);
 
-
+  const form = document.getElementById('quiz-form');
   const grid = document.createElement('div');
   grid.className = 'quiz-grid';
   form.appendChild(grid);
 
-  characteristics.forEach(key => {
-    const card = document.createElement('wa-card');
-    card.className = 'quiz-card';
-    card.id = `card-${key}`;
-    card.setAttribute('elevated', '');
+  // ---- Build cards using the shared quiz-card.js ----
+  characteristics.forEach((key) => {
+    const correctValue = styleObj[key] ?? 'N/A';
 
-    const headerSlot = document.createElement('div');
-    headerSlot.setAttribute('slot', 'header');
-    const header = document.createElement('h3');
-    header.textContent = key.replace(/_/g, ' ');
-    headerSlot.appendChild(header);
-    card.appendChild(headerSlot);
+    // Build distractor pool from sibling styles
+    const pool = Object.entries(siblingStyles)
+      .filter(([name, obj]) => name !== styleName && obj && obj[key])
+      .map(([, obj]) => obj[key]);
 
-    const correctValue = styleObj[key] || 'N/A';
-    correctAnswers[key] = correctValue;
+    shuffle(pool);
 
-    // Collect distractors
-    const options = new Set([correctValue]);
-    const others = Object.entries(siblingStyles)
-      .filter(([name, obj]) => name !== styleName && obj[key])
-      .map(([_, obj]) => obj[key]);
-    shuffle(others);
-    for (let i = 0; i < 4 && i < others.length; i++) {
-      if (others[i] !== correctValue) options.add(others[i]);
+    // Use up to 4 distractors (unique; excluding the correct value)
+    const optionSet = new Set([correctValue]);
+    for (const val of pool) {
+      if (optionSet.size >= 5) break;
+      if (val !== correctValue) optionSet.add(val);
     }
 
-    const opts = shuffle(Array.from(options));
-    const optionsWrap = document.createElement('div');
-    optionsWrap.className = 'options-wrap';
-    opts.forEach(val => {
-      const label = document.createElement('label');
-      label.className = 'option';
-      const radio = document.createElement('input');
-      radio.type = 'radio';
-      radio.name = key;
-      radio.value = val;
-      label.appendChild(radio);
-      const span = document.createElement('span');
-      span.textContent = ` ${val}`;
-      label.appendChild(span);
-      optionsWrap.appendChild(label);
+    // To Array<{ value, label? }>
+    const options = shuffle(Array.from(optionSet)).map(v => ({ value: v }));
+
+    const title = key.replace(/_/g, ' ');
+
+    const card = createQuizCard({
+      id: key,
+      title,
+      type: 'single',
+      options,
+      correctValues: [correctValue],
+      shuffle: false // we already shuffled above to control uniqueness first
     });
-    card.appendChild(optionsWrap);
 
-    // Footer with feedback + Check button
-    const footer = document.createElement('div');
-    footer.setAttribute('slot', 'footer');
-    footer.className = 'wa-split';
-    const feedbackDiv = document.createElement('div');
-    feedbackDiv.id = `fb-${key}`;
-    feedbackDiv.className = 'feedback';
-    footer.appendChild(feedbackDiv);
-
-    const btn = document.createElement('wa-button');
-    btn.setAttribute('variant', 'brand');
-    btn.className = 'check-card';
-    btn.dataset.key = key;
-    btn.textContent = 'Check';
-    footer.appendChild(btn);
-
-    card.appendChild(footer);
     grid.appendChild(card);
   });
 
-  // Per-card validation
-  form.addEventListener('click', (e) => {
-    const target = e.target;
-    if (target.matches('wa-button.check-card, wa-button.check-card *')) {
-      const btn = target.closest('wa-button.check-card');
-      if (!btn) return;
-      e.preventDefault();
-      const key = btn.dataset.key;
-      const selected = document.querySelector(`input[name="${key}"]:checked`);
-      const fb = document.getElementById(`fb-${key}`);
-      const card = document.getElementById(`card-${key}`);
-      const isCorrect = !!(selected && selected.value === correctAnswers[key]);
-      if (isCorrect) {
-        fb.textContent = 'Correct!';
-        card.classList.remove('card-incorrect');
-        card.classList.add('card-correct');
-      } else {
-        fb.textContent = 'Try again!';
-        card.classList.remove('card-correct');
-        card.classList.add('card-incorrect');
-      }
-      if (window.updateCardSpans) setTimeout(window.updateCardSpans, 50);
-    }
-  });
-
-
-  const checkBtn = document.getElementById('check-button');
-  if (checkBtn) {
-    checkBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      characteristics.forEach((key) => {
-        const selected = document.querySelector(`input[name="${key}"]:checked`);
-        const fb = document.getElementById(`fb-${key}`);
-        const card = document.getElementById(`card-${key}`);
-        const isCorrect = !!(selected && selected.value === correctAnswers[key]);
-        if (fb) fb.textContent = isCorrect ? 'Correct!' : 'Try again!';
-        if (card) {
-          card.classList.toggle('card-correct', isCorrect);
-          card.classList.toggle('card-incorrect', !isCorrect);
-        }
-      });
-      if (window.updateCardSpans) setTimeout(window.updateCardSpans, 50);
+  // ---- Wire global controls (top & bottom button groups) ----
+  const checkBtns = Array.from(document.querySelectorAll('#check-button'));
+  const resetBtns = Array.from(document.querySelectorAll('#redo-button'));
+  const n = Math.max(checkBtns.length, resetBtns.length);
+  for (let i = 0; i < n; i++) {
+    wirePageControls({
+      form,
+      checkButton: checkBtns[i],
+      resetButton: resetBtns[i]
     });
   }
-  const resetBtn = document.getElementById('redo-button');
-  if (resetBtn) {
-    resetBtn.addEventListener('click', (e) => {
-      e.preventDefault();
-      document.querySelectorAll('.quiz-card input[type="checkbox"], .quiz-card input[type="radio"]').forEach((el) => { el.checked = false; });
-      document.querySelectorAll('.quiz-card').forEach((card) => {
-        card.classList.remove('card-correct', 'card-incorrect');
-        const fb = card.querySelector('.feedback'); if (fb) fb.textContent = '';
-      });
-      if (window.updateCardSpans) setTimeout(window.updateCardSpans, 50);
-    });
-  }
-});
 
-(function () {
+  // ---- Responsive auto-spanning (keep existing advanced behavior) ----
+  // This preserves the dynamic 1–4 column span logic based on measured option height,
+  // so long descriptions get more width. Works with quiz-card.js markup (.quiz-card, label.option).
+  const MAX_HEIGHT = 260; // px of options' total line-height per card before we increase span
   const MAX_SPAN = 4;
-  const MAX_HEIGHT = 150
 
   function computeMinBaseWidth(cards) {
-    let minW = Infinity;
-    for (const c of cards) {
-      const rect = c.getBoundingClientRect();
-      const w = rect.width || c.offsetWidth || 0;
-      if (w > 0 && w < minW) minW = w;
-    }
-    if (!isFinite(minW) || minW <= 0) return 0;
-    return minW;
+    // Use the smallest "min" in minmax(min, 1fr) from the CSS grid to estimate column width.
+    // Fallback to 280px if not measurable.
+    const gridStyles = getComputedStyle(grid);
+    const template = gridStyles.getPropertyValue('grid-template-columns') || '';
+    // Try to parse "minmax(280px, 1fr)"
+    const m = template.match(/minmax\((\d+)px,\s*1fr\)/);
+    return m ? parseInt(m[1], 10) : 280;
   }
 
   function updateCardSpans() {
     const cards = Array.from(document.querySelectorAll('.quiz-card'));
     if (!cards.length) return;
 
-    // Reset to baseline so we can measure true base widths
+    // Reset span classes
     cards.forEach(c => c.classList.remove('span-2', 'span-3', 'span-4'));
 
     requestAnimationFrame(() => {
@@ -210,11 +137,10 @@ window.addEventListener('DOMContentLoaded', async () => {
 
       cards.forEach(card => {
         const options = card.querySelectorAll('label.option');
-        const lineHeight = Array.from(options).reduce((sum, option) => {
-          return sum + option.offsetHeight;
-        }, 0);
-        if (!lineHeight) return;
-        let span = Math.ceil(lineHeight / MAX_HEIGHT);
+        const totalHeight = Array.from(options).reduce((sum, el) => sum + el.offsetHeight, 0);
+        if (!totalHeight) return;
+
+        let span = Math.ceil(totalHeight / MAX_HEIGHT);
         if (span < 1) span = 1;
         if (span > MAX_SPAN) span = MAX_SPAN;
 
@@ -223,33 +149,47 @@ window.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  window.updateCardSpans = updateCardSpans;
-
   let t;
   function debouncedUpdate() {
     clearTimeout(t);
     t = setTimeout(updateCardSpans, 120);
   }
 
+  // Initial + delayed reflow
   window.addEventListener('load', () => {
     updateCardSpans();
     setTimeout(updateCardSpans, 250);
   });
-  window.addEventListener('resize', debouncedUpdate);
-  if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(debouncedUpdate).catch(() => { });
-  }
 
-  // Update spans after global "Check All" as well
+  // Recalculate on resize, input changes, and button clicks
+  window.addEventListener('resize', debouncedUpdate);
+
+  form.addEventListener('change', (e) => {
+    if (e.target && (e.target.matches('input[type="checkbox"]') || e.target.matches('input[type="radio"]'))) {
+      setTimeout(updateCardSpans, 50);
+    }
+  });
+
+  // Recalc after per-card "Check" (from quiz-card.js)
+  form.addEventListener('click', (e) => {
+    if (e.target && (e.target.closest('.check-btn'))) {
+      setTimeout(updateCardSpans, 50);
+    }
+  });
+
+  // Recalc after global "Check All"
   document.addEventListener('click', (e) => {
     if (e.target && (e.target.id === 'check-button' || e.target.closest('#check-button'))) {
       setTimeout(updateCardSpans, 50);
     }
   });
 
-  const grid = document.querySelector('.quiz-grid');
+  // Observe grid size changes
   if (grid && 'ResizeObserver' in window) {
     const ro = new ResizeObserver(debouncedUpdate);
     ro.observe(grid);
   }
-})();
+
+  // Expose for debugging if needed
+  window.updateCardSpans = updateCardSpans;
+});
