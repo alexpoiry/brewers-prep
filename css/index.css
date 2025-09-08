@@ -1,7 +1,7 @@
 nav[slot="navigation"] a.active { text-decoration: underline; }
 
 html, body, wa-page {
-  background: #feebaf;
+  background-color: #feebaf;
 }
 
 main {
