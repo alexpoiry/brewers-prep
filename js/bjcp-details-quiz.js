@@ -1,4 +1,5 @@
 import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
+import { renderBJCPDetailsLearn } from './learn-pane.js';
 setDefaultIconFamily('classic');
 
 import { createQuizCard, wirePageControls } from './quiz-card.js';
@@ -13,9 +14,9 @@ import { createQuizCard, wirePageControls } from './quiz-card.js';
     }
 
     // Page chrome
-    document.title = `${styleName} Details Quiz`;
+    document.title = `${styleName} Details`;
     const titleEl = document.getElementById('quiz-title');
-    if (titleEl) titleEl.textContent = `${styleName} Details Quiz`;
+    if (titleEl) titleEl.textContent = `${styleName} Details`;
 
     // ---- Load BJCP details ----
     const resp = await fetch('data/bjcp-details.json');
@@ -23,12 +24,19 @@ import { createQuizCard, wirePageControls } from './quiz-card.js';
 
     // Find the style within nested categories
     let details = null;
-    for (const styles of Object.values(data)) {
-      if (styles && styles[styleName]) {
+    let categoryName = "";
+
+    for (const [catName, styles] of Object.entries(data)) {
+      if (styles[styleName]) {
         details = styles[styleName];
+        categoryName = catName;
         break;
       }
     }
+
+    const learnPanel = document.querySelector('wa-tab-panel[name="learn"]');
+    renderBJCPDetailsLearn({ container: learnPanel, styleName, categoryName, details });
+
     if (!details) {
       document.body.innerHTML = `<p style="color:red">Style “${styleName}” not found.</p>`;
       return;

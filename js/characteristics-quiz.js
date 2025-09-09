@@ -1,5 +1,6 @@
 
 import { setDefaultIconFamily } from 'https://early.webawesome.com/webawesome@3.0.0-beta.4/dist/webawesome.js';
+import { renderCharacteristicsLearn } from './learn-pane.js';
 setDefaultIconFamily('classic');
 
 import { createQuizCard, wirePageControls } from './quiz-card.js';
@@ -29,16 +30,25 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   let styleObj = null;
   let siblingStyles = null;
-  for (const family of Object.values(data)) {
-    for (const group of Object.values(family)) {
+  let familyName = "";
+  let groupName = "";
+
+  for (const [famName, groups] of Object.entries(data)) {
+    for (const [grpName, group] of Object.entries(groups)) {
       if (group[styleName]) {
         styleObj = group[styleName];
         siblingStyles = group;
+        familyName = famName;
+        groupName = grpName;
         break;
       }
     }
     if (styleObj) break;
   }
+
+  const learnPanel = document.querySelector('wa-tab-panel[name="learn"]');
+  renderCharacteristicsLearn({ container: learnPanel, styleName, familyName, groupName, styleObj });
+  
   if (!styleObj) {
     document.body.innerHTML = `<p style="color:red">Style “${styleName}” not found in data.</p>`;
     return;

@@ -14,27 +14,40 @@
 </head>
 <body>
   <h1 id="quiz-title"></h1>
-  <wa-button-group label="History">
-    <wa-button id="check-button">
-      <wa-icon slot="start" name="check" variant="solid" label="Undo"></wa-icon>
-      Check My Answers
-    </wa-button>
-    <wa-button id="redo-button">
-      <wa-icon slot="end" name="redo" variant="solid" label="Redo"></wa-icon>
-      Reset
-    </wa-button>
-  </wa-button-group>
-  <form id="quiz-form"></form>
-  <wa-button-group label="History">
-    <wa-button id="check-button">
-      <wa-icon slot="start" name="check" variant="solid" label="Undo"></wa-icon>
-      Check My Answers
-    </wa-button>
-    <wa-button id="redo-button">
-      <wa-icon slot="end" name="redo" variant="solid" label="Redo"></wa-icon>
-      Reset
-    </wa-button>
-  </wa-button-group>
+
+  <wa-tab-group active="learn">
+    <wa-tab panel="learn">Learn</wa-tab>
+    <wa-tab panel="quiz">Details Quiz</wa-tab>
+
+    <wa-tab-panel name="learn">
+
+    </wa-tab-panel>
+    
+    <wa-tab-panel name="quiz">
+      <wa-button-group label="History">
+        <wa-button id="check-button">
+          <wa-icon slot="start" name="check" variant="solid" label="Undo"></wa-icon>
+          Check My Answers
+        </wa-button>
+        <wa-button id="redo-button">
+          <wa-icon slot="end" name="redo" variant="solid" label="Redo"></wa-icon>
+          Reset
+        </wa-button>
+      </wa-button-group>
+      <form id="quiz-form"></form>
+      <wa-button-group label="History">
+        <wa-button id="check-button">
+          <wa-icon slot="start" name="check" variant="solid" label="Undo"></wa-icon>
+          Check My Answers
+        </wa-button>
+        <wa-button id="redo-button">
+          <wa-icon slot="end" name="redo" variant="solid" label="Redo"></wa-icon>
+          Reset
+        </wa-button>
+      </wa-button-group>
+    </wa-tab-panel>
+
+  </wa-tab-group>
   
 <script type="module" src="js/bjcp-details-quiz.js"></script>
 </body>
